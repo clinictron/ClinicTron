@@ -1,0 +1,11 @@
+name: BMRetriever-7B
+kind: decoder
+path: BMRetriever/BMRetriever-7B@13e6adb9273c5f254e037987d6b44e9e4b005b9a
+pooling: last
+eos: after_truncation
+query_template: '{instruction}
+
+  Query: {text}'
+doc_template: 'Represent this passage
+
+  passage: {text}'

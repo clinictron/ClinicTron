@@ -1,0 +1,2801 @@
+{
+ "types": [
+  {
+   "id": "dosing",
+   "name": "Drug dosing",
+   "definition": "How much of a named drug to give, to whom, by what route, and for how long. Answered by prescribing information and dosing tables.",
+   "subtypes": [
+    {
+     "id": "adult_dose",
+     "name": "Standard adult dose",
+     "definition": "The ordinary adult dose of a named drug, asked without further qualification.",
+     "masking": "impossible",
+     "anchors": [
+      "drug"
+     ],
+     "examples": [
+      20,
+      40
+     ]
+    },
+    {
+     "id": "pediatric_dose",
+     "name": "Pediatric or weight-based dose",
+     "definition": "Dose for a child or infant, usually keyed to age or body weight.",
+     "masking": "impossible",
+     "anchors": [
+      "drug"
+     ],
+     "examples": [
+      132,
+      213
+     ]
+    },
+    {
+     "id": "maximum_dose",
+     "name": "Maximum or ceiling dose",
+     "definition": "The highest dose that may safely be given.",
+     "masking": "impossible",
+     "anchors": [
+      "drug"
+     ],
+     "examples": [
+      15,
+      209
+     ]
+    },
+    {
+     "id": "indication_specific_dose",
+     "name": "Dose for a particular indication",
+     "definition": "The dose of a named drug when used for one specific condition or organism.",
+     "masking": "impossible",
+     "anchors": [
+      "drug",
+      "disease",
+      "organism"
+     ],
+     "examples": [
+      263,
+      371
+     ]
+    },
+    {
+     "id": "titration_and_adjustment",
+     "name": "Titration and dose adjustment",
+     "definition": "How to raise, lower, or otherwise modify a dose in response to effect, body size, or clinical change.",
+     "masking": "impossible",
+     "anchors": [
+      "drug",
+      "disease"
+     ],
+     "examples": [
+      120,
+      235
+     ]
+    },
+    {
+     "id": "route_and_administration",
+     "name": "Route, schedule, and how to prescribe",
+     "definition": "How a named drug is written, delivered, or administered, including frequency and formulation choice.",
+     "masking": "impossible",
+     "anchors": [
+      "drug",
+      "procedure"
+     ],
+     "examples": [
+      260,
+      309
+     ]
+    },
+    {
+     "id": "treatment_duration",
+     "name": "Length of a drug course",
+     "definition": "How long a drug should be continued for a given problem.",
+     "masking": "impossible",
+     "anchors": [
+      "drug",
+      "disease",
+      "organism"
+     ],
+     "examples": [
+      262,
+      446
+     ]
+    }
+   ]
+  },
+  {
+   "id": "drug_product",
+   "name": "Drug product facts",
+   "definition": "Pharmacy-counter facts about a marketed product: what it is, what it contains, what it looks like, what it costs, whether it is available.",
+   "subtypes": [
+    {
+     "id": "forms_and_strengths",
+     "name": "Available forms and strengths",
+     "definition": "Which tablet strengths, liquids, patches, or concentrations a product comes in.",
+     "masking": "impossible",
+     "anchors": [
+      "drug",
+      "vaccine"
+     ],
+     "examples": [
+      16,
+      207
+     ]
+    },
+    {
+     "id": "identity_and_class",
+     "name": "Product identity, class, and brand-generic mapping",
+     "definition": "What a named product is, its generic or trade equivalent, or what drug class it belongs to.",
+     "masking": "impossible",
+     "anchors": [
+      "drug",
+      "vaccine"
+     ],
+     "examples": [
+      237,
+      268
+     ]
+    },
+    {
+     "id": "composition_and_ingredients",
+     "name": "Composition and ingredients",
+     "definition": "What is inside a combination product and in what quantity.",
+     "masking": "impossible",
+     "anchors": [
+      "drug",
+      "vaccine"
+     ],
+     "examples": [
+      27,
+      115
+     ]
+    },
+    {
+     "id": "appearance_and_packaging",
+     "name": "Appearance, scoring, and package size",
+     "definition": "Physical identification of a product: color, scoring, tube or vial size.",
+     "masking": "impossible",
+     "anchors": [
+      "drug"
+     ],
+     "examples": [
+      110,
+      318
+     ]
+    },
+    {
+     "id": "cost_and_coverage",
+     "name": "Cost, generics, and payer coverage",
+     "definition": "Price of a product, whether a generic exists, and whether a plan will pay for it.",
+     "masking": "impossible",
+     "anchors": [
+      "drug",
+      "vaccine",
+      "procedure"
+     ],
+     "examples": [
+      466,
+      750
+     ]
+    },
+    {
+     "id": "market_status_and_storage",
+     "name": "Market status, withdrawal, and shelf life",
+     "definition": "Whether a product is still sold, why it was pulled, and how long it keeps.",
+     "masking": "impossible",
+     "anchors": [
+      "drug",
+      "vaccine"
+     ],
+     "examples": [
+      527,
+      1662
+     ]
+    }
+   ]
+  },
+  {
+   "id": "adverse_effects",
+   "name": "Drug adverse effects",
+   "definition": "Harms attributable to a named drug or treatment: whether it caused something, what its side-effect profile is, and what to do about it.",
+   "subtypes": [
+    {
+     "id": "can_drug_cause_symptom",
+     "name": "Could this drug be causing this symptom",
+     "definition": "Attribution of a specific observed symptom or sign to a specific named drug.",
+     "masking": "impossible",
+     "anchors": [
+      "drug",
+      "vaccine",
+      "procedure"
+     ],
+     "examples": [
+      112,
+      328
+     ]
+    },
+    {
+     "id": "adverse_effect_profile",
+     "name": "Side-effect profile of a drug",
+     "definition": "The general list of adverse effects of a named agent.",
+     "masking": "impossible",
+     "anchors": [
+      "drug",
+      "vaccine",
+      "procedure"
+     ],
+     "examples": [
+      71,
+      1360
+     ]
+    },
+    {
+     "id": "comparative_tolerability",
+     "name": "Which agent has fewer of a given side effect",
+     "definition": "Ranking drugs within a class by a particular adverse effect.",
+     "masking": "impossible",
+     "anchors": [
+      "drug"
+     ],
+     "examples": [
+      361,
+      454
+     ]
+    },
+    {
+     "id": "long_term_harm",
+     "name": "Long-term and cumulative harm",
+     "definition": "Consequences of chronic or repeated exposure to a drug or treatment.",
+     "masking": "impossible",
+     "anchors": [
+      "drug",
+      "procedure",
+      "toxin"
+     ],
+     "examples": [
+      243,
+      1885
+     ]
+    },
+    {
+     "id": "managing_an_adverse_effect",
+     "name": "Managing a drug side effect without stopping the drug",
+     "definition": "What to do when a needed drug is producing an unwanted effect.",
+     "masking": "impossible",
+     "anchors": [
+      "drug",
+      "disease"
+     ],
+     "examples": [
+      778,
+      2254
+     ]
+    },
+    {
+     "id": "drug_induced_lab_abnormality",
+     "name": "Drug as the cause of an abnormal test",
+     "definition": "Whether a named drug explains an abnormal laboratory or test value.",
+     "masking": "impossible",
+     "anchors": [
+      "drug"
+     ],
+     "examples": [
+      250,
+      1328
+     ]
+    }
+   ]
+  },
+  {
+   "id": "interactions",
+   "name": "Drug interactions and contraindications",
+   "definition": "Whether two named agents, an agent and a food, or an agent and a coexisting condition can be combined.",
+   "subtypes": [
+    {
+     "id": "pairwise_check",
+     "name": "Interaction between two named drugs",
+     "definition": "A yes/no interaction check on a specific drug pair or list.",
+     "masking": "impossible",
+     "anchors": [
+      "drug",
+      "vaccine"
+     ],
+     "examples": [
+      26,
+      200
+     ]
+    },
+    {
+     "id": "interaction_management",
+     "name": "Managing a needed but interacting pair",
+     "definition": "What to do when both interacting drugs are clinically necessary.",
+     "masking": "impossible",
+     "anchors": [
+      "drug"
+     ],
+     "examples": [
+      223,
+      2205
+     ]
+    },
+    {
+     "id": "food_and_supplement_interaction",
+     "name": "Food, herb, and supplement interaction",
+     "definition": "Interaction of a drug with diet, alcohol, or an over-the-counter supplement.",
+     "masking": "impossible",
+     "anchors": [
+      "drug",
+      "toxin"
+     ],
+     "examples": [
+      395,
+      3423
+     ]
+    },
+    {
+     "id": "contraindication_in_comorbidity",
+     "name": "Contraindication from a coexisting condition or history",
+     "definition": "Whether another disease, past event, or family history rules a drug out.",
+     "masking": "impossible",
+     "anchors": [
+      "drug",
+      "disease",
+      "vaccine"
+     ],
+     "examples": [
+      377,
+      2496
+     ]
+    },
+    {
+     "id": "allergy_cross_reactivity",
+     "name": "Allergy cross-reactivity",
+     "definition": "Whether allergy to one agent implies allergy to a related one.",
+     "masking": "impossible",
+     "anchors": [
+      "drug"
+     ],
+     "examples": [
+      2305,
+      2379
+     ]
+    },
+    {
+     "id": "combining_agents",
+     "name": "Combining agents of the same or related class",
+     "definition": "Whether two agents of similar action may be used together.",
+     "masking": "impossible",
+     "anchors": [
+      "drug"
+     ],
+     "examples": [
+      1967,
+      3548
+     ]
+    }
+   ]
+  },
+  {
+   "id": "special_populations",
+   "name": "Drug use in special populations",
+   "definition": "Whether and how a named drug may be used when pregnancy, lactation, age, organ failure, or surgery changes the calculus.",
+   "subtypes": [
+    {
+     "id": "pregnancy_safety",
+     "name": "Safety in pregnancy",
+     "definition": "Whether a drug, vaccine, or exposure is acceptable during pregnancy.",
+     "masking": "impossible",
+     "anchors": [
+      "drug",
+      "vaccine",
+      "procedure",
+      "toxin"
+     ],
+     "examples": [
+      103,
+      329
+     ]
+    },
+    {
+     "id": "lactation_safety",
+     "name": "Safety while breastfeeding",
+     "definition": "Whether a drug or exposure is acceptable in a nursing mother.",
+     "masking": "impossible",
+     "anchors": [
+      "drug",
+      "vaccine",
+      "toxin"
+     ],
+     "examples": [
+      196,
+      1449
+     ]
+    },
+    {
+     "id": "organ_impairment_use",
+     "name": "Use with renal, hepatic, or altered gastrointestinal function",
+     "definition": "Whether and how to use a drug when absorption, metabolism, or clearance is impaired.",
+     "masking": "impossible",
+     "anchors": [
+      "drug",
+      "disease"
+     ],
+     "examples": [
+      19,
+      3445
+     ]
+    },
+    {
+     "id": "pediatric_use",
+     "name": "Use in infants and children",
+     "definition": "Whether a drug is acceptable at a given young age.",
+     "masking": "impossible",
+     "anchors": [
+      "drug",
+      "vaccine"
+     ],
+     "examples": [
+      1851,
+      3508
+     ]
+    },
+    {
+     "id": "geriatric_use",
+     "name": "Use in the elderly",
+     "definition": "Whether age alone changes the risk-benefit of a drug.",
+     "masking": "impossible",
+     "anchors": [
+      "drug",
+      "procedure"
+     ],
+     "examples": [
+      86,
+      722
+     ]
+    },
+    {
+     "id": "perioperative_use",
+     "name": "Perioperative and stress dosing",
+     "definition": "Holding, bridging, or supplementing drugs around surgery, trauma, or illness.",
+     "masking": "impossible",
+     "anchors": [
+      "drug",
+      "procedure"
+     ],
+     "examples": [
+      729,
+      2398
+     ]
+    }
+   ]
+  },
+  {
+   "id": "therapy_choice",
+   "name": "Choosing among therapies",
+   "definition": "Which agent to pick when more than one could be used: first choice, comparison, substitution, escalation, or cheapest.",
+   "subtypes": [
+    {
+     "id": "first_line_agent",
+     "name": "Agent of choice for a condition",
+     "definition": "The preferred drug or class for a named problem.",
+     "masking": "optional",
+     "anchors": [
+      "disease",
+      "organism",
+      "drug"
+     ],
+     "examples": [
+      11,
+      493
+     ]
+    },
+    {
+     "id": "head_to_head_comparison",
+     "name": "Comparing two named agents",
+     "definition": "Which of two specific named options is better and why.",
+     "masking": "impossible",
+     "anchors": [
+      "drug",
+      "procedure",
+      "vaccine"
+     ],
+     "examples": [
+      301,
+      1597
+     ]
+    },
+    {
+     "id": "alternative_for_allergy_or_intolerance",
+     "name": "Alternative when the usual agent cannot be used",
+     "definition": "What to substitute for allergy, intolerance, or a specific barrier.",
+     "masking": "optional",
+     "anchors": [
+      "drug",
+      "disease"
+     ],
+     "examples": [
+      172,
+      455
+     ]
+    },
+    {
+     "id": "after_treatment_failure",
+     "name": "Next agent after the first one failed",
+     "definition": "Second-line choice once initial therapy has not worked.",
+     "masking": "optional",
+     "anchors": [
+      "disease",
+      "drug",
+      "organism"
+     ],
+     "examples": [
+      12,
+      47
+     ]
+    },
+    {
+     "id": "refractory_therapy",
+     "name": "Therapy for refractory or last-resort cases",
+     "definition": "What is left after several standard options have failed.",
+     "masking": "optional",
+     "anchors": [
+      "disease",
+      "drug"
+     ],
+     "examples": [
+      277,
+      1463
+     ]
+    },
+    {
+     "id": "cost_effective_choice",
+     "name": "Cheapest acceptable option",
+     "definition": "Selecting on price or cost-effectiveness rather than efficacy alone.",
+     "masking": "impossible",
+     "anchors": [
+      "drug",
+      "procedure"
+     ],
+     "examples": [
+      475,
+      966
+     ]
+    },
+    {
+     "id": "indications_for_a_specific_drug",
+     "name": "What a named drug is indicated for",
+     "definition": "Whether and for what a particular named agent should be used.",
+     "masking": "impossible",
+     "anchors": [
+      "drug"
+     ],
+     "examples": [
+      9,
+      338
+     ]
+    }
+   ]
+  },
+  {
+   "id": "condition_treatment",
+   "name": "Treating a named condition",
+   "definition": "The management plan for a condition, once the diagnosis is settled: standard regimen, options, acute care, symptom relief, and nondrug measures.",
+   "subtypes": [
+    {
+     "id": "standard_regimen",
+     "name": "Standard treatment of a condition",
+     "definition": "The usual accepted treatment for a named condition.",
+     "masking": "optional",
+     "anchors": [
+      "disease",
+      "organism",
+      "toxin"
+     ],
+     "examples": [
+      87,
+      254
+     ]
+    },
+    {
+     "id": "options_and_selection",
+     "name": "Treatment options and how to choose among them",
+     "definition": "The menu of accepted treatments plus the basis for selecting one.",
+     "masking": "optional",
+     "anchors": [
+      "disease",
+      "organism"
+     ],
+     "examples": [
+      5,
+      22
+     ]
+    },
+    {
+     "id": "acute_management",
+     "name": "Acute or emergency management sequence",
+     "definition": "What to do right now, in order, for an acute presentation.",
+     "masking": "optional",
+     "anchors": [
+      "disease",
+      "toxin",
+      "organism"
+     ],
+     "examples": [
+      374,
+      2777
+     ]
+    },
+    {
+     "id": "symptom_relief",
+     "name": "Symptomatic and supportive treatment",
+     "definition": "Relieving a symptom rather than curing the underlying disease.",
+     "masking": "optional",
+     "anchors": [
+      "disease"
+     ],
+     "examples": [
+      130,
+      1361
+     ]
+    },
+    {
+     "id": "nondrug_measures",
+     "name": "Nondrug, physical, and rehabilitative treatment",
+     "definition": "Exercises, diet, devices, positioning, and other nonpharmacologic care.",
+     "masking": "optional",
+     "anchors": [
+      "disease",
+      "procedure"
+     ],
+     "examples": [
+      85,
+      399
+     ]
+    },
+    {
+     "id": "subgroup_specific",
+     "name": "Treatment tailored to an age group or comorbidity",
+     "definition": "The same condition treated differently because of who the patient is.",
+     "masking": "optional",
+     "anchors": [
+      "disease",
+      "organism"
+     ],
+     "examples": [
+      1,
+      478
+     ]
+    }
+   ]
+  },
+  {
+   "id": "treatment_thresholds",
+   "name": "When to treat, stop, and how hard",
+   "definition": "The decision of whether treatment is warranted at all, at what threshold, to what target, and when to stop.",
+   "subtypes": [
+    {
+     "id": "when_to_start_treatment",
+     "name": "Threshold or indication for starting treatment",
+     "definition": "At what point in severity, level, or course treatment becomes indicated.",
+     "masking": "optional",
+     "anchors": [
+      "disease",
+      "drug"
+     ],
+     "examples": [
+      78,
+      405
+     ]
+    },
+    {
+     "id": "when_to_stop_or_withhold",
+     "name": "When to stop or withhold treatment",
+     "definition": "Age, futility, risk, or resolution criteria for not treating.",
+     "masking": "optional",
+     "anchors": [
+      "disease",
+      "drug"
+     ],
+     "examples": [
+      381,
+      422
+     ]
+    },
+    {
+     "id": "tapering_and_discontinuation",
+     "name": "Tapering and safe discontinuation",
+     "definition": "How to come off a drug that cannot simply be stopped.",
+     "masking": "impossible",
+     "anchors": [
+      "drug",
+      "disease"
+     ],
+     "examples": [
+      295,
+      997
+     ]
+    },
+    {
+     "id": "treat_or_observe",
+     "name": "Treat versus observe an incidental or asymptomatic finding",
+     "definition": "Whether an asymptomatic or incidental problem needs treatment at all.",
+     "masking": "optional",
+     "anchors": [
+      "disease",
+      "organism"
+     ],
+     "examples": [
+      1320,
+      1546
+     ]
+    },
+    {
+     "id": "treatment_target",
+     "name": "Target or goal of therapy",
+     "definition": "The number or clinical endpoint therapy is aiming for.",
+     "masking": "optional",
+     "anchors": [
+      "disease",
+      "drug"
+     ],
+     "examples": [
+      1767,
+      2324
+     ]
+    },
+    {
+     "id": "efficacy_evidence",
+     "name": "Does this treatment actually work",
+     "definition": "The strength of evidence that a named intervention helps.",
+     "masking": "impossible",
+     "anchors": [
+      "drug",
+      "procedure",
+      "disease"
+     ],
+     "examples": [
+      350,
+      358
+     ]
+    }
+   ]
+  },
+  {
+   "id": "differential_dx",
+   "name": "Differential diagnosis",
+   "definition": "What could be producing an undiagnosed symptom, sign, or presentation, and how to tell the possibilities apart.",
+   "subtypes": [
+    {
+     "id": "causes_of_symptom",
+     "name": "Causes of a symptom",
+     "definition": "The list of things that produce a described symptom, with no discrimination step asked for.",
+     "masking": "required",
+     "anchors": [
+      "disease",
+      "organism",
+      "toxin",
+      "drug"
+     ],
+     "examples": [
+      29,
+      146
+     ]
+    },
+    {
+     "id": "causes_with_discriminators",
+     "name": "Causes plus how to distinguish among them",
+     "definition": "A differential together with the features or tests that separate its members.",
+     "masking": "required",
+     "anchors": [
+      "disease",
+      "organism",
+      "toxin"
+     ],
+     "examples": [
+      219,
+      481
+     ]
+    },
+    {
+     "id": "distinguishing_two_conditions",
+     "name": "Telling two named conditions apart",
+     "definition": "Discriminating between two specific candidate diagnoses.",
+     "masking": "impossible",
+     "anchors": [
+      "disease",
+      "organism"
+     ],
+     "examples": [
+      133,
+      365
+     ]
+    },
+    {
+     "id": "differential_for_a_finding",
+     "name": "Differential for a named lesion, mass, or finding",
+     "definition": "Mimics and look-alikes of a specific physical or imaging finding.",
+     "masking": "required",
+     "anchors": [
+      "disease",
+      "organism"
+     ],
+     "examples": [
+      117,
+      276
+     ]
+    },
+    {
+     "id": "differential_with_negative_workup",
+     "name": "Differential when the obvious test is normal",
+     "definition": "What is left to consider once the expected confirmatory test came back negative.",
+     "masking": "required",
+     "anchors": [
+      "disease"
+     ],
+     "examples": [
+      343,
+      463
+     ]
+    },
+    {
+     "id": "could_this_condition_explain_it",
+     "name": "Could this particular condition explain the picture",
+     "definition": "Testing one named candidate against the presentation.",
+     "masking": "impossible",
+     "anchors": [
+      "disease",
+      "organism",
+      "drug",
+      "toxin"
+     ],
+     "examples": [
+      83,
+      284
+     ]
+    },
+    {
+     "id": "differential_in_specific_population",
+     "name": "Differential framed by age or population",
+     "definition": "The same complaint, with the differential shifted by who the patient is.",
+     "masking": "required",
+     "anchors": [
+      "disease"
+     ],
+     "examples": [
+      195,
+      480
+     ]
+    }
+   ]
+  },
+  {
+   "id": "abnormal_result",
+   "name": "Interpreting an abnormal result",
+   "definition": "A number, tracing, or image has come back abnormal or discordant; what explains it and what to do next.",
+   "subtypes": [
+    {
+     "id": "causes_of_lab_abnormality",
+     "name": "Causes of an abnormal laboratory value",
+     "definition": "What produces a named high or low laboratory result.",
+     "masking": "required",
+     "anchors": [
+      "disease",
+      "drug",
+      "toxin"
+     ],
+     "examples": [
+      266,
+      325
+     ]
+    },
+    {
+     "id": "causes_of_imaging_or_tracing_finding",
+     "name": "Causes of an imaging or tracing finding",
+     "definition": "What produces a described electrocardiogram, radiograph, or ultrasound finding.",
+     "masking": "required",
+     "anchors": [
+      "disease",
+      "procedure"
+     ],
+     "examples": [
+      293,
+      1832
+     ]
+    },
+    {
+     "id": "discordant_or_borderline_result_meaning",
+     "name": "Meaning of a borderline or internally discordant result",
+     "definition": "What it means when paired values do not fit together or sit just outside range.",
+     "masking": "required",
+     "anchors": [
+      "disease",
+      "drug"
+     ],
+     "examples": [
+      1555,
+      1582
+     ]
+    },
+    {
+     "id": "next_step_after_abnormal_result",
+     "name": "Next step after an abnormal result",
+     "definition": "The evaluation or action triggered by a specific abnormal report.",
+     "masking": "required",
+     "anchors": [
+      "disease",
+      "procedure"
+     ],
+     "examples": [
+      334,
+      471
+     ]
+    },
+    {
+     "id": "factors_that_alter_a_value",
+     "name": "Does something artifactually change this value",
+     "definition": "Whether a drug, food, maneuver, or handling step shifts the measured number.",
+     "masking": "impossible",
+     "anchors": [
+      "drug",
+      "disease",
+      "procedure"
+     ],
+     "examples": [
+      555,
+      1091
+     ]
+    },
+    {
+     "id": "threshold_for_abnormal",
+     "name": "Cutoff at which a value counts as abnormal",
+     "definition": "The numeric boundary between normal and actionable.",
+     "masking": "required",
+     "anchors": [
+      "disease",
+      "procedure"
+     ],
+     "examples": [
+      625,
+      1874
+     ]
+    }
+   ]
+  },
+  {
+   "id": "workup_strategy",
+   "name": "Diagnostic workup strategy",
+   "definition": "How to go about evaluating a presentation: the sequence, the extent, and how to nail down or exclude a suspected diagnosis.",
+   "subtypes": [
+    {
+     "id": "how_to_work_up_a_presentation",
+     "name": "How to work up a presenting problem",
+     "definition": "The overall evaluation plan for a complaint or finding.",
+     "masking": "required",
+     "anchors": [
+      "disease"
+     ],
+     "examples": [
+      31,
+      252
+     ]
+    },
+    {
+     "id": "confirm_a_suspected_diagnosis",
+     "name": "Confirming a suspected diagnosis",
+     "definition": "How to establish that a specific suspected condition is present.",
+     "masking": "optional",
+     "anchors": [
+      "disease",
+      "organism"
+     ],
+     "examples": [
+      8,
+      175
+     ]
+    },
+    {
+     "id": "workup_extent_and_aggressiveness",
+     "name": "How far to take the workup",
+     "definition": "Whether an evaluation is warranted at all and how extensive it should be.",
+     "masking": "optional",
+     "anchors": [
+      "disease"
+     ],
+     "examples": [
+      341,
+      491
+     ]
+    },
+    {
+     "id": "secondary_cause_evaluation",
+     "name": "Looking for an underlying or secondary cause",
+     "definition": "Evaluating a diagnosed problem for a treatable cause behind it.",
+     "masking": "optional",
+     "anchors": [
+      "disease"
+     ],
+     "examples": [
+      639,
+      2935
+     ]
+    },
+    {
+     "id": "preoperative_evaluation",
+     "name": "Preoperative and pre-procedure evaluation",
+     "definition": "What to check before an operation or invasive procedure.",
+     "masking": "optional",
+     "anchors": [
+      "procedure",
+      "disease"
+     ],
+     "examples": [
+      2833,
+      3271
+     ]
+    },
+    {
+     "id": "workup_after_negative_initial_evaluation",
+     "name": "What to do when the initial workup is unrevealing",
+     "definition": "Next moves once the standard evaluation has found nothing.",
+     "masking": "required",
+     "anchors": [
+      "disease"
+     ],
+     "examples": [
+      156,
+      3512
+     ]
+    }
+   ]
+  },
+  {
+   "id": "test_selection",
+   "name": "Choosing and ordering a test",
+   "definition": "Whether to order a test, which one, when, how to collect it, and whether it is worth doing.",
+   "subtypes": [
+    {
+     "id": "indications_for_a_test",
+     "name": "Indications for a test or imaging study",
+     "definition": "Who should get a named test and on what grounds.",
+     "masking": "optional",
+     "anchors": [
+      "procedure",
+      "disease"
+     ],
+     "examples": [
+      114,
+      144
+     ]
+    },
+    {
+     "id": "choosing_between_tests",
+     "name": "Choosing between competing tests",
+     "definition": "Which of two or more available studies to order.",
+     "masking": "optional",
+     "anchors": [
+      "procedure",
+      "disease"
+     ],
+     "examples": [
+      45,
+      104
+     ]
+    },
+    {
+     "id": "test_to_rule_in_or_out",
+     "name": "Which test rules a condition in or out",
+     "definition": "The study that settles the presence of a specific condition.",
+     "masking": "optional",
+     "anchors": [
+      "disease",
+      "organism",
+      "procedure"
+     ],
+     "examples": [
+      249,
+      1441
+     ]
+    },
+    {
+     "id": "specimen_and_preparation_logistics",
+     "name": "Specimen collection, handling, and patient preparation",
+     "definition": "How to obtain or prepare for a study so the result is valid.",
+     "masking": "impossible",
+     "anchors": [
+      "procedure",
+      "organism"
+     ],
+     "examples": [
+      300,
+      305
+     ]
+    },
+    {
+     "id": "test_timing",
+     "name": "When to draw or perform the test",
+     "definition": "Timing of a test relative to a dose, a procedure, or gestation.",
+     "masking": "impossible",
+     "anchors": [
+      "procedure",
+      "drug",
+      "disease"
+     ],
+     "examples": [
+      82,
+      314
+     ]
+    },
+    {
+     "id": "test_value_and_utility",
+     "name": "Is this test worth doing at all",
+     "definition": "Whether the result of a study would change anything.",
+     "masking": "impossible",
+     "anchors": [
+      "procedure",
+      "disease"
+     ],
+     "examples": [
+      1200,
+      2654
+     ]
+    }
+   ]
+  },
+  {
+   "id": "test_performance",
+   "name": "Test performance and result interpretation",
+   "definition": "How good a test is and how to read what it returns, including exam maneuvers and scored instruments.",
+   "subtypes": [
+    {
+     "id": "sensitivity_and_specificity",
+     "name": "Sensitivity, specificity, and predictive value",
+     "definition": "Quantitative accuracy of a named test.",
+     "masking": "impossible",
+     "anchors": [
+      "procedure",
+      "disease",
+      "organism"
+     ],
+     "examples": [
+      197,
+      403
+     ]
+    },
+    {
+     "id": "result_interpretation",
+     "name": "How to read a specific result",
+     "definition": "Turning a reported value, pattern, or tracing into a clinical meaning.",
+     "masking": "impossible",
+     "anchors": [
+      "procedure",
+      "disease",
+      "organism"
+     ],
+     "examples": [
+      183,
+      404
+     ]
+    },
+    {
+     "id": "factors_affecting_accuracy",
+     "name": "What degrades or alters test accuracy",
+     "definition": "Conditions under which a test becomes unreliable.",
+     "masking": "impossible",
+     "anchors": [
+      "procedure",
+      "drug",
+      "disease"
+     ],
+     "examples": [
+      2296,
+      3765
+     ]
+    },
+    {
+     "id": "exam_maneuver_accuracy",
+     "name": "Accuracy of a physical examination finding",
+     "definition": "How well a bedside sign or maneuver detects a condition.",
+     "masking": "impossible",
+     "anchors": [
+      "procedure",
+      "disease"
+     ],
+     "examples": [
+      245,
+      794
+     ]
+    },
+    {
+     "id": "scoring_instruments",
+     "name": "Scoring and grading a clinical instrument",
+     "definition": "How to administer and score a questionnaire, scale, or staging system.",
+     "masking": "impossible",
+     "anchors": [
+      "disease",
+      "procedure"
+     ],
+     "examples": [
+      1886,
+      2178
+     ]
+    },
+    {
+     "id": "tracing_and_result_normal_variant",
+     "name": "Normal variants on a tracing or test",
+     "definition": "Whether an unusual-looking result is within normal limits.",
+     "masking": "impossible",
+     "anchors": [
+      "procedure",
+      "disease"
+     ],
+     "examples": [
+      1943,
+      2041
+     ]
+    }
+   ]
+  },
+  {
+   "id": "normal_values",
+   "name": "Normal values and reference ranges",
+   "definition": "What counts as normal: laboratory ranges, physiologic measurements, anatomic dimensions, milestones, and expected timing.",
+   "subtypes": [
+    {
+     "id": "lab_reference_range",
+     "name": "Laboratory reference range",
+     "definition": "The normal numeric range for a laboratory test, often age-specific.",
+     "masking": "impossible",
+     "anchors": [
+      "procedure",
+      "disease"
+     ],
+     "examples": [
+      331,
+      2290
+     ]
+    },
+    {
+     "id": "physiologic_measurement_norm",
+     "name": "Normal physiologic measurement",
+     "definition": "Normal vital signs, flows, pressures, and similar bedside numbers.",
+     "masking": "impossible",
+     "anchors": [
+      "procedure"
+     ],
+     "examples": [
+      699,
+      2190
+     ]
+    },
+    {
+     "id": "anatomic_dimension_norm",
+     "name": "Normal anatomic size or dimension",
+     "definition": "Normal measurements of a body structure.",
+     "masking": "impossible",
+     "anchors": [
+      "procedure"
+     ],
+     "examples": [
+      765,
+      1780
+     ]
+    },
+    {
+     "id": "developmental_milestone",
+     "name": "Normal developmental milestone",
+     "definition": "Expected developmental attainments and the age at which to worry.",
+     "masking": "impossible",
+     "anchors": [
+      "none"
+     ],
+     "examples": [
+      479,
+      1418
+     ]
+    },
+    {
+     "id": "timing_and_duration_norm",
+     "name": "Normal timing, frequency, or duration of an event",
+     "definition": "How often or for how long something normally happens.",
+     "masking": "optional",
+     "anchors": [
+      "disease",
+      "procedure"
+     ],
+     "examples": [
+      49,
+      319
+     ]
+    },
+    {
+     "id": "normal_finding_or_variant",
+     "name": "Is this finding normal",
+     "definition": "Whether an observed physical finding falls within normal variation.",
+     "masking": "optional",
+     "anchors": [
+      "disease",
+      "procedure"
+     ],
+     "examples": [
+      273,
+      2223
+     ]
+    }
+   ]
+  },
+  {
+   "id": "screening",
+   "name": "Screening and case finding",
+   "definition": "Testing people without the complaint: whom to screen, starting and stopping ages, intervals, which test, and the content of a periodic exam.",
+   "subtypes": [
+    {
+     "id": "whether_and_whom_to_screen",
+     "name": "Whether to screen and whom",
+     "definition": "Whether screening is justified and in which population.",
+     "masking": "optional",
+     "anchors": [
+      "disease",
+      "procedure"
+     ],
+     "examples": [
+      14,
+      3675
+     ]
+    },
+    {
+     "id": "age_to_start_or_stop",
+     "name": "Age to start or stop screening",
+     "definition": "The age boundaries of a screening program.",
+     "masking": "optional",
+     "anchors": [
+      "disease",
+      "procedure"
+     ],
+     "examples": [
+      353,
+      355
+     ]
+    },
+    {
+     "id": "screening_interval",
+     "name": "Screening interval",
+     "definition": "How often a screening test should be repeated.",
+     "masking": "optional",
+     "anchors": [
+      "disease",
+      "procedure"
+     ],
+     "examples": [
+      228,
+      397
+     ]
+    },
+    {
+     "id": "high_risk_group_screening",
+     "name": "Screening in a high-risk or family-history group",
+     "definition": "How screening changes for someone with elevated baseline risk.",
+     "masking": "optional",
+     "anchors": [
+      "disease"
+     ],
+     "examples": [
+      4,
+      67
+     ]
+    },
+    {
+     "id": "choice_of_screening_test",
+     "name": "Which screening test to use",
+     "definition": "Selecting among candidate screening modalities.",
+     "masking": "optional",
+     "anchors": [
+      "disease",
+      "procedure"
+     ],
+     "examples": [
+      364,
+      3359
+     ]
+    },
+    {
+     "id": "periodic_exam_content",
+     "name": "Content of a periodic health examination",
+     "definition": "What a routine well visit, sports physical, or annual exam should include.",
+     "masking": "required",
+     "anchors": [
+      "none"
+     ],
+     "examples": [
+      386,
+      669
+     ]
+    }
+   ]
+  },
+  {
+   "id": "immunization",
+   "name": "Immunization",
+   "definition": "Vaccines: routine schedules, catch-up, indications, contraindications, reactions, travel needs, and product handling.",
+   "subtypes": [
+    {
+     "id": "routine_schedule",
+     "name": "Routine immunization schedule",
+     "definition": "The recommended ages and number of doses in the standard series.",
+     "masking": "impossible",
+     "anchors": [
+      "vaccine"
+     ],
+     "examples": [
+      3,
+      164
+     ]
+    },
+    {
+     "id": "catch_up_and_interrupted_series",
+     "name": "Catch-up and interrupted series",
+     "definition": "What to do when doses were missed, delayed, or given out of order.",
+     "masking": "impossible",
+     "anchors": [
+      "vaccine"
+     ],
+     "examples": [
+      224,
+      464
+     ]
+    },
+    {
+     "id": "vaccine_indications",
+     "name": "Indications for a specific vaccine",
+     "definition": "Who should receive a particular vaccine outside the routine schedule.",
+     "masking": "impossible",
+     "anchors": [
+      "vaccine",
+      "disease"
+     ],
+     "examples": [
+      57,
+      714
+     ]
+    },
+    {
+     "id": "contraindications_and_precautions",
+     "name": "Contraindications and precautions",
+     "definition": "Conditions or circumstances in which a vaccine should be withheld or deferred.",
+     "masking": "impossible",
+     "anchors": [
+      "vaccine",
+      "disease"
+     ],
+     "examples": [
+      232,
+      2059
+     ]
+    },
+    {
+     "id": "vaccine_adverse_effects",
+     "name": "Vaccine reactions and adverse effects",
+     "definition": "Local and systemic reactions attributed to a vaccine.",
+     "masking": "impossible",
+     "anchors": [
+      "vaccine"
+     ],
+     "examples": [
+      1439,
+      4323
+     ]
+    },
+    {
+     "id": "travel_and_occupational_vaccines",
+     "name": "Travel and occupational immunization",
+     "definition": "Vaccines required or advised for a destination or job.",
+     "masking": "impossible",
+     "anchors": [
+      "vaccine",
+      "disease"
+     ],
+     "examples": [
+      145,
+      336
+     ]
+    },
+    {
+     "id": "vaccine_product_and_administration",
+     "name": "Vaccine product, dose, and administration",
+     "definition": "Which product to use, how to give it, its dose, and lot or handling issues.",
+     "masking": "impossible",
+     "anchors": [
+      "vaccine"
+     ],
+     "examples": [
+      155,
+      409
+     ]
+    }
+   ]
+  },
+  {
+   "id": "prophylaxis",
+   "name": "Prophylaxis and prevention",
+   "definition": "Giving something to a person who is not sick with the target problem, to stop it happening: antibiotic prophylaxis, post-exposure treatment, chemoprophylaxis, and preventive measures.",
+   "subtypes": [
+    {
+     "id": "antibiotic_prophylaxis_indications",
+     "name": "Antibiotic prophylaxis around procedures and cardiac lesions",
+     "definition": "Who needs prophylactic antibiotics and for what procedure or lesion.",
+     "masking": "optional",
+     "anchors": [
+      "procedure",
+      "disease",
+      "drug"
+     ],
+     "examples": [
+      25,
+      79
+     ]
+    },
+    {
+     "id": "post_exposure_prophylaxis",
+     "name": "Prophylaxis after a specific exposure",
+     "definition": "What to give after contact with an infectious or hazardous source.",
+     "masking": "optional",
+     "anchors": [
+      "organism",
+      "disease",
+      "drug",
+      "vaccine",
+      "toxin"
+     ],
+     "examples": [
+      189,
+      294
+     ]
+    },
+    {
+     "id": "chemoprophylaxis",
+     "name": "Drug prophylaxis against a disease",
+     "definition": "Ongoing medication given to prevent a disease in an at-risk person.",
+     "masking": "optional",
+     "anchors": [
+      "drug",
+      "disease",
+      "organism"
+     ],
+     "examples": [
+      265,
+      457
+     ]
+    },
+    {
+     "id": "thromboprophylaxis_and_periprocedural",
+     "name": "Thromboprophylaxis and periprocedural prevention",
+     "definition": "Anticoagulant and similar prevention around surgery, immobility, or pregnancy.",
+     "masking": "optional",
+     "anchors": [
+      "procedure",
+      "disease",
+      "drug"
+     ],
+     "examples": [
+      2,
+      2122
+     ]
+    },
+    {
+     "id": "preventing_recurrence",
+     "name": "Preventing recurrence of a resolved problem",
+     "definition": "Measures aimed at stopping a condition from coming back.",
+     "masking": "optional",
+     "anchors": [
+      "disease",
+      "organism"
+     ],
+     "examples": [
+      278,
+      2423
+     ]
+    },
+    {
+     "id": "general_preventive_measures",
+     "name": "General preventive measures and transmission control",
+     "definition": "Nonspecific prevention advice, including limiting spread to others.",
+     "masking": "optional",
+     "anchors": [
+      "disease",
+      "organism",
+      "toxin"
+     ],
+     "examples": [
+      23,
+      419
+     ]
+    }
+   ]
+  },
+  {
+   "id": "monitoring",
+   "name": "Monitoring and follow-up",
+   "definition": "Watching a patient already under treatment or observation: what to check, how often, how to use a level, and what the patient measures at home.",
+   "subtypes": [
+    {
+     "id": "lab_monitoring_interval",
+     "name": "Laboratory monitoring interval on a drug",
+     "definition": "How often to draw safety labs for a patient on a named drug.",
+     "masking": "impossible",
+     "anchors": [
+      "drug",
+      "disease",
+      "procedure"
+     ],
+     "examples": [
+      244,
+      956
+     ]
+    },
+    {
+     "id": "follow_up_visit_or_imaging_interval",
+     "name": "Follow-up visit or imaging interval",
+     "definition": "How often to repeat a study or see the patient back.",
+     "masking": "optional",
+     "anchors": [
+      "disease",
+      "procedure"
+     ],
+     "examples": [
+      406,
+      490
+     ]
+    },
+    {
+     "id": "post_treatment_surveillance",
+     "name": "Surveillance after treatment or a procedure",
+     "definition": "What to follow, and for how long, after a lesion is removed or a disease treated.",
+     "masking": "optional",
+     "anchors": [
+      "disease",
+      "procedure",
+      "drug"
+     ],
+     "examples": [
+      150,
+      461
+     ]
+    },
+    {
+     "id": "drug_level_use_and_indications",
+     "name": "Using and indicating a drug level",
+     "definition": "When to obtain a serum drug concentration and how to act on it.",
+     "masking": "impossible",
+     "anchors": [
+      "drug"
+     ],
+     "examples": [
+      17,
+      214
+     ]
+    },
+    {
+     "id": "what_to_monitor_in_a_condition",
+     "name": "What to monitor in a given condition",
+     "definition": "Which parameters to track in an ongoing illness or therapy.",
+     "masking": "optional",
+     "anchors": [
+      "disease",
+      "drug",
+      "toxin"
+     ],
+     "examples": [
+      1782,
+      4092
+     ]
+    },
+    {
+     "id": "home_and_self_monitoring",
+     "name": "Home and patient self-monitoring",
+     "definition": "Devices and instructions for the patient to measure something themselves.",
+     "masking": "optional",
+     "anchors": [
+      "disease",
+      "procedure"
+     ],
+     "examples": [
+      2074,
+      2526
+     ]
+    }
+   ]
+  },
+  {
+   "id": "disposition",
+   "name": "Referral, admission, and disposition",
+   "definition": "Where the patient goes next: to a specialist, to the hospital, to the operating room, back to work, or to a different level of care.",
+   "subtypes": [
+    {
+     "id": "specialist_referral_indications",
+     "name": "When to refer to a specialist",
+     "definition": "The threshold at which a problem exceeds primary care.",
+     "masking": "optional",
+     "anchors": [
+      "disease"
+     ],
+     "examples": [
+      415,
+      759
+     ]
+    },
+    {
+     "id": "hospital_admission_indications",
+     "name": "When to admit to hospital",
+     "definition": "Criteria separating outpatient from inpatient management.",
+     "masking": "optional",
+     "anchors": [
+      "disease"
+     ],
+     "examples": [
+      596,
+      836
+     ]
+    },
+    {
+     "id": "surgery_or_procedure_indications",
+     "name": "When surgery or an invasive procedure is indicated",
+     "definition": "Grounds for operating rather than continuing medical management.",
+     "masking": "optional",
+     "anchors": [
+      "procedure",
+      "disease"
+     ],
+     "examples": [
+      60,
+      469
+     ]
+    },
+    {
+     "id": "urgency_and_triage",
+     "name": "How urgently the patient must be seen",
+     "definition": "Whether a presentation needs immediate evaluation.",
+     "masking": "optional",
+     "anchors": [
+      "disease"
+     ],
+     "examples": [
+      532,
+      4279
+     ]
+    },
+    {
+     "id": "return_to_activity",
+     "name": "Return to work, school, sport, or activity",
+     "definition": "When it is safe or acceptable to resume normal activity.",
+     "masking": "optional",
+     "anchors": [
+      "disease",
+      "organism",
+      "procedure"
+     ],
+     "examples": [
+      80,
+      236
+     ]
+    },
+    {
+     "id": "level_of_care_and_discharge",
+     "name": "Level of care, placement, and discharge readiness",
+     "definition": "Nursing home placement, discharge criteria, and who can be safely sent home.",
+     "masking": "optional",
+     "anchors": [
+      "disease"
+     ],
+     "examples": [
+      272,
+      819
+     ]
+    }
+   ]
+  },
+  {
+   "id": "prognosis",
+   "name": "Prognosis, risk, and epidemiology",
+   "definition": "What happens over time and how likely it is: course, outcome, complication and recurrence risk, frequency in populations, risk factors, and heritability.",
+   "subtypes": [
+    {
+     "id": "expected_course_and_duration",
+     "name": "Expected course and how long it lasts",
+     "definition": "The natural history and duration of an untreated or treated condition.",
+     "masking": "optional",
+     "anchors": [
+      "disease",
+      "organism"
+     ],
+     "examples": [
+      229,
+      412
+     ]
+    },
+    {
+     "id": "outcome_and_survival",
+     "name": "Outcome, survival, and success rate",
+     "definition": "Prognosis of a disease or the success rate of an intervention.",
+     "masking": "optional",
+     "anchors": [
+      "disease",
+      "procedure"
+     ],
+     "examples": [
+      240,
+      4500
+     ]
+    },
+    {
+     "id": "complication_and_recurrence_risk",
+     "name": "Risk of complication or recurrence",
+     "definition": "Probability of a bad downstream event after a condition or treatment.",
+     "masking": "optional",
+     "anchors": [
+      "disease",
+      "procedure",
+      "drug"
+     ],
+     "examples": [
+      63,
+      417
+     ]
+    },
+    {
+     "id": "incidence_and_prevalence",
+     "name": "How common something is",
+     "definition": "Incidence, prevalence, or proportion of people affected.",
+     "masking": "impossible",
+     "anchors": [
+      "disease",
+      "organism"
+     ],
+     "examples": [
+      468,
+      3175
+     ]
+    },
+    {
+     "id": "risk_factors_and_associations",
+     "name": "Risk factors and disease associations",
+     "definition": "Whether one exposure or condition raises the risk of another.",
+     "masking": "impossible",
+     "anchors": [
+      "disease",
+      "drug",
+      "toxin",
+      "organism"
+     ],
+     "examples": [
+      6,
+      1220
+     ]
+    },
+    {
+     "id": "heritability_and_genetic_risk",
+     "name": "Heritability and family risk",
+     "definition": "Whether a condition runs in families and what relatives face.",
+     "masking": "impossible",
+     "anchors": [
+      "disease"
+     ],
+     "examples": [
+      90,
+      1093
+     ]
+    }
+   ]
+  },
+  {
+   "id": "disease_identity",
+   "name": "Identifying and defining a condition",
+   "definition": "What a named entity is, how it is defined and classified, how it presents, what it looks like, and what causes it as an agent.",
+   "subtypes": [
+    {
+     "id": "what_is_this_condition",
+     "name": "What is this condition or entity",
+     "definition": "A definition or thumbnail description of a named syndrome, organism, or lesion.",
+     "masking": "impossible",
+     "anchors": [
+      "disease",
+      "organism"
+     ],
+     "examples": [
+      54,
+      1138
+     ]
+    },
+    {
+     "id": "diagnostic_criteria_and_classification",
+     "name": "Diagnostic criteria, staging, and classification",
+     "definition": "Formal criteria, grades, stages, or classes for a named condition.",
+     "masking": "impossible",
+     "anchors": [
+      "disease"
+     ],
+     "examples": [
+      89,
+      215
+     ]
+    },
+    {
+     "id": "clinical_presentation",
+     "name": "How a condition presents clinically",
+     "definition": "The typical signs, symptoms, and course by which a named condition declares itself.",
+     "masking": "impossible",
+     "anchors": [
+      "disease",
+      "organism",
+      "toxin"
+     ],
+     "examples": [
+      320,
+      494
+     ]
+    },
+    {
+     "id": "lesion_appearance",
+     "name": "What the lesion or finding looks like",
+     "definition": "Visual or descriptive recognition of a named lesion.",
+     "masking": "impossible",
+     "anchors": [
+      "disease",
+      "organism"
+     ],
+     "examples": [
+      2489,
+      2746
+     ]
+    },
+    {
+     "id": "name_recall_from_description",
+     "name": "Naming an entity from a partial description",
+     "definition": "The clinician remembers the thing but not its name and describes it instead.",
+     "masking": "required",
+     "anchors": [
+      "disease",
+      "drug",
+      "organism"
+     ],
+     "examples": [
+      559,
+      1460
+     ]
+    },
+    {
+     "id": "causative_agent_and_transmission",
+     "name": "Causative agent, incubation, and contagiousness",
+     "definition": "Which organism causes a condition, how it spreads, and for how long.",
+     "masking": "impossible",
+     "anchors": [
+      "disease",
+      "organism"
+     ],
+     "examples": [
+      65,
+      402
+     ]
+    }
+   ]
+  },
+  {
+   "id": "mechanism",
+   "name": "Mechanism and pathophysiology",
+   "definition": "Why something happens: how a disease produces a finding, how a treatment works, the underlying physiology, and why a case departs from the expected pattern.",
+   "subtypes": [
+    {
+     "id": "why_disease_produces_finding",
+     "name": "Why a disease produces a particular finding",
+     "definition": "The causal link between a named condition and an observed effect.",
+     "masking": "impossible",
+     "anchors": [
+      "disease",
+      "organism"
+     ],
+     "examples": [
+      168,
+      233
+     ]
+    },
+    {
+     "id": "drug_or_treatment_mechanism",
+     "name": "How a drug or treatment works",
+     "definition": "Mechanism of action of a named intervention.",
+     "masking": "impossible",
+     "anchors": [
+      "drug",
+      "procedure",
+      "vaccine"
+     ],
+     "examples": [
+      95,
+      1604
+     ]
+    },
+    {
+     "id": "physiologic_principle",
+     "name": "Underlying physiologic principle",
+     "definition": "A general physiologic or biochemical concept invoked at the bedside.",
+     "masking": "required",
+     "anchors": [
+      "none",
+      "disease"
+     ],
+     "examples": [
+      1197,
+      1199
+     ]
+    },
+    {
+     "id": "unexpected_clinical_pattern",
+     "name": "Why the case does not behave as expected",
+     "definition": "Explaining a departure from the textbook pattern.",
+     "masking": "optional",
+     "anchors": [
+      "disease",
+      "drug"
+     ],
+     "examples": [
+      18,
+      313
+     ]
+    },
+    {
+     "id": "anatomic_or_biochemical_basis",
+     "name": "Anatomic or biochemical basis of a clinical fact",
+     "definition": "Mapping a clinical observation onto anatomy or biochemistry.",
+     "masking": "impossible",
+     "anchors": [
+      "disease"
+     ],
+     "examples": [
+      2607,
+      4105
+     ]
+    },
+    {
+     "id": "etiology_of_a_condition",
+     "name": "What causes this condition to arise",
+     "definition": "Etiology and pathogenesis of a named disease.",
+     "masking": "impossible",
+     "anchors": [
+      "disease"
+     ],
+     "examples": [
+      126,
+      348
+     ]
+    }
+   ]
+  },
+  {
+   "id": "anatomy_terms",
+   "name": "Anatomy, terminology, and nomenclature",
+   "definition": "Naming things: structures, nerve territories, medical words, abbreviations, and eponyms.",
+   "subtypes": [
+    {
+     "id": "anatomic_structure",
+     "name": "Anatomic structure or landmark",
+     "definition": "Which structures sit where, attach where, or belong to a region.",
+     "masking": "required",
+     "anchors": [
+      "none"
+     ],
+     "examples": [
+      452,
+      675
+     ]
+    },
+    {
+     "id": "nerve_and_dermatome_map",
+     "name": "Nerve, root, and dermatome mapping",
+     "definition": "Which nerve or root supplies which territory or function.",
+     "masking": "required",
+     "anchors": [
+      "none"
+     ],
+     "examples": [
+      93,
+      186
+     ]
+    },
+    {
+     "id": "naming_a_structure_or_finding",
+     "name": "Name of a structure, sign, or finding being described",
+     "definition": "The clinician describes an anatomic structure or physical finding and wants its name.",
+     "masking": "required",
+     "anchors": [
+      "none",
+      "disease"
+     ],
+     "examples": [
+      548,
+      946
+     ]
+    },
+    {
+     "id": "medical_term_definition",
+     "name": "Definition of a medical term",
+     "definition": "What a clinical word means.",
+     "masking": "impossible",
+     "anchors": [
+      "none",
+      "disease"
+     ],
+     "examples": [
+      1535,
+      2316
+     ]
+    },
+    {
+     "id": "abbreviation_meaning",
+     "name": "Meaning of an abbreviation or acronym",
+     "definition": "Expanding letters seen on a chart, report, or card.",
+     "masking": "impossible",
+     "anchors": [
+      "none",
+      "disease",
+      "drug",
+      "procedure"
+     ],
+     "examples": [
+      1319,
+      1664
+     ]
+    },
+    {
+     "id": "eponym_definition",
+     "name": "Eponymous sign, test, or maneuver",
+     "definition": "What a named sign or maneuver is and what it shows.",
+     "masking": "impossible",
+     "anchors": [
+      "none",
+      "disease",
+      "procedure"
+     ],
+     "examples": [
+      1111,
+      1377
+     ]
+    }
+   ]
+  },
+  {
+   "id": "procedure_technique",
+   "name": "Performing a procedure or examination",
+   "definition": "The hands-on how-to: technique, equipment, anesthesia, aftercare, and bedside examination method.",
+   "subtypes": [
+    {
+     "id": "how_to_perform",
+     "name": "How to perform a procedure",
+     "definition": "Step-by-step technique for doing something to a patient.",
+     "masking": "impossible",
+     "anchors": [
+      "procedure"
+     ],
+     "examples": [
+      7,
+      2805
+     ]
+    },
+    {
+     "id": "technique_choice_and_tips",
+     "name": "Choosing a technique or getting it to work",
+     "definition": "Which of several techniques to use and practical tricks for difficulty.",
+     "masking": "impossible",
+     "anchors": [
+      "procedure"
+     ],
+     "examples": [
+      151,
+      387
+     ]
+    },
+    {
+     "id": "equipment_and_materials",
+     "name": "Equipment, materials, and supplies",
+     "definition": "What device, cast material, splint, or kit is needed.",
+     "masking": "optional",
+     "anchors": [
+      "procedure",
+      "disease"
+     ],
+     "examples": [
+      212,
+      356
+     ]
+    },
+    {
+     "id": "procedural_anesthesia",
+     "name": "Anesthesia and pain control for a procedure",
+     "definition": "Making a procedure tolerable.",
+     "masking": "impossible",
+     "anchors": [
+      "procedure",
+      "drug"
+     ],
+     "examples": [
+      1796,
+      2627
+     ]
+    },
+    {
+     "id": "aftercare_and_complications",
+     "name": "Aftercare and procedural complications",
+     "definition": "What to do afterward and what can go wrong.",
+     "masking": "impossible",
+     "anchors": [
+      "procedure"
+     ],
+     "examples": [
+      1668,
+      4218
+     ]
+    },
+    {
+     "id": "physical_exam_technique",
+     "name": "Physical examination technique",
+     "definition": "How to elicit or examine for a finding at the bedside.",
+     "masking": "impossible",
+     "anchors": [
+      "procedure",
+      "disease"
+     ],
+     "examples": [
+      24,
+      1478
+     ]
+    }
+   ]
+  },
+  {
+   "id": "counseling",
+   "name": "Counseling and behavior change",
+   "definition": "What to say and how to say it: persuading, reassuring, handling difficult encounters, improving adherence, breaking bad news, and health-behavior advice.",
+   "subtypes": [
+    {
+     "id": "persuading_and_motivating",
+     "name": "Persuading or motivating a patient",
+     "definition": "Getting a reluctant patient to accept, decline, or change something.",
+     "masking": "optional",
+     "anchors": [
+      "disease",
+      "drug",
+      "procedure"
+     ],
+     "examples": [
+      62,
+      323
+     ]
+    },
+    {
+     "id": "explaining_and_reassuring",
+     "name": "Explaining and reassuring",
+     "definition": "Framing an explanation so the patient understands or stops worrying.",
+     "masking": "optional",
+     "anchors": [
+      "disease",
+      "procedure"
+     ],
+     "examples": [
+      241,
+      1721
+     ]
+    },
+    {
+     "id": "difficult_encounter_management",
+     "name": "Managing a difficult encounter",
+     "definition": "Boundaries, refusals, manipulation, and conflict in the room.",
+     "masking": "required",
+     "anchors": [
+      "disease",
+      "none"
+     ],
+     "examples": [
+      149,
+      643
+     ]
+    },
+    {
+     "id": "adherence_strategies",
+     "name": "Improving adherence",
+     "definition": "Practical methods to get treatment actually taken or completed.",
+     "masking": "optional",
+     "anchors": [
+      "disease",
+      "drug"
+     ],
+     "examples": [
+      46,
+      375
+     ]
+    },
+    {
+     "id": "bad_news_and_end_of_life",
+     "name": "Bad news, code status, and end-of-life discussion",
+     "definition": "Conversations about dying, withdrawal of care, and resuscitation.",
+     "masking": "optional",
+     "anchors": [
+      "disease"
+     ],
+     "examples": [
+      812,
+      4202
+     ]
+    },
+    {
+     "id": "lifestyle_and_health_behavior_counseling",
+     "name": "Diet, activity, and health-behavior advice",
+     "definition": "Anticipatory guidance on feeding, diet, exercise, travel health, and risk behavior.",
+     "masking": "optional",
+     "anchors": [
+      "disease",
+      "toxin"
+     ],
+     "examples": [
+      59,
+      239
+     ]
+    }
+   ]
+  },
+  {
+   "id": "ethics_practice",
+   "name": "Ethics, law, and practice management",
+   "definition": "Non-clinical rules of practice: reporting and confidentiality, consent, professional conduct, payer rules, office operations, and paperwork.",
+   "subtypes": [
+    {
+     "id": "reporting_and_confidentiality",
+     "name": "Mandatory reporting and confidentiality",
+     "definition": "When disclosure to an authority overrides patient confidentiality.",
+     "masking": "optional",
+     "anchors": [
+      "disease",
+      "none"
+     ],
+     "examples": [
+      1368,
+      2164
+     ]
+    },
+    {
+     "id": "consent_capacity_and_minors",
+     "name": "Consent, capacity, and minors",
+     "definition": "Who may authorize care and when a minor decides for themselves.",
+     "masking": "optional",
+     "anchors": [
+      "procedure",
+      "drug",
+      "none"
+     ],
+     "examples": [
+      2056,
+      3391
+     ]
+    },
+    {
+     "id": "professional_ethics",
+     "name": "Professional ethics and conduct",
+     "definition": "Right conduct toward patients, colleagues, and the truth.",
+     "masking": "required",
+     "anchors": [
+      "none"
+     ],
+     "examples": [
+      497,
+      3063
+     ]
+    },
+    {
+     "id": "insurance_and_coverage_rules",
+     "name": "Insurance, payer, and cost-to-patient rules",
+     "definition": "What a plan will pay for and what to do when the patient cannot pay.",
+     "masking": "optional",
+     "anchors": [
+      "procedure",
+      "drug",
+      "none"
+     ],
+     "examples": [
+      259,
+      370
+     ]
+    },
+    {
+     "id": "office_operations",
+     "name": "Office operations, scheduling, and workflow",
+     "definition": "Running the visit, the schedule, and the practice.",
+     "masking": "required",
+     "anchors": [
+      "none"
+     ],
+     "examples": [
+      339,
+      344
+     ]
+    },
+    {
+     "id": "disability_and_forms",
+     "name": "Disability, certification, and forms",
+     "definition": "Documenting fitness, disability, and regulatory status.",
+     "masking": "optional",
+     "anchors": [
+      "disease",
+      "none"
+     ],
+     "examples": [
+      100,
+      3358
+     ]
+    }
+   ]
+  },
+  {
+   "id": "information_sources",
+   "name": "Finding sources and materials",
+   "definition": "The answer is a pointer, not a fact: a citation, a review, a handout, a support group, a reference book, or a local service.",
+   "subtypes": [
+    {
+     "id": "specific_citation_recall",
+     "name": "Recalling a specific article or reference",
+     "definition": "The clinician half-remembers a paper and wants the citation.",
+     "masking": "impossible",
+     "anchors": [
+      "disease",
+      "drug",
+      "procedure",
+      "none"
+     ],
+     "examples": [
+      1155,
+      1232
+     ]
+    },
+    {
+     "id": "literature_availability",
+     "name": "Whether the literature covers a topic",
+     "definition": "Whether anything has been published or reviewed on a question.",
+     "masking": "impossible",
+     "anchors": [
+      "disease",
+      "procedure",
+      "drug"
+     ],
+     "examples": [
+      227,
+      1688
+     ]
+    },
+    {
+     "id": "patient_education_materials",
+     "name": "Patient education materials and handouts",
+     "definition": "Printed or visual material to give or show a patient.",
+     "masking": "impossible",
+     "anchors": [
+      "disease",
+      "procedure"
+     ],
+     "examples": [
+      43,
+      373
+     ]
+    },
+    {
+     "id": "support_groups_and_services",
+     "name": "Support groups and community services",
+     "definition": "Organizations and programs to refer a patient to.",
+     "masking": "impossible",
+     "anchors": [
+      "disease"
+     ],
+     "examples": [
+      61,
+      74
+     ]
+    },
+    {
+     "id": "clinical_reference_source",
+     "name": "Clinical reference, textbook, or protocol source",
+     "definition": "Where a clinician can look something up or find a protocol.",
+     "masking": "impossible",
+     "anchors": [
+      "disease",
+      "drug",
+      "procedure",
+      "none"
+     ],
+     "examples": [
+      121,
+      178
+     ]
+    },
+    {
+     "id": "local_service_contact",
+     "name": "Local vendor, site, or contact",
+     "definition": "Where locally to obtain a product, service, or address.",
+     "masking": "required",
+     "anchors": [
+      "none",
+      "procedure"
+     ],
+     "examples": [
+      2497,
+      2953
+     ]
+    }
+   ]
+  },
+  {
+   "id": "research_methods",
+   "name": "Research methods and biostatistics",
+   "definition": "Questions about doing and reading research rather than about a patient: statistical tests, concepts, computations, design, appraisal, and measurement.",
+   "subtypes": [
+    {
+     "id": "choosing_a_statistical_test",
+     "name": "Choosing a statistical test or model",
+     "definition": "Which analysis fits a described data structure.",
+     "masking": "required",
+     "anchors": [
+      "none"
+     ],
+     "examples": [
+      1965,
+      2092
+     ]
+    },
+    {
+     "id": "statistical_concept_explained",
+     "name": "Explaining a statistical concept",
+     "definition": "What a named statistical idea or distribution means.",
+     "masking": "required",
+     "anchors": [
+      "none"
+     ],
+     "examples": [
+      1701,
+      2340
+     ]
+    },
+    {
+     "id": "computing_or_reporting_a_statistic",
+     "name": "Computing or reporting a statistic",
+     "definition": "How to calculate a statistic or present it in a paper.",
+     "masking": "required",
+     "anchors": [
+      "none"
+     ],
+     "examples": [
+      2053,
+      2432
+     ]
+    },
+    {
+     "id": "study_design_and_sample_size",
+     "name": "Study design and sample size",
+     "definition": "Designing a study, sizing it, and allocating subjects.",
+     "masking": "required",
+     "anchors": [
+      "none"
+     ],
+     "examples": [
+      1775,
+      1861
+     ]
+    },
+    {
+     "id": "evidence_appraisal",
+     "name": "Appraising evidence quality",
+     "definition": "Judging a study or a body of evidence.",
+     "masking": "required",
+     "anchors": [
+      "none"
+     ],
+     "examples": [
+      1857,
+      1905
+     ]
+    },
+    {
+     "id": "instrument_validity_and_measurement",
+     "name": "Instrument validity and measurement",
+     "definition": "Reliability, validity, and agreement of measurement tools.",
+     "masking": "required",
+     "anchors": [
+      "none"
+     ],
+     "examples": [
+      1567,
+      2309
+     ]
+    }
+   ]
+  },
+  {
+   "id": "calculation",
+   "name": "Clinical calculation and conversion",
+   "definition": "Arithmetic at the bedside: unit conversion, clinical formulas, dose equivalence, fluid and nutrition math, and correcting one value for another.",
+   "subtypes": [
+    {
+     "id": "unit_conversion",
+     "name": "Unit conversion",
+     "definition": "Converting between measurement units.",
+     "masking": "required",
+     "anchors": [
+      "none",
+      "drug"
+     ],
+     "examples": [
+      91,
+      2888
+     ]
+    },
+    {
+     "id": "clinical_formula_or_index",
+     "name": "Clinical formula or index",
+     "definition": "A named formula or derived index and how to compute it.",
+     "masking": "impossible",
+     "anchors": [
+      "none",
+      "disease"
+     ],
+     "examples": [
+      1260,
+      2453
+     ]
+    },
+    {
+     "id": "dose_equivalence",
+     "name": "Dose equivalence between agents",
+     "definition": "Converting a dose of one agent into an equivalent dose of another.",
+     "masking": "impossible",
+     "anchors": [
+      "drug"
+     ],
+     "examples": [
+      1037,
+      4176
+     ]
+    },
+    {
+     "id": "fluid_and_nutrition_calculation",
+     "name": "Fluid, electrolyte, and nutrition calculation",
+     "definition": "Working out maintenance and replacement volumes, calories, and additives.",
+     "masking": "optional",
+     "anchors": [
+      "disease",
+      "none"
+     ],
+     "examples": [
+      287,
+      2676
+     ]
+    },
+    {
+     "id": "correcting_a_value",
+     "name": "Correcting one laboratory value for another",
+     "definition": "Adjusting a measured value for a confounding variable.",
+     "masking": "impossible",
+     "anchors": [
+      "disease",
+      "none"
+     ],
+     "examples": [
+      1680,
+      2050
+     ]
+    },
+    {
+     "id": "marker_to_clinical_estimate",
+     "name": "Translating a marker into a clinical estimate",
+     "definition": "Converting a surrogate measure into the quantity the clinician cares about.",
+     "masking": "impossible",
+     "anchors": [
+      "disease",
+      "none"
+     ],
+     "examples": [
+      2454,
+      3469
+     ]
+    }
+   ]
+  },
+  {
+   "id": "exposure_injury",
+   "name": "Exposure, injury, and poisoning",
+   "definition": "Something happened to the patient from outside: an infectious or chemical exposure, a bite, an overdose, a workplace hazard, physical injury, or an environmental risk.",
+   "subtypes": [
+    {
+     "id": "post_exposure_management",
+     "name": "Managing a specific exposure",
+     "definition": "What to do for a person exposed to an infectious or hazardous source.",
+     "masking": "optional",
+     "anchors": [
+      "organism",
+      "disease",
+      "toxin",
+      "vaccine"
+     ],
+     "examples": [
+      297,
+      1196
+     ]
+    },
+    {
+     "id": "bite_and_sting_management",
+     "name": "Bites, stings, and animal contact",
+     "definition": "Evaluation and treatment after an animal, insect, or human bite.",
+     "masking": "optional",
+     "anchors": [
+      "organism",
+      "toxin",
+      "disease"
+     ],
+     "examples": [
+      204,
+      539
+     ]
+    },
+    {
+     "id": "overdose_and_poisoning",
+     "name": "Overdose and poisoning",
+     "definition": "Toxic doses, decontamination, antidotes, and monitoring after ingestion.",
+     "masking": "optional",
+     "anchors": [
+      "drug",
+      "toxin"
+     ],
+     "examples": [
+      167,
+      1365
+     ]
+    },
+    {
+     "id": "occupational_and_environmental_hazard",
+     "name": "Occupational and environmental hazard",
+     "definition": "Whether a workplace or household exposure is dangerous and what rules apply.",
+     "masking": "impossible",
+     "anchors": [
+      "toxin",
+      "procedure",
+      "organism"
+     ],
+     "examples": [
+      76,
+      253
+     ]
+    },
+    {
+     "id": "injury_and_fracture_management",
+     "name": "Injury, fracture, and sprain management",
+     "definition": "Immobilization, weight bearing, and healing of musculoskeletal trauma.",
+     "masking": "optional",
+     "anchors": [
+      "disease",
+      "procedure"
+     ],
+     "examples": [
+      113,
+      385
+     ]
+    },
+    {
+     "id": "travel_and_environmental_risk",
+     "name": "Travel and environmental risk",
+     "definition": "Hazards of climate, altitude, water, and destination.",
+     "masking": "optional",
+     "anchors": [
+      "disease",
+      "organism",
+      "toxin"
+     ],
+     "examples": [
+      1406,
+      4064
+     ]
+    }
+   ]
+  }
+ ],
+ "assignments": {}
+}

@@ -1,0 +1,7 @@
+name: smoke_nfcorpus
+data: data/smoke_nfcorpus/{task}
+dtype: float16
+max_length: 512
+tasks:
+  raw:
+    instruction: Given a question, retrieve relevant documents that answer the question

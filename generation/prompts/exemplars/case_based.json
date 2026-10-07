@@ -1,0 +1,27 @@
+[
+  {
+    "query_id": "NQ000051",
+    "text": "Can Staphylococcus or Haemophilus influenza sepsis produce clinical findings similar to streptococcal sepsis?",
+    "census_category": "sign_to_differential"
+  },
+  {
+    "query_id": "NQ000276",
+    "text": "What would cause a high ferritin and anemia?",
+    "census_category": "sign_to_differential"
+  },
+  {
+    "query_id": "NQ000346",
+    "text": "What is the recommended evaluation of an elevated alkaline phosphatase",
+    "census_category": "sign_to_differential"
+  },
+  {
+    "query_id": "NQ000606",
+    "text": "What are the possible causes of a recurrent blotchy rash in an adolescent, and what is the best way to distinguish among the possibilities?",
+    "census_category": "sign_to_differential"
+  },
+  {
+    "query_id": "NQ001070",
+    "text": "What are the possible causes of labyrinthitis and what is the best treatment?",
+    "census_category": "sign_to_differential"
+  }
+]

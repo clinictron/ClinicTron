@@ -1,0 +1,6 @@
+# How one source is shown to the judge. The same lines are used for both systems.
+paper: "{n}. [{type}] {title} | {journal} {year} | cites:{cited_by} | Abstract: {abstract}"
+no_record: "{n}. {title} | {venue} {year} | Abstract: not available"   # a source with no record in our corpus
+no_record_abstract: "{n}. {title} | {venue} {year} | Abstract: {abstract}"   # the same source when PubMed has its abstract (02b_pubmed_abstracts.py)
+fda_title: "{name}. FDA Drug Label."                                    # our FDA-label citations, written the way the comparator writes them
+fda_venue: "Food and Drug Administration"

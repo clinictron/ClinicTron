@@ -1,0 +1,32 @@
+[
+  {
+    "query_id": "NQ000893",
+    "text": "What is the best treatment for sinus infection in a patient who is allergic to Ceftin, penicillin, and sulfa?",
+    "census_category": "multi_constraint_vignette"
+  },
+  {
+    "query_id": "NQ003012",
+    "text": "Should this patient with an incomplete fracture of the lateral femoral condyle, with no sign of healing on magnetic resonance imaging after 3 months have more treatment than just a knee immobilizer and what would that treatment be?",
+    "census_category": "multi_constraint_vignette"
+  },
+  {
+    "query_id": "NQ003905",
+    "text": "Should we use high-dose amoxicillin/clavulanate for this otitis media even though the sensitivities say the Hemophilus influenza that we cultured is resistant to it?",
+    "census_category": "multi_constraint_vignette"
+  },
+  {
+    "query_id": "NQ002551",
+    "text": "How should you change the oral contraceptive if someone gets amenorrhea on it?",
+    "census_category": "multi_constraint_vignette"
+  },
+  {
+    "query_id": "NQ001236",
+    "text": "If you are treating someone for hypothyroidism and the TSH (thyroid stimulating hormone) is high (14) and the T4 (thyroxine) is normal, should the thyroid replacement be increased?",
+    "census_category": "test_interpretation_edge_case"
+  },
+  {
+    "query_id": "NQ000333",
+    "text": "Following angioplasty, if a patient becomes allergic to Ticlid, should you just stop the Ticlid or switch to something else?",
+    "census_category": "multi_constraint_vignette"
+  }
+]

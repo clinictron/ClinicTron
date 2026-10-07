@@ -1,0 +1,9 @@
+name: DIVER-4B-1020
+kind: decoder
+path: AQ-MedAI/Diver-Retriever-4B-1020@3984377d297f4c3bcf5d625ea7b48feea7f58c57
+pooling: last
+eos: none
+query_template: 'Instruct: {instruction}
+
+  Query: {text}'
+instruction_suffix: .

@@ -1,0 +1,7 @@
+# Every setting of the judge (03_judge.py).
+model: openai/gpt-5.6-sol       # through OpenRouter; independent of the model that ran the agent
+citations_per_list: 0           # each list is cut to its first N sources; 0 = every source of both lists
+concurrent_calls: 6
+seed: 20261002                  # decides, per question, which system is shown as list A
+prompt: prompts/judge_v1.md
+lines: prompts/judge_lines_v1.yaml

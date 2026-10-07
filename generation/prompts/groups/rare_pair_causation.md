@@ -1,0 +1,1 @@
+Ask whether {seed_entity} can cause, or be caused by, a specific plausible-but-rarely-discussed effect or exposure. Name both sides plainly ("Can X cause Y?"). Choose a pair a physician would genuinely wonder about — not a textbook-famous association.

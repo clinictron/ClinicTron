@@ -1,0 +1,10 @@
+name: MedCPT
+kind: dual_bert
+query_path: ncbi/MedCPT-Query-Encoder@d83a36cc6b8e3a5c5e9d9d6ba156808c1643dcbc
+doc_path: ncbi/MedCPT-Article-Encoder@d05a736da4bb84ee4057b7f7999485be6ed85465
+pooling: cls
+normalize: false
+use_instruction: false
+title_join: pair
+dtype: float32
+max_length_cap: 512

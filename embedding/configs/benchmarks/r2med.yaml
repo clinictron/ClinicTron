@@ -1,0 +1,52 @@
+name: R2MED
+source: R2MED (Li et al. 2025), github.com/R2MED/R2MED src/eval_retrieval.py:120-176, src/instrcution.py
+data: data/r2med/{task}
+dtype: float16
+max_length: 512
+model_overrides:
+  NV-Embed-v2:
+    max_length: 4096
+  ClinicTron-NV:
+    max_length: 4096
+  BMRetriever-7B:
+    max_length: 2048
+  MedCPT:
+    query_path: ncbi/MedCPT-Article-Encoder@d05a736da4bb84ee4057b7f7999485be6ed85465
+    normalize: true
+  Qwen3-Embedding-8B:
+    query_template: 'Instruct: {instruction}
+
+      Query: {text}'
+    instruction_suffix: .
+    instruction_set: default
+  ClinicTron-Qwen:
+    query_template: 'Instruct: {instruction}
+
+      Query: {text}'
+    instruction_suffix: .
+    instruction_set: default
+tasks:
+  r2med_biology:
+    dir: Biology
+    instruction: Given a Biology post, retrieve relevant passages that help answer the post
+  r2med_bioinformatics:
+    dir: Bioinformatics
+    instruction: Given a Bioinformatics post, retrieve relevant passages that help answer the post
+  r2med_medical_sciences:
+    dir: Medical-Sciences
+    instruction: Given a Medical Science post, retrieve relevant passages that help answer the post
+  r2med_medxpert_exam:
+    dir: MedXpertQA-Exam
+    instruction: Given a Medical Exam, retrieve relevant passages that help answer the exam
+  r2med_medqa_diag:
+    dir: MedQA-Diag
+    instruction: Given a Medical Exam, retrieve relevant passages that help answer the exam
+  r2med_pmc_treatment:
+    dir: PMC-Treatment
+    instruction: Given a Clinical Case, retrieve relevant passages that help answer the case
+  r2med_pmc_clinical:
+    dir: PMC-Clinical
+    instruction: Given a Clinical Case, retrieve similar cases that help diagnose the case
+  r2med_iiyi_clinical:
+    dir: IIYi-Clinical
+    instruction: Given a Clinical Case, retrieve similar cases that help diagnose the case

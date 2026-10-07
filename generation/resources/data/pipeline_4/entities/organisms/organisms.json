@@ -1,0 +1,3227 @@
+[
+ {
+  "id": "NCBITaxon:730",
+  "display_name": "[Haemophilus] ducreyi",
+  "synonyms": [
+   "Haemophilus ducreyi",
+   "chancroid bacillus"
+  ],
+  "source": "NCBI Taxonomy"
+ },
+ {
+  "id": "NCBITaxon:46125",
+  "display_name": "Abiotrophia defectiva",
+  "synonyms": [
+   "nutritionally variant streptococcus"
+  ],
+  "source": "NCBI Taxonomy"
+ },
+ {
+  "id": "NCBITaxon:5755",
+  "display_name": "Acanthamoeba castellanii",
+  "synonyms": [],
+  "source": "NCBI Taxonomy"
+ },
+ {
+  "id": "NCBITaxon:85698",
+  "display_name": "Achromobacter xylosoxidans",
+  "synonyms": [
+   "Alcaligenes xylosoxidans"
+  ],
+  "source": "NCBI Taxonomy"
+ },
+ {
+  "id": "NCBITaxon:470",
+  "display_name": "Acinetobacter baumannii",
+  "synonyms": [],
+  "source": "NCBI Taxonomy"
+ },
+ {
+  "id": "NCBITaxon:1659",
+  "display_name": "Actinomyces israelii",
+  "synonyms": [
+   "lumpy jaw agent"
+  ],
+  "source": "NCBI Taxonomy"
+ },
+ {
+  "id": "NCBITaxon:644",
+  "display_name": "Aeromonas hydrophila",
+  "synonyms": [],
+  "source": "NCBI Taxonomy"
+ },
+ {
+  "id": "NCBITaxon:714",
+  "display_name": "Aggregatibacter actinomycetemcomitans",
+  "synonyms": [
+   "Actinobacillus actinomycetemcomitans",
+   "HACEK organism"
+  ],
+  "source": "NCBI Taxonomy"
+ },
+ {
+  "id": "NCBITaxon:333754",
+  "display_name": "Alphapapillomavirus 10",
+  "synonyms": [
+   "Human papillomavirus 6",
+   "HPV-6",
+   "genital wart virus"
+  ],
+  "source": "NCBI Taxonomy"
+ },
+ {
+  "id": "NCBITaxon:5599",
+  "display_name": "Alternaria alternata",
+  "synonyms": [],
+  "source": "NCBI Taxonomy"
+ },
+ {
+  "id": "NCBITaxon:6943",
+  "display_name": "Amblyomma americanum",
+  "synonyms": [
+   "lone star tick"
+  ],
+  "source": "NCBI Taxonomy"
+ },
+ {
+  "id": "NCBITaxon:948",
+  "display_name": "Anaplasma phagocytophilum",
+  "synonyms": [
+   "human granulocytic anaplasmosis agent",
+   "Ehrlichia phagocytophila"
+  ],
+  "source": "NCBI Taxonomy"
+ },
+ {
+  "id": "NCBITaxon:369059",
+  "display_name": "Ancylostoma braziliense",
+  "synonyms": [
+   "cutaneous larva migrans hookworm",
+   "creeping eruption agent"
+  ],
+  "source": "NCBI Taxonomy"
+ },
+ {
+  "id": "NCBITaxon:51022",
+  "display_name": "Ancylostoma duodenale",
+  "synonyms": [
+   "Old World hookworm"
+  ],
+  "source": "NCBI Taxonomy"
+ },
+ {
+  "id": "NCBITaxon:6313",
+  "display_name": "Angiostrongylus cantonensis",
+  "synonyms": [
+   "rat lungworm"
+  ],
+  "source": "NCBI Taxonomy"
+ },
+ {
+  "id": "NCBITaxon:6269",
+  "display_name": "Anisakis simplex",
+  "synonyms": [
+   "herring worm"
+  ],
+  "source": "NCBI Taxonomy"
+ },
+ {
+  "id": "NCBITaxon:90269",
+  "display_name": "Apophysomyces elegans",
+  "synonyms": [],
+  "source": "NCBI Taxonomy"
+ },
+ {
+  "id": "NCBITaxon:28264",
+  "display_name": "Arcanobacterium haemolyticum",
+  "synonyms": [
+   "Corynebacterium haemolyticum"
+  ],
+  "source": "NCBI Taxonomy"
+ },
+ {
+  "id": "NCBITaxon:6252",
+  "display_name": "Ascaris lumbricoides",
+  "synonyms": [
+   "giant roundworm"
+  ],
+  "source": "NCBI Taxonomy"
+ },
+ {
+  "id": "NCBITaxon:5059",
+  "display_name": "Aspergillus flavus",
+  "synonyms": [],
+  "source": "NCBI Taxonomy"
+ },
+ {
+  "id": "NCBITaxon:746128",
+  "display_name": "Aspergillus fumigatus",
+  "synonyms": [],
+  "source": "NCBI Taxonomy"
+ },
+ {
+  "id": "NCBITaxon:5061",
+  "display_name": "Aspergillus niger",
+  "synonyms": [],
+  "source": "NCBI Taxonomy"
+ },
+ {
+  "id": "NCBITaxon:33178",
+  "display_name": "Aspergillus terreus",
+  "synonyms": [],
+  "source": "NCBI Taxonomy"
+ },
+ {
+  "id": "NCBITaxon:32595",
+  "display_name": "Babesia divergens",
+  "synonyms": [],
+  "source": "NCBI Taxonomy"
+ },
+ {
+  "id": "NCBITaxon:5868",
+  "display_name": "Babesia microti",
+  "synonyms": [],
+  "source": "NCBI Taxonomy"
+ },
+ {
+  "id": "NCBITaxon:1392",
+  "display_name": "Bacillus anthracis",
+  "synonyms": [
+   "anthrax bacillus"
+  ],
+  "source": "NCBI Taxonomy"
+ },
+ {
+  "id": "NCBITaxon:1396",
+  "display_name": "Bacillus cereus",
+  "synonyms": [],
+  "source": "NCBI Taxonomy"
+ },
+ {
+  "id": "NCBITaxon:817",
+  "display_name": "Bacteroides fragilis",
+  "synonyms": [],
+  "source": "NCBI Taxonomy"
+ },
+ {
+  "id": "NCBITaxon:66527",
+  "display_name": "Balamuthia mandrillaris",
+  "synonyms": [],
+  "source": "NCBI Taxonomy"
+ },
+ {
+  "id": "NCBITaxon:71585",
+  "display_name": "Balantioides coli",
+  "synonyms": [
+   "Balantidium coli"
+  ],
+  "source": "NCBI Taxonomy"
+ },
+ {
+  "id": "NCBITaxon:774",
+  "display_name": "Bartonella bacilliformis",
+  "synonyms": [
+   "Carrion disease agent",
+   "Oroya fever agent"
+  ],
+  "source": "NCBI Taxonomy"
+ },
+ {
+  "id": "NCBITaxon:38323",
+  "display_name": "Bartonella henselae",
+  "synonyms": [
+   "cat scratch disease bacillus",
+   "Rochalimaea henselae"
+  ],
+  "source": "NCBI Taxonomy"
+ },
+ {
+  "id": "NCBITaxon:803",
+  "display_name": "Bartonella quintana",
+  "synonyms": [
+   "Rochalimaea quintana",
+   "trench fever agent"
+  ],
+  "source": "NCBI Taxonomy"
+ },
+ {
+  "id": "NCBITaxon:34480",
+  "display_name": "Basidiobolus ranarum",
+  "synonyms": [],
+  "source": "NCBI Taxonomy"
+ },
+ {
+  "id": "NCBITaxon:6259",
+  "display_name": "Baylisascaris procyonis",
+  "synonyms": [
+   "raccoon roundworm"
+  ],
+  "source": "NCBI Taxonomy"
+ },
+ {
+  "id": "NCBITaxon:1891762",
+  "display_name": "Betapolyomavirus hominis",
+  "synonyms": [
+   "BK polyomavirus",
+   "BK virus",
+   "BKPyV"
+  ],
+  "source": "NCBI Taxonomy"
+ },
+ {
+  "id": "NCBITaxon:12968",
+  "display_name": "Blastocystis hominis",
+  "synonyms": [],
+  "source": "NCBI Taxonomy"
+ },
+ {
+  "id": "NCBITaxon:5039",
+  "display_name": "Blastomyces dermatitidis",
+  "synonyms": [
+   "Ajellomyces dermatitidis"
+  ],
+  "source": "NCBI Taxonomy"
+ },
+ {
+  "id": "NCBITaxon:519",
+  "display_name": "Bordetella parapertussis",
+  "synonyms": [],
+  "source": "NCBI Taxonomy"
+ },
+ {
+  "id": "NCBITaxon:520",
+  "display_name": "Bordetella pertussis",
+  "synonyms": [
+   "whooping cough bacillus"
+  ],
+  "source": "NCBI Taxonomy"
+ },
+ {
+  "id": "NCBITaxon:140",
+  "display_name": "Borrelia hermsii",
+  "synonyms": [
+   "tick-borne relapsing fever spirochete"
+  ],
+  "source": "NCBI Taxonomy"
+ },
+ {
+  "id": "NCBITaxon:47466",
+  "display_name": "Borrelia miyamotoi",
+  "synonyms": [],
+  "source": "NCBI Taxonomy"
+ },
+ {
+  "id": "NCBITaxon:44449",
+  "display_name": "Borrelia recurrentis",
+  "synonyms": [
+   "louse-borne relapsing fever spirochete"
+  ],
+  "source": "NCBI Taxonomy"
+ },
+ {
+  "id": "NCBITaxon:29518",
+  "display_name": "Borreliella afzelii",
+  "synonyms": [
+   "Borrelia afzelii"
+  ],
+  "source": "NCBI Taxonomy"
+ },
+ {
+  "id": "NCBITaxon:139",
+  "display_name": "Borreliella burgdorferi",
+  "synonyms": [
+   "Borrelia burgdorferi",
+   "Lyme disease spirochete"
+  ],
+  "source": "NCBI Taxonomy"
+ },
+ {
+  "id": "NCBITaxon:29519",
+  "display_name": "Borreliella garinii",
+  "synonyms": [
+   "Borrelia garinii"
+  ],
+  "source": "NCBI Taxonomy"
+ },
+ {
+  "id": "NCBITaxon:1674146",
+  "display_name": "Borreliella mayonii",
+  "synonyms": [
+   "Borrelia mayonii"
+  ],
+  "source": "NCBI Taxonomy"
+ },
+ {
+  "id": "NCBITaxon:235",
+  "display_name": "Brucella abortus",
+  "synonyms": [
+   "Bang bacillus"
+  ],
+  "source": "NCBI Taxonomy"
+ },
+ {
+  "id": "NCBITaxon:29459",
+  "display_name": "Brucella melitensis",
+  "synonyms": [
+   "Malta fever bacillus"
+  ],
+  "source": "NCBI Taxonomy"
+ },
+ {
+  "id": "NCBITaxon:29461",
+  "display_name": "Brucella suis",
+  "synonyms": [],
+  "source": "NCBI Taxonomy"
+ },
+ {
+  "id": "NCBITaxon:6279",
+  "display_name": "Brugia malayi",
+  "synonyms": [],
+  "source": "NCBI Taxonomy"
+ },
+ {
+  "id": "NCBITaxon:42155",
+  "display_name": "Brugia timori",
+  "synonyms": [],
+  "source": "NCBI Taxonomy"
+ },
+ {
+  "id": "NCBITaxon:292",
+  "display_name": "Burkholderia cepacia",
+  "synonyms": [
+   "Pseudomonas cepacia",
+   "Burkholderia cepacia complex"
+  ],
+  "source": "NCBI Taxonomy"
+ },
+ {
+  "id": "NCBITaxon:13373",
+  "display_name": "Burkholderia mallei",
+  "synonyms": [
+   "glanders bacillus"
+  ],
+  "source": "NCBI Taxonomy"
+ },
+ {
+  "id": "NCBITaxon:28450",
+  "display_name": "Burkholderia pseudomallei",
+  "synonyms": [
+   "melioidosis bacillus",
+   "Whitmore bacillus"
+  ],
+  "source": "NCBI Taxonomy"
+ },
+ {
+  "id": "NCBITaxon:196",
+  "display_name": "Campylobacter fetus",
+  "synonyms": [],
+  "source": "NCBI Taxonomy"
+ },
+ {
+  "id": "NCBITaxon:197",
+  "display_name": "Campylobacter jejuni",
+  "synonyms": [],
+  "source": "NCBI Taxonomy"
+ },
+ {
+  "id": "NCBITaxon:5476",
+  "display_name": "Candida albicans",
+  "synonyms": [
+   "thrush yeast",
+   "monilia"
+  ],
+  "source": "NCBI Taxonomy"
+ },
+ {
+  "id": "NCBITaxon:42374",
+  "display_name": "Candida dubliniensis",
+  "synonyms": [],
+  "source": "NCBI Taxonomy"
+ },
+ {
+  "id": "NCBITaxon:5482",
+  "display_name": "Candida tropicalis",
+  "synonyms": [],
+  "source": "NCBI Taxonomy"
+ },
+ {
+  "id": "NCBITaxon:498019",
+  "display_name": "Candidozyma auris",
+  "synonyms": [
+   "Candida auris"
+  ],
+  "source": "NCBI Taxonomy"
+ },
+ {
+  "id": "NCBITaxon:28188",
+  "display_name": "Capnocytophaga canimorsus",
+  "synonyms": [
+   "DF-2"
+  ],
+  "source": "NCBI Taxonomy"
+ },
+ {
+  "id": "NCBITaxon:2718",
+  "display_name": "Cardiobacterium hominis",
+  "synonyms": [
+   "HACEK organism"
+  ],
+  "source": "NCBI Taxonomy"
+ },
+ {
+  "id": "NCBITaxon:37124",
+  "display_name": "Chikungunya virus",
+  "synonyms": [
+   "CHIKV"
+  ],
+  "source": "NCBI Taxonomy"
+ },
+ {
+  "id": "NCBITaxon:83558",
+  "display_name": "Chlamydia pneumoniae",
+  "synonyms": [
+   "Chlamydophila pneumoniae",
+   "TWAR agent"
+  ],
+  "source": "NCBI Taxonomy"
+ },
+ {
+  "id": "NCBITaxon:83554",
+  "display_name": "Chlamydia psittaci",
+  "synonyms": [
+   "Chlamydophila psittaci",
+   "psittacosis agent"
+  ],
+  "source": "NCBI Taxonomy"
+ },
+ {
+  "id": "NCBITaxon:813",
+  "display_name": "Chlamydia trachomatis",
+  "synonyms": [
+   "Chlamydia",
+   "trachoma agent",
+   "LGV agent"
+  ],
+  "source": "NCBI Taxonomy"
+ },
+ {
+  "id": "NCBITaxon:536",
+  "display_name": "Chromobacterium violaceum",
+  "synonyms": [],
+  "source": "NCBI Taxonomy"
+ },
+ {
+  "id": "NCBITaxon:79782",
+  "display_name": "Cimex lectularius",
+  "synonyms": [
+   "common bed bug"
+  ],
+  "source": "NCBI Taxonomy"
+ },
+ {
+  "id": "NCBITaxon:546",
+  "display_name": "Citrobacter freundii",
+  "synonyms": [],
+  "source": "NCBI Taxonomy"
+ },
+ {
+  "id": "NCBITaxon:89940",
+  "display_name": "Cladophialophora bantiana",
+  "synonyms": [
+   "Xylohypha bantiana"
+  ],
+  "source": "NCBI Taxonomy"
+ },
+ {
+  "id": "NCBITaxon:79923",
+  "display_name": "Clonorchis sinensis",
+  "synonyms": [
+   "Chinese liver fluke"
+  ],
+  "source": "NCBI Taxonomy"
+ },
+ {
+  "id": "NCBITaxon:1496",
+  "display_name": "Clostridioides difficile",
+  "synonyms": [
+   "Clostridium difficile",
+   "C. diff"
+  ],
+  "source": "NCBI Taxonomy"
+ },
+ {
+  "id": "NCBITaxon:1491",
+  "display_name": "Clostridium botulinum",
+  "synonyms": [
+   "botulism bacillus"
+  ],
+  "source": "NCBI Taxonomy"
+ },
+ {
+  "id": "NCBITaxon:1502",
+  "display_name": "Clostridium perfringens",
+  "synonyms": [
+   "Clostridium welchii",
+   "gas gangrene bacillus"
+  ],
+  "source": "NCBI Taxonomy"
+ },
+ {
+  "id": "NCBITaxon:1504",
+  "display_name": "Clostridium septicum",
+  "synonyms": [],
+  "source": "NCBI Taxonomy"
+ },
+ {
+  "id": "NCBITaxon:1513",
+  "display_name": "Clostridium tetani",
+  "synonyms": [
+   "tetanus bacillus"
+  ],
+  "source": "NCBI Taxonomy"
+ },
+ {
+  "id": "NCBITaxon:5501",
+  "display_name": "Coccidioides immitis",
+  "synonyms": [
+   "valley fever fungus"
+  ],
+  "source": "NCBI Taxonomy"
+ },
+ {
+  "id": "NCBITaxon:199306",
+  "display_name": "Coccidioides posadasii",
+  "synonyms": [],
+  "source": "NCBI Taxonomy"
+ },
+ {
+  "id": "NCBITaxon:115425",
+  "display_name": "Cochliomyia hominivorax",
+  "synonyms": [
+   "New World screwworm"
+  ],
+  "source": "NCBI Taxonomy"
+ },
+ {
+  "id": "NCBITaxon:46839",
+  "display_name": "Colorado tick fever virus",
+  "synonyms": [
+   "CTFV"
+  ],
+  "source": "NCBI Taxonomy"
+ },
+ {
+  "id": "NCBITaxon:34488",
+  "display_name": "Conidiobolus coronatus",
+  "synonyms": [],
+  "source": "NCBI Taxonomy"
+ },
+ {
+  "id": "NCBITaxon:226132",
+  "display_name": "Cordylobia anthropophaga",
+  "synonyms": [
+   "tumbu fly",
+   "mango fly"
+  ],
+  "source": "NCBI Taxonomy"
+ },
+ {
+  "id": "NCBITaxon:1717",
+  "display_name": "Corynebacterium diphtheriae",
+  "synonyms": [
+   "Klebs-Loffler bacillus",
+   "diphtheria bacillus"
+  ],
+  "source": "NCBI Taxonomy"
+ },
+ {
+  "id": "NCBITaxon:38289",
+  "display_name": "Corynebacterium jeikeium",
+  "synonyms": [
+   "JK diphtheroid"
+  ],
+  "source": "NCBI Taxonomy"
+ },
+ {
+  "id": "NCBITaxon:38301",
+  "display_name": "Corynebacterium minutissimum",
+  "synonyms": [
+   "erythrasma agent"
+  ],
+  "source": "NCBI Taxonomy"
+ },
+ {
+  "id": "NCBITaxon:65058",
+  "display_name": "Corynebacterium ulcerans",
+  "synonyms": [],
+  "source": "NCBI Taxonomy"
+ },
+ {
+  "id": "NCBITaxon:10243",
+  "display_name": "Cowpox virus",
+  "synonyms": [],
+  "source": "NCBI Taxonomy"
+ },
+ {
+  "id": "NCBITaxon:777",
+  "display_name": "Coxiella burnetii",
+  "synonyms": [
+   "Q fever agent"
+  ],
+  "source": "NCBI Taxonomy"
+ },
+ {
+  "id": "NCBITaxon:31704",
+  "display_name": "Coxsackievirus A16",
+  "synonyms": [
+   "hand-foot-and-mouth disease virus"
+  ],
+  "source": "NCBI Taxonomy"
+ },
+ {
+  "id": "NCBITaxon:12072",
+  "display_name": "Coxsackievirus B3",
+  "synonyms": [],
+  "source": "NCBI Taxonomy"
+ },
+ {
+  "id": "NCBITaxon:28141",
+  "display_name": "Cronobacter sakazakii",
+  "synonyms": [
+   "Enterobacter sakazakii"
+  ],
+  "source": "NCBI Taxonomy"
+ },
+ {
+  "id": "NCBITaxon:37769",
+  "display_name": "Cryptococcus gattii",
+  "synonyms": [
+   "Cryptococcus neoformans var. gattii"
+  ],
+  "source": "NCBI Taxonomy"
+ },
+ {
+  "id": "NCBITaxon:5207",
+  "display_name": "Cryptococcus neoformans",
+  "synonyms": [
+   "Torula histolytica"
+  ],
+  "source": "NCBI Taxonomy"
+ },
+ {
+  "id": "NCBITaxon:237895",
+  "display_name": "Cryptosporidium hominis",
+  "synonyms": [],
+  "source": "NCBI Taxonomy"
+ },
+ {
+  "id": "NCBITaxon:5807",
+  "display_name": "Cryptosporidium parvum",
+  "synonyms": [],
+  "source": "NCBI Taxonomy"
+ },
+ {
+  "id": "NCBITaxon:7515",
+  "display_name": "Ctenocephalides felis",
+  "synonyms": [
+   "cat flea"
+  ],
+  "source": "NCBI Taxonomy"
+ },
+ {
+  "id": "NCBITaxon:90251",
+  "display_name": "Cunninghamella bertholletiae",
+  "synonyms": [],
+  "source": "NCBI Taxonomy"
+ },
+ {
+  "id": "NCBITaxon:1747",
+  "display_name": "Cutibacterium acnes",
+  "synonyms": [
+   "Propionibacterium acnes"
+  ],
+  "source": "NCBI Taxonomy"
+ },
+ {
+  "id": "NCBITaxon:88456",
+  "display_name": "Cyclospora cayetanensis",
+  "synonyms": [],
+  "source": "NCBI Taxonomy"
+ },
+ {
+  "id": "NCBITaxon:482538",
+  "display_name": "Cystoisospora belli",
+  "synonyms": [
+   "Isospora belli"
+  ],
+  "source": "NCBI Taxonomy"
+ },
+ {
+  "id": "NCBITaxon:10358",
+  "display_name": "Cytomegalovirus",
+  "synonyms": [
+   "CMV",
+   "human betaherpesvirus 5"
+  ],
+  "source": "NCBI Taxonomy"
+ },
+ {
+  "id": "NCBITaxon:481310",
+  "display_name": "Demodex folliculorum",
+  "synonyms": [
+   "hair follicle mite"
+  ],
+  "source": "NCBI Taxonomy"
+ },
+ {
+  "id": "NCBITaxon:12637",
+  "display_name": "Dengue virus",
+  "synonyms": [
+   "DENV",
+   "breakbone fever virus"
+  ],
+  "source": "NCBI Taxonomy"
+ },
+ {
+  "id": "NCBITaxon:34621",
+  "display_name": "Dermacentor variabilis",
+  "synonyms": [
+   "American dog tick"
+  ],
+  "source": "NCBI Taxonomy"
+ },
+ {
+  "id": "NCBITaxon:115427",
+  "display_name": "Dermatobia hominis",
+  "synonyms": [
+   "human botfly"
+  ],
+  "source": "NCBI Taxonomy"
+ },
+ {
+  "id": "NCBITaxon:60516",
+  "display_name": "Dibothriocephalus latus",
+  "synonyms": [
+   "Diphyllobothrium latum",
+   "fish tapeworm",
+   "broad tapeworm"
+  ],
+  "source": "NCBI Taxonomy"
+ },
+ {
+  "id": "NCBITaxon:43352",
+  "display_name": "Dientamoeba fragilis",
+  "synonyms": [],
+  "source": "NCBI Taxonomy"
+ },
+ {
+  "id": "NCBITaxon:66787",
+  "display_name": "Dipylidium caninum",
+  "synonyms": [
+   "cucumber tapeworm",
+   "flea tapeworm"
+  ],
+  "source": "NCBI Taxonomy"
+ },
+ {
+  "id": "NCBITaxon:6287",
+  "display_name": "Dirofilaria immitis",
+  "synonyms": [
+   "dog heartworm"
+  ],
+  "source": "NCBI Taxonomy"
+ },
+ {
+  "id": "NCBITaxon:318479",
+  "display_name": "Dracunculus medinensis",
+  "synonyms": [
+   "Guinea worm",
+   "fiery serpent"
+  ],
+  "source": "NCBI Taxonomy"
+ },
+ {
+  "id": "NCBITaxon:11021",
+  "display_name": "Eastern equine encephalitis virus",
+  "synonyms": [
+   "EEEV"
+  ],
+  "source": "NCBI Taxonomy"
+ },
+ {
+  "id": "NCBITaxon:1570291",
+  "display_name": "Ebola virus",
+  "synonyms": [
+   "Zaire ebolavirus",
+   "EBOV"
+  ],
+  "source": "NCBI Taxonomy"
+ },
+ {
+  "id": "NCBITaxon:6210",
+  "display_name": "Echinococcus granulosus",
+  "synonyms": [
+   "hydatid tapeworm",
+   "dog tapeworm"
+  ],
+  "source": "NCBI Taxonomy"
+ },
+ {
+  "id": "NCBITaxon:6211",
+  "display_name": "Echinococcus multilocularis",
+  "synonyms": [
+   "alveolar hydatid tapeworm",
+   "fox tapeworm"
+  ],
+  "source": "NCBI Taxonomy"
+ },
+ {
+  "id": "NCBITaxon:41846",
+  "display_name": "Echovirus E30",
+  "synonyms": [
+   "Echovirus 30",
+   "echovirus"
+  ],
+  "source": "NCBI Taxonomy"
+ },
+ {
+  "id": "NCBITaxon:945",
+  "display_name": "Ehrlichia chaffeensis",
+  "synonyms": [
+   "human monocytic ehrlichiosis agent"
+  ],
+  "source": "NCBI Taxonomy"
+ },
+ {
+  "id": "NCBITaxon:951",
+  "display_name": "Ehrlichia sennetsu",
+  "synonyms": [
+   "Neorickettsia sennetsu"
+  ],
+  "source": "NCBI Taxonomy"
+ },
+ {
+  "id": "NCBITaxon:539",
+  "display_name": "Eikenella corrodens",
+  "synonyms": [
+   "HACEK organism"
+  ],
+  "source": "NCBI Taxonomy"
+ },
+ {
+  "id": "NCBITaxon:238",
+  "display_name": "Elizabethkingia meningoseptica",
+  "synonyms": [
+   "Flavobacterium meningosepticum",
+   "Chryseobacterium meningosepticum"
+  ],
+  "source": "NCBI Taxonomy"
+ },
+ {
+  "id": "NCBITaxon:1955775",
+  "display_name": "Emergomyces africanus",
+  "synonyms": [
+   "Emmonsia africana"
+  ],
+  "source": "NCBI Taxonomy"
+ },
+ {
+  "id": "NCBITaxon:58839",
+  "display_name": "Encephalitozoon intestinalis",
+  "synonyms": [
+   "Septata intestinalis"
+  ],
+  "source": "NCBI Taxonomy"
+ },
+ {
+  "id": "NCBITaxon:5759",
+  "display_name": "Entamoeba histolytica",
+  "synonyms": [
+   "amebic dysentery parasite"
+  ],
+  "source": "NCBI Taxonomy"
+ },
+ {
+  "id": "NCBITaxon:550",
+  "display_name": "Enterobacter cloacae",
+  "synonyms": [],
+  "source": "NCBI Taxonomy"
+ },
+ {
+  "id": "NCBITaxon:51028",
+  "display_name": "Enterobius vermicularis",
+  "synonyms": [
+   "pinworm",
+   "seatworm"
+  ],
+  "source": "NCBI Taxonomy"
+ },
+ {
+  "id": "NCBITaxon:1351",
+  "display_name": "Enterococcus faecalis",
+  "synonyms": [
+   "Streptococcus faecalis"
+  ],
+  "source": "NCBI Taxonomy"
+ },
+ {
+  "id": "NCBITaxon:1352",
+  "display_name": "Enterococcus faecium",
+  "synonyms": [
+   "VRE",
+   "vancomycin-resistant enterococcus"
+  ],
+  "source": "NCBI Taxonomy"
+ },
+ {
+  "id": "NCBITaxon:31281",
+  "display_name": "Enterocytozoon bieneusi",
+  "synonyms": [
+   "microsporidian"
+  ],
+  "source": "NCBI Taxonomy"
+ },
+ {
+  "id": "NCBITaxon:39054",
+  "display_name": "Enterovirus A71",
+  "synonyms": [
+   "EV-A71"
+  ],
+  "source": "NCBI Taxonomy"
+ },
+ {
+  "id": "NCBITaxon:138950",
+  "display_name": "Enterovirus C",
+  "synonyms": [
+   "Poliovirus",
+   "polio virus"
+  ],
+  "source": "NCBI Taxonomy"
+ },
+ {
+  "id": "NCBITaxon:42789",
+  "display_name": "enterovirus D68",
+  "synonyms": [
+   "Enterovirus D68",
+   "EV-D68"
+  ],
+  "source": "NCBI Taxonomy"
+ },
+ {
+  "id": "NCBITaxon:34391",
+  "display_name": "Epidermophyton floccosum",
+  "synonyms": [],
+  "source": "NCBI Taxonomy"
+ },
+ {
+  "id": "NCBITaxon:1648",
+  "display_name": "Erysipelothrix rhusiopathiae",
+  "synonyms": [
+   "erysipeloid agent"
+  ],
+  "source": "NCBI Taxonomy"
+ },
+ {
+  "id": "NCBITaxon:562",
+  "display_name": "Escherichia coli",
+  "synonyms": [
+   "E. coli",
+   "EHEC",
+   "ETEC",
+   "STEC O157:H7"
+  ],
+  "source": "NCBI Taxonomy"
+ },
+ {
+  "id": "NCBITaxon:5970",
+  "display_name": "Exophiala dermatitidis",
+  "synonyms": [
+   "Wangiella dermatitidis"
+  ],
+  "source": "NCBI Taxonomy"
+ },
+ {
+  "id": "NCBITaxon:6192",
+  "display_name": "Fasciola hepatica",
+  "synonyms": [
+   "sheep liver fluke"
+  ],
+  "source": "NCBI Taxonomy"
+ },
+ {
+  "id": "NCBITaxon:27845",
+  "display_name": "Fasciolopsis buskii",
+  "synonyms": [
+   "Fasciolopsis buski",
+   "giant intestinal fluke"
+  ],
+  "source": "NCBI Taxonomy"
+ },
+ {
+  "id": "NCBITaxon:40355",
+  "display_name": "Fonsecaea pedrosoi",
+  "synonyms": [
+   "chromoblastomycosis fungus"
+  ],
+  "source": "NCBI Taxonomy"
+ },
+ {
+  "id": "NCBITaxon:263",
+  "display_name": "Francisella tularensis",
+  "synonyms": [
+   "tularemia bacillus",
+   "rabbit fever bacterium"
+  ],
+  "source": "NCBI Taxonomy"
+ },
+ {
+  "id": "NCBITaxon:5507",
+  "display_name": "Fusarium oxysporum",
+  "synonyms": [],
+  "source": "NCBI Taxonomy"
+ },
+ {
+  "id": "NCBITaxon:169388",
+  "display_name": "Fusarium solani",
+  "synonyms": [],
+  "source": "NCBI Taxonomy"
+ },
+ {
+  "id": "NCBITaxon:859",
+  "display_name": "Fusobacterium necrophorum",
+  "synonyms": [
+   "Lemierre syndrome agent"
+  ],
+  "source": "NCBI Taxonomy"
+ },
+ {
+  "id": "NCBITaxon:851",
+  "display_name": "Fusobacterium nucleatum",
+  "synonyms": [],
+  "source": "NCBI Taxonomy"
+ },
+ {
+  "id": "NCBITaxon:2702",
+  "display_name": "Gardnerella vaginalis",
+  "synonyms": [
+   "Haemophilus vaginalis"
+  ],
+  "source": "NCBI Taxonomy"
+ },
+ {
+  "id": "NCBITaxon:5741",
+  "display_name": "Giardia duodenalis",
+  "synonyms": [
+   "Giardia lamblia",
+   "Giardia intestinalis"
+  ],
+  "source": "NCBI Taxonomy"
+ },
+ {
+  "id": "NCBITaxon:75299",
+  "display_name": "Gnathostoma spinigerum",
+  "synonyms": [],
+  "source": "NCBI Taxonomy"
+ },
+ {
+  "id": "NCBITaxon:46124",
+  "display_name": "Granulicatella adiacens",
+  "synonyms": [
+   "nutritionally variant streptococcus"
+  ],
+  "source": "NCBI Taxonomy"
+ },
+ {
+  "id": "NCBITaxon:727",
+  "display_name": "Haemophilus influenzae",
+  "synonyms": [
+   "Hib",
+   "H. flu"
+  ],
+  "source": "NCBI Taxonomy"
+ },
+ {
+  "id": "NCBITaxon:1216928",
+  "display_name": "Heartland virus",
+  "synonyms": [],
+  "source": "NCBI Taxonomy"
+ },
+ {
+  "id": "NCBITaxon:210",
+  "display_name": "Helicobacter pylori",
+  "synonyms": [
+   "Campylobacter pylori",
+   "H. pylori"
+  ],
+  "source": "NCBI Taxonomy"
+ },
+ {
+  "id": "NCBITaxon:3052223",
+  "display_name": "Henipavirus hendraense",
+  "synonyms": [
+   "Hendra virus"
+  ],
+  "source": "NCBI Taxonomy"
+ },
+ {
+  "id": "NCBITaxon:3052225",
+  "display_name": "Henipavirus nipahense",
+  "synonyms": [
+   "Nipah virus",
+   "NiV"
+  ],
+  "source": "NCBI Taxonomy"
+ },
+ {
+  "id": "NCBITaxon:10407",
+  "display_name": "Hepatitis B virus",
+  "synonyms": [
+   "HBV",
+   "Dane particle"
+  ],
+  "source": "NCBI Taxonomy"
+ },
+ {
+  "id": "NCBITaxon:12475",
+  "display_name": "Hepatitis delta virus",
+  "synonyms": [
+   "Hepatitis D virus",
+   "HDV",
+   "delta agent"
+  ],
+  "source": "NCBI Taxonomy"
+ },
+ {
+  "id": "NCBITaxon:291484",
+  "display_name": "Hepatitis E virus",
+  "synonyms": [
+   "HEV"
+  ],
+  "source": "NCBI Taxonomy"
+ },
+ {
+  "id": "NCBITaxon:12092",
+  "display_name": "Hepatovirus A",
+  "synonyms": [
+   "Hepatitis A virus",
+   "HAV"
+  ],
+  "source": "NCBI Taxonomy"
+ },
+ {
+  "id": "NCBITaxon:5037",
+  "display_name": "Histoplasma capsulatum",
+  "synonyms": [
+   "Darling disease fungus"
+  ],
+  "source": "NCBI Taxonomy"
+ },
+ {
+  "id": "NCBITaxon:91943",
+  "display_name": "Hortaea werneckii",
+  "synonyms": [
+   "Exophiala werneckii",
+   "tinea nigra fungus"
+  ],
+  "source": "NCBI Taxonomy"
+ },
+ {
+  "id": "NCBITaxon:1907210",
+  "display_name": "Human adenovirus sp.",
+  "synonyms": [
+   "Human adenovirus",
+   "adenovirus",
+   "HAdV"
+  ],
+  "source": "NCBI Taxonomy"
+ },
+ {
+  "id": "NCBITaxon:10298",
+  "display_name": "Human alphaherpesvirus 1",
+  "synonyms": [
+   "Herpes simplex virus type 1",
+   "HSV-1",
+   "human alphaherpesvirus 1"
+  ],
+  "source": "NCBI Taxonomy"
+ },
+ {
+  "id": "NCBITaxon:10310",
+  "display_name": "Human alphaherpesvirus 2",
+  "synonyms": [
+   "Herpes simplex virus type 2",
+   "HSV-2",
+   "human alphaherpesvirus 2"
+  ],
+  "source": "NCBI Taxonomy"
+ },
+ {
+  "id": "NCBITaxon:10335",
+  "display_name": "Human alphaherpesvirus 3",
+  "synonyms": [
+   "Varicella-zoster virus",
+   "VZV",
+   "chickenpox virus",
+   "shingles virus",
+   "human alphaherpesvirus 3"
+  ],
+  "source": "NCBI Taxonomy"
+ },
+ {
+  "id": "NCBITaxon:1868658",
+  "display_name": "Human astrovirus",
+  "synonyms": [
+   "astrovirus"
+  ],
+  "source": "NCBI Taxonomy"
+ },
+ {
+  "id": "NCBITaxon:10368",
+  "display_name": "Human betaherpesvirus 6",
+  "synonyms": [
+   "Human herpesvirus 6",
+   "HHV-6",
+   "roseola virus"
+  ],
+  "source": "NCBI Taxonomy"
+ },
+ {
+  "id": "NCBITaxon:10372",
+  "display_name": "Human betaherpesvirus 7",
+  "synonyms": [
+   "Human herpesvirus 7",
+   "HHV-7"
+  ],
+  "source": "NCBI Taxonomy"
+ },
+ {
+  "id": "NCBITaxon:329641",
+  "display_name": "Human bocavirus",
+  "synonyms": [
+   "HBoV"
+  ],
+  "source": "NCBI Taxonomy"
+ },
+ {
+  "id": "NCBITaxon:11137",
+  "display_name": "Human coronavirus 229E",
+  "synonyms": [
+   "HCoV-229E"
+  ],
+  "source": "NCBI Taxonomy"
+ },
+ {
+  "id": "NCBITaxon:277944",
+  "display_name": "Human coronavirus NL63",
+  "synonyms": [
+   "HCoV-NL63"
+  ],
+  "source": "NCBI Taxonomy"
+ },
+ {
+  "id": "NCBITaxon:31631",
+  "display_name": "Human coronavirus OC43",
+  "synonyms": [
+   "HCoV-OC43"
+  ],
+  "source": "NCBI Taxonomy"
+ },
+ {
+  "id": "NCBITaxon:10376",
+  "display_name": "human gammaherpesvirus 4",
+  "synonyms": [
+   "Epstein-Barr virus",
+   "EBV",
+   "mononucleosis virus"
+  ],
+  "source": "NCBI Taxonomy"
+ },
+ {
+  "id": "NCBITaxon:37296",
+  "display_name": "Human gammaherpesvirus 8",
+  "synonyms": [
+   "Human herpesvirus 8",
+   "HHV-8",
+   "Kaposi sarcoma herpesvirus",
+   "KSHV"
+  ],
+  "source": "NCBI Taxonomy"
+ },
+ {
+  "id": "NCBITaxon:11676",
+  "display_name": "Human immunodeficiency virus 1",
+  "synonyms": [
+   "HIV-1",
+   "HIV"
+  ],
+  "source": "NCBI Taxonomy"
+ },
+ {
+  "id": "NCBITaxon:11709",
+  "display_name": "Human immunodeficiency virus 2",
+  "synonyms": [
+   "HIV-2"
+  ],
+  "source": "NCBI Taxonomy"
+ },
+ {
+  "id": "NCBITaxon:162145",
+  "display_name": "human metapneumovirus",
+  "synonyms": [
+   "Human metapneumovirus",
+   "hMPV"
+  ],
+  "source": "NCBI Taxonomy"
+ },
+ {
+  "id": "NCBITaxon:10580",
+  "display_name": "human papillomavirus 11",
+  "synonyms": [
+   "Human papillomavirus 11",
+   "HPV-11"
+  ],
+  "source": "NCBI Taxonomy"
+ },
+ {
+  "id": "NCBITaxon:333760",
+  "display_name": "Human papillomavirus 16",
+  "synonyms": [
+   "HPV-16"
+  ],
+  "source": "NCBI Taxonomy"
+ },
+ {
+  "id": "NCBITaxon:333761",
+  "display_name": "human papillomavirus 18",
+  "synonyms": [
+   "Human papillomavirus 18",
+   "HPV-18"
+  ],
+  "source": "NCBI Taxonomy"
+ },
+ {
+  "id": "NCBITaxon:10798",
+  "display_name": "Human parvovirus B19",
+  "synonyms": [
+   "Parvovirus B19",
+   "erythrovirus B19",
+   "fifth disease virus",
+   "slapped cheek virus"
+  ],
+  "source": "NCBI Taxonomy"
+ },
+ {
+  "id": "NCBITaxon:12730",
+  "display_name": "Human respirovirus 1",
+  "synonyms": [
+   "Human parainfluenza virus 1",
+   "HPIV-1",
+   "croup virus"
+  ],
+  "source": "NCBI Taxonomy"
+ },
+ {
+  "id": "NCBITaxon:11216",
+  "display_name": "Human respirovirus 3",
+  "synonyms": [
+   "Human parainfluenza virus 3",
+   "HPIV-3"
+  ],
+  "source": "NCBI Taxonomy"
+ },
+ {
+  "id": "NCBITaxon:169066",
+  "display_name": "Human rhinovirus sp.",
+  "synonyms": [
+   "Human rhinovirus",
+   "common cold virus",
+   "HRV"
+  ],
+  "source": "NCBI Taxonomy"
+ },
+ {
+  "id": "NCBITaxon:11908",
+  "display_name": "Human T-cell leukemia virus type I",
+  "synonyms": [
+   "Human T-lymphotropic virus 1",
+   "HTLV-1",
+   "adult T-cell leukemia virus"
+  ],
+  "source": "NCBI Taxonomy"
+ },
+ {
+  "id": "NCBITaxon:11909",
+  "display_name": "Human T-lymphotropic virus 2",
+  "synonyms": [
+   "HTLV-2"
+  ],
+  "source": "NCBI Taxonomy"
+ },
+ {
+  "id": "NCBITaxon:11320",
+  "display_name": "Influenza A virus",
+  "synonyms": [
+   "flu A",
+   "H1N1",
+   "H3N2",
+   "H5N1 avian influenza"
+  ],
+  "source": "NCBI Taxonomy"
+ },
+ {
+  "id": "NCBITaxon:11520",
+  "display_name": "Influenza B virus",
+  "synonyms": [
+   "flu B"
+  ],
+  "source": "NCBI Taxonomy"
+ },
+ {
+  "id": "NCBITaxon:34613",
+  "display_name": "Ixodes ricinus",
+  "synonyms": [
+   "castor bean tick",
+   "sheep tick"
+  ],
+  "source": "NCBI Taxonomy"
+ },
+ {
+  "id": "NCBITaxon:6945",
+  "display_name": "Ixodes scapularis",
+  "synonyms": [
+   "blacklegged tick",
+   "deer tick"
+  ],
+  "source": "NCBI Taxonomy"
+ },
+ {
+  "id": "NCBITaxon:11072",
+  "display_name": "Japanese encephalitis virus",
+  "synonyms": [
+   "JEV"
+  ],
+  "source": "NCBI Taxonomy"
+ },
+ {
+  "id": "NCBITaxon:10632",
+  "display_name": "JC polyomavirus",
+  "synonyms": [
+   "JC virus",
+   "PML agent"
+  ],
+  "source": "NCBI Taxonomy"
+ },
+ {
+  "id": "NCBITaxon:504",
+  "display_name": "Kingella kingae",
+  "synonyms": [
+   "HACEK organism"
+  ],
+  "source": "NCBI Taxonomy"
+ },
+ {
+  "id": "NCBITaxon:548",
+  "display_name": "Klebsiella aerogenes",
+  "synonyms": [
+   "Enterobacter aerogenes"
+  ],
+  "source": "NCBI Taxonomy"
+ },
+ {
+  "id": "NCBITaxon:39824",
+  "display_name": "Klebsiella granulomatis",
+  "synonyms": [
+   "Calymmatobacterium granulomatis",
+   "donovanosis bacillus"
+  ],
+  "source": "NCBI Taxonomy"
+ },
+ {
+  "id": "NCBITaxon:571",
+  "display_name": "Klebsiella oxytoca",
+  "synonyms": [],
+  "source": "NCBI Taxonomy"
+ },
+ {
+  "id": "NCBITaxon:573",
+  "display_name": "Klebsiella pneumoniae",
+  "synonyms": [
+   "Friedlander bacillus",
+   "CRE"
+  ],
+  "source": "NCBI Taxonomy"
+ },
+ {
+  "id": "NCBITaxon:33743",
+  "display_name": "Kyasanur Forest disease virus",
+  "synonyms": [
+   "KFDV",
+   "monkey fever virus"
+  ],
+  "source": "NCBI Taxonomy"
+ },
+ {
+  "id": "NCBITaxon:11577",
+  "display_name": "La Crosse virus",
+  "synonyms": [
+   "California encephalitis virus"
+  ],
+  "source": "NCBI Taxonomy"
+ },
+ {
+  "id": "NCBITaxon:121752",
+  "display_name": "Lacazia loboi",
+  "synonyms": [
+   "Loboa loboi",
+   "lobomycosis agent"
+  ],
+  "source": "NCBI Taxonomy"
+ },
+ {
+  "id": "NCBITaxon:451",
+  "display_name": "Legionella micdadei",
+  "synonyms": [
+   "Pittsburgh pneumonia agent"
+  ],
+  "source": "NCBI Taxonomy"
+ },
+ {
+  "id": "NCBITaxon:446",
+  "display_name": "Legionella pneumophila",
+  "synonyms": [
+   "Legionnaires disease bacterium"
+  ],
+  "source": "NCBI Taxonomy"
+ },
+ {
+  "id": "NCBITaxon:5660",
+  "display_name": "Leishmania braziliensis",
+  "synonyms": [
+   "espundia parasite"
+  ],
+  "source": "NCBI Taxonomy"
+ },
+ {
+  "id": "NCBITaxon:5661",
+  "display_name": "Leishmania donovani",
+  "synonyms": [
+   "kala-azar parasite"
+  ],
+  "source": "NCBI Taxonomy"
+ },
+ {
+  "id": "NCBITaxon:5671",
+  "display_name": "Leishmania infantum",
+  "synonyms": [
+   "Leishmania chagasi"
+  ],
+  "source": "NCBI Taxonomy"
+ },
+ {
+  "id": "NCBITaxon:5664",
+  "display_name": "Leishmania major",
+  "synonyms": [],
+  "source": "NCBI Taxonomy"
+ },
+ {
+  "id": "NCBITaxon:5666",
+  "display_name": "Leishmania tropica",
+  "synonyms": [],
+  "source": "NCBI Taxonomy"
+ },
+ {
+  "id": "NCBITaxon:173",
+  "display_name": "Leptospira interrogans",
+  "synonyms": [
+   "Weil disease spirochete"
+  ],
+  "source": "NCBI Taxonomy"
+ },
+ {
+  "id": "NCBITaxon:299467",
+  "display_name": "Leptotrombidium deliense",
+  "synonyms": [
+   "scrub typhus chigger",
+   "trombiculid mite"
+  ],
+  "source": "NCBI Taxonomy"
+ },
+ {
+  "id": "NCBITaxon:42458",
+  "display_name": "Lichtheimia corymbifera",
+  "synonyms": [
+   "Absidia corymbifera"
+  ],
+  "source": "NCBI Taxonomy"
+ },
+ {
+  "id": "NCBITaxon:1639",
+  "display_name": "Listeria monocytogenes",
+  "synonyms": [],
+  "source": "NCBI Taxonomy"
+ },
+ {
+  "id": "NCBITaxon:7209",
+  "display_name": "Loa loa",
+  "synonyms": [
+   "African eye worm"
+  ],
+  "source": "NCBI Taxonomy"
+ },
+ {
+  "id": "NCBITaxon:5480",
+  "display_name": "Lodderomyces parapsilosis",
+  "synonyms": [
+   "Candida parapsilosis"
+  ],
+  "source": "NCBI Taxonomy"
+ },
+ {
+  "id": "NCBITaxon:41688",
+  "display_name": "Lomentospora prolificans",
+  "synonyms": [
+   "Scedosporium prolificans"
+  ],
+  "source": "NCBI Taxonomy"
+ },
+ {
+  "id": "NCBITaxon:11292",
+  "display_name": "Lyssavirus rabies",
+  "synonyms": [
+   "Rabies virus",
+   "lyssavirus",
+   "RABV"
+  ],
+  "source": "NCBI Taxonomy"
+ },
+ {
+  "id": "NCBITaxon:10325",
+  "display_name": "Macacine alphaherpesvirus 1",
+  "synonyms": [
+   "herpes B virus",
+   "monkey B virus"
+  ],
+  "source": "NCBI Taxonomy"
+ },
+ {
+  "id": "NCBITaxon:100816",
+  "display_name": "Madurella mycetomatis",
+  "synonyms": [
+   "black-grain mycetoma fungus"
+  ],
+  "source": "NCBI Taxonomy"
+ },
+ {
+  "id": "NCBITaxon:55194",
+  "display_name": "Malassezia furfur",
+  "synonyms": [
+   "Pityrosporum ovale",
+   "tinea versicolor yeast"
+  ],
+  "source": "NCBI Taxonomy"
+ },
+ {
+  "id": "NCBITaxon:3052303",
+  "display_name": "Mammarenavirus choriomeningitidis",
+  "synonyms": [
+   "Lymphocytic choriomeningitis virus",
+   "LCMV"
+  ],
+  "source": "NCBI Taxonomy"
+ },
+ {
+  "id": "NCBITaxon:3052307",
+  "display_name": "Mammarenavirus guanaritoense",
+  "synonyms": [
+   "Guanarito virus",
+   "Venezuelan hemorrhagic fever virus"
+  ],
+  "source": "NCBI Taxonomy"
+ },
+ {
+  "id": "NCBITaxon:2169991",
+  "display_name": "Mammarenavirus juninense",
+  "synonyms": [
+   "Junin virus",
+   "Argentine hemorrhagic fever virus"
+  ],
+  "source": "NCBI Taxonomy"
+ },
+ {
+  "id": "NCBITaxon:3052310",
+  "display_name": "Mammarenavirus lassaense",
+  "synonyms": [
+   "Lassa virus",
+   "Lassa fever virus"
+  ],
+  "source": "NCBI Taxonomy"
+ },
+ {
+  "id": "NCBITaxon:3052317",
+  "display_name": "Mammarenavirus machupoense",
+  "synonyms": [
+   "Machupo virus",
+   "Bolivian hemorrhagic fever virus"
+  ],
+  "source": "NCBI Taxonomy"
+ },
+ {
+  "id": "NCBITaxon:42231",
+  "display_name": "Mansonella perstans",
+  "synonyms": [],
+  "source": "NCBI Taxonomy"
+ },
+ {
+  "id": "NCBITaxon:59301",
+  "display_name": "Mayaro virus",
+  "synonyms": [
+   "MAYV"
+  ],
+  "source": "NCBI Taxonomy"
+ },
+ {
+  "id": "NCBITaxon:11234",
+  "display_name": "Measles morbillivirus",
+  "synonyms": [
+   "Measles virus",
+   "rubeola virus",
+   "morbillivirus"
+  ],
+  "source": "NCBI Taxonomy"
+ },
+ {
+  "id": "NCBITaxon:493803",
+  "display_name": "Merkel cell polyomavirus",
+  "synonyms": [
+   "MCPyV"
+  ],
+  "source": "NCBI Taxonomy"
+ },
+ {
+  "id": "NCBITaxon:2098",
+  "display_name": "Metamycoplasma hominis",
+  "synonyms": [
+   "Mycoplasma hominis"
+  ],
+  "source": "NCBI Taxonomy"
+ },
+ {
+  "id": "NCBITaxon:34393",
+  "display_name": "Microsporum audouinii",
+  "synonyms": [],
+  "source": "NCBI Taxonomy"
+ },
+ {
+  "id": "NCBITaxon:63405",
+  "display_name": "Microsporum canis",
+  "synonyms": [],
+  "source": "NCBI Taxonomy"
+ },
+ {
+  "id": "NCBITaxon:1335626",
+  "display_name": "Middle East respiratory syndrome-related coronavirus",
+  "synonyms": [
+   "MERS-CoV",
+   "Middle East respiratory syndrome coronavirus"
+  ],
+  "source": "NCBI Taxonomy"
+ },
+ {
+  "id": "NCBITaxon:10279",
+  "display_name": "Molluscum contagiosum virus",
+  "synonyms": [
+   "MCV"
+  ],
+  "source": "NCBI Taxonomy"
+ },
+ {
+  "id": "NCBITaxon:10244",
+  "display_name": "Monkeypox virus",
+  "synonyms": [
+   "mpox virus",
+   "MPXV"
+  ],
+  "source": "NCBI Taxonomy"
+ },
+ {
+  "id": "NCBITaxon:480",
+  "display_name": "Moraxella catarrhalis",
+  "synonyms": [
+   "Branhamella catarrhalis"
+  ],
+  "source": "NCBI Taxonomy"
+ },
+ {
+  "id": "NCBITaxon:582",
+  "display_name": "Morganella morganii",
+  "synonyms": [
+   "Proteus morganii"
+  ],
+  "source": "NCBI Taxonomy"
+ },
+ {
+  "id": "NCBITaxon:36080",
+  "display_name": "Mucor circinelloides",
+  "synonyms": [],
+  "source": "NCBI Taxonomy"
+ },
+ {
+  "id": "NCBITaxon:2560602",
+  "display_name": "Mumps orthorubulavirus",
+  "synonyms": [
+   "Mumps virus"
+  ],
+  "source": "NCBI Taxonomy"
+ },
+ {
+  "id": "NCBITaxon:11079",
+  "display_name": "Murray Valley encephalitis virus",
+  "synonyms": [
+   "MVEV"
+  ],
+  "source": "NCBI Taxonomy"
+ },
+ {
+  "id": "NCBITaxon:1764",
+  "display_name": "Mycobacterium avium",
+  "synonyms": [
+   "MAC",
+   "Mycobacterium avium complex"
+  ],
+  "source": "NCBI Taxonomy"
+ },
+ {
+  "id": "NCBITaxon:29311",
+  "display_name": "Mycobacterium haemophilum",
+  "synonyms": [],
+  "source": "NCBI Taxonomy"
+ },
+ {
+  "id": "NCBITaxon:1767",
+  "display_name": "Mycobacterium intracellulare",
+  "synonyms": [
+   "MAC",
+   "Mycobacterium avium complex"
+  ],
+  "source": "NCBI Taxonomy"
+ },
+ {
+  "id": "NCBITaxon:1768",
+  "display_name": "Mycobacterium kansasii",
+  "synonyms": [],
+  "source": "NCBI Taxonomy"
+ },
+ {
+  "id": "NCBITaxon:1769",
+  "display_name": "Mycobacterium leprae",
+  "synonyms": [
+   "Hansen bacillus",
+   "leprosy bacillus"
+  ],
+  "source": "NCBI Taxonomy"
+ },
+ {
+  "id": "NCBITaxon:1781",
+  "display_name": "Mycobacterium marinum",
+  "synonyms": [
+   "fish tank granuloma agent",
+   "swimming pool granuloma agent"
+  ],
+  "source": "NCBI Taxonomy"
+ },
+ {
+  "id": "NCBITaxon:1783",
+  "display_name": "Mycobacterium scrofulaceum",
+  "synonyms": [],
+  "source": "NCBI Taxonomy"
+ },
+ {
+  "id": "NCBITaxon:1773",
+  "display_name": "Mycobacterium tuberculosis",
+  "synonyms": [
+   "tubercle bacillus",
+   "Koch bacillus",
+   "TB"
+  ],
+  "source": "NCBI Taxonomy"
+ },
+ {
+  "id": "NCBITaxon:1765",
+  "display_name": "Mycobacterium tuberculosis variant bovis",
+  "synonyms": [
+   "Mycobacterium bovis",
+   "bovine tubercle bacillus",
+   "BCG strain"
+  ],
+  "source": "NCBI Taxonomy"
+ },
+ {
+  "id": "NCBITaxon:1809",
+  "display_name": "Mycobacterium ulcerans",
+  "synonyms": [
+   "Buruli ulcer agent"
+  ],
+  "source": "NCBI Taxonomy"
+ },
+ {
+  "id": "NCBITaxon:1789",
+  "display_name": "Mycobacterium xenopi",
+  "synonyms": [],
+  "source": "NCBI Taxonomy"
+ },
+ {
+  "id": "NCBITaxon:36809",
+  "display_name": "Mycobacteroides abscessus",
+  "synonyms": [
+   "Mycobacterium abscessus",
+   "rapidly growing mycobacterium"
+  ],
+  "source": "NCBI Taxonomy"
+ },
+ {
+  "id": "NCBITaxon:1774",
+  "display_name": "Mycobacteroides chelonae",
+  "synonyms": [
+   "Mycobacterium chelonae",
+   "rapidly growing mycobacterium"
+  ],
+  "source": "NCBI Taxonomy"
+ },
+ {
+  "id": "NCBITaxon:1766",
+  "display_name": "Mycolicibacterium fortuitum",
+  "synonyms": [
+   "Mycobacterium fortuitum",
+   "rapidly growing mycobacterium"
+  ],
+  "source": "NCBI Taxonomy"
+ },
+ {
+  "id": "NCBITaxon:2097",
+  "display_name": "Mycoplasmoides genitalium",
+  "synonyms": [
+   "Mycoplasma genitalium"
+  ],
+  "source": "NCBI Taxonomy"
+ },
+ {
+  "id": "NCBITaxon:2104",
+  "display_name": "Mycoplasmoides pneumoniae",
+  "synonyms": [
+   "Mycoplasma pneumoniae",
+   "Eaton agent",
+   "walking pneumonia agent"
+  ],
+  "source": "NCBI Taxonomy"
+ },
+ {
+  "id": "NCBITaxon:5763",
+  "display_name": "Naegleria fowleri",
+  "synonyms": [
+   "brain-eating ameba"
+  ],
+  "source": "NCBI Taxonomy"
+ },
+ {
+  "id": "NCBITaxon:5478",
+  "display_name": "Nakaseomyces glabratus",
+  "synonyms": [
+   "Candida glabrata",
+   "Torulopsis glabrata"
+  ],
+  "source": "NCBI Taxonomy"
+ },
+ {
+  "id": "NCBITaxon:63402",
+  "display_name": "Nannizzia gypsea",
+  "synonyms": [
+   "Microsporum gypseum"
+  ],
+  "source": "NCBI Taxonomy"
+ },
+ {
+  "id": "NCBITaxon:51031",
+  "display_name": "Necator americanus",
+  "synonyms": [
+   "New World hookworm"
+  ],
+  "source": "NCBI Taxonomy"
+ },
+ {
+  "id": "NCBITaxon:485",
+  "display_name": "Neisseria gonorrhoeae",
+  "synonyms": [
+   "gonococcus",
+   "GC"
+  ],
+  "source": "NCBI Taxonomy"
+ },
+ {
+  "id": "NCBITaxon:487",
+  "display_name": "Neisseria meningitidis",
+  "synonyms": [
+   "meningococcus"
+  ],
+  "source": "NCBI Taxonomy"
+ },
+ {
+  "id": "NCBITaxon:1824",
+  "display_name": "Nocardia asteroides",
+  "synonyms": [],
+  "source": "NCBI Taxonomy"
+ },
+ {
+  "id": "NCBITaxon:37326",
+  "display_name": "Nocardia brasiliensis",
+  "synonyms": [],
+  "source": "NCBI Taxonomy"
+ },
+ {
+  "id": "NCBITaxon:37329",
+  "display_name": "Nocardia farcinica",
+  "synonyms": [],
+  "source": "NCBI Taxonomy"
+ },
+ {
+  "id": "NCBITaxon:142786",
+  "display_name": "Norovirus",
+  "synonyms": [
+   "Norwalk virus",
+   "winter vomiting bug"
+  ],
+  "source": "NCBI Taxonomy"
+ },
+ {
+  "id": "NCBITaxon:12542",
+  "display_name": "Omsk hemorrhagic fever virus",
+  "synonyms": [
+   "OHFV"
+  ],
+  "source": "NCBI Taxonomy"
+ },
+ {
+  "id": "NCBITaxon:6282",
+  "display_name": "Onchocerca volvulus",
+  "synonyms": [
+   "river blindness worm"
+  ],
+  "source": "NCBI Taxonomy"
+ },
+ {
+  "id": "NCBITaxon:2169701",
+  "display_name": "Onyong-nyong virus",
+  "synonyms": [
+   "O'nyong-nyong virus",
+   "ONNV"
+  ],
+  "source": "NCBI Taxonomy"
+ },
+ {
+  "id": "NCBITaxon:6198",
+  "display_name": "Opisthorchis viverrini",
+  "synonyms": [
+   "Southeast Asian liver fluke"
+  ],
+  "source": "NCBI Taxonomy"
+ },
+ {
+  "id": "NCBITaxon:10258",
+  "display_name": "Orf virus",
+  "synonyms": [
+   "contagious ecthyma virus",
+   "sheep pox sore virus"
+  ],
+  "source": "NCBI Taxonomy"
+ },
+ {
+  "id": "NCBITaxon:784",
+  "display_name": "Orientia tsutsugamushi",
+  "synonyms": [
+   "scrub typhus agent",
+   "Rickettsia tsutsugamushi"
+  ],
+  "source": "NCBI Taxonomy"
+ },
+ {
+  "id": "NCBITaxon:303297",
+  "display_name": "Ornithodoros hermsi",
+  "synonyms": [
+   "soft tick",
+   "relapsing fever tick"
+  ],
+  "source": "NCBI Taxonomy"
+ },
+ {
+  "id": "NCBITaxon:118655",
+  "display_name": "Oropouche virus",
+  "synonyms": [
+   "OROV"
+  ],
+  "source": "NCBI Taxonomy"
+ },
+ {
+  "id": "NCBITaxon:1980456",
+  "display_name": "Orthohantavirus andesense",
+  "synonyms": [
+   "Andes virus",
+   "ANDV"
+  ],
+  "source": "NCBI Taxonomy"
+ },
+ {
+  "id": "NCBITaxon:3052480",
+  "display_name": "Orthohantavirus hantanense",
+  "synonyms": [
+   "Hantaan virus",
+   "Korean hemorrhagic fever virus",
+   "HFRS agent"
+  ],
+  "source": "NCBI Taxonomy"
+ },
+ {
+  "id": "NCBITaxon:3052493",
+  "display_name": "Orthohantavirus puumalaense",
+  "synonyms": [
+   "Puumala virus",
+   "nephropathia epidemica virus"
+  ],
+  "source": "NCBI Taxonomy"
+ },
+ {
+  "id": "NCBITaxon:3052499",
+  "display_name": "Orthohantavirus sinnombreense",
+  "synonyms": [
+   "Sin Nombre virus",
+   "hantavirus pulmonary syndrome agent"
+  ],
+  "source": "NCBI Taxonomy"
+ },
+ {
+  "id": "NCBITaxon:3052230",
+  "display_name": "Orthohepacivirus hominis",
+  "synonyms": [
+   "Hepatitis C virus",
+   "HCV",
+   "non-A non-B hepatitis virus"
+  ],
+  "source": "NCBI Taxonomy"
+ },
+ {
+  "id": "NCBITaxon:3052505",
+  "display_name": "Orthomarburgvirus marburgense",
+  "synonyms": [
+   "Marburg virus",
+   "MARV"
+  ],
+  "source": "NCBI Taxonomy"
+ },
+ {
+  "id": "NCBITaxon:3052518",
+  "display_name": "Orthonairovirus haemorrhagiae",
+  "synonyms": [
+   "Crimean-Congo hemorrhagic fever virus",
+   "CCHFV"
+  ],
+  "source": "NCBI Taxonomy"
+ },
+ {
+  "id": "NCBITaxon:1457282",
+  "display_name": "Paracapillaria philippinensis",
+  "synonyms": [
+   "Capillaria philippinensis"
+  ],
+  "source": "NCBI Taxonomy"
+ },
+ {
+  "id": "NCBITaxon:121759",
+  "display_name": "Paracoccidioides brasiliensis",
+  "synonyms": [
+   "South American blastomycosis fungus"
+  ],
+  "source": "NCBI Taxonomy"
+ },
+ {
+  "id": "NCBITaxon:100269",
+  "display_name": "Paragonimus kellicotti",
+  "synonyms": [
+   "North American lung fluke"
+  ],
+  "source": "NCBI Taxonomy"
+ },
+ {
+  "id": "NCBITaxon:34504",
+  "display_name": "Paragonimus westermani",
+  "synonyms": [
+   "oriental lung fluke"
+  ],
+  "source": "NCBI Taxonomy"
+ },
+ {
+  "id": "NCBITaxon:33033",
+  "display_name": "Parvimonas micra",
+  "synonyms": [
+   "Peptostreptococcus micros"
+  ],
+  "source": "NCBI Taxonomy"
+ },
+ {
+  "id": "NCBITaxon:747",
+  "display_name": "Pasteurella multocida",
+  "synonyms": [],
+  "source": "NCBI Taxonomy"
+ },
+ {
+  "id": "NCBITaxon:121226",
+  "display_name": "Pediculus humanus capitis",
+  "synonyms": [
+   "head louse"
+  ],
+  "source": "NCBI Taxonomy"
+ },
+ {
+  "id": "NCBITaxon:121224",
+  "display_name": "Pediculus humanus corporis",
+  "synonyms": [
+   "body louse",
+   "clothing louse"
+  ],
+  "source": "NCBI Taxonomy"
+ },
+ {
+  "id": "NCBITaxon:39412",
+  "display_name": "Phialophora verrucosa",
+  "synonyms": [],
+  "source": "NCBI Taxonomy"
+ },
+ {
+  "id": "NCBITaxon:4909",
+  "display_name": "Pichia kudriavzevii",
+  "synonyms": [
+   "Candida krusei"
+  ],
+  "source": "NCBI Taxonomy"
+ },
+ {
+  "id": "NCBITaxon:147573",
+  "display_name": "Piedraia hortae",
+  "synonyms": [
+   "black piedra fungus"
+  ],
+  "source": "NCBI Taxonomy"
+ },
+ {
+  "id": "NCBITaxon:5833",
+  "display_name": "Plasmodium falciparum",
+  "synonyms": [
+   "malignant tertian malaria parasite"
+  ],
+  "source": "NCBI Taxonomy"
+ },
+ {
+  "id": "NCBITaxon:5850",
+  "display_name": "Plasmodium knowlesi",
+  "synonyms": [
+   "monkey malaria parasite"
+  ],
+  "source": "NCBI Taxonomy"
+ },
+ {
+  "id": "NCBITaxon:5858",
+  "display_name": "Plasmodium malariae",
+  "synonyms": [
+   "quartan malaria parasite"
+  ],
+  "source": "NCBI Taxonomy"
+ },
+ {
+  "id": "NCBITaxon:36330",
+  "display_name": "Plasmodium ovale",
+  "synonyms": [],
+  "source": "NCBI Taxonomy"
+ },
+ {
+  "id": "NCBITaxon:5855",
+  "display_name": "Plasmodium vivax",
+  "synonyms": [
+   "benign tertian malaria parasite"
+  ],
+  "source": "NCBI Taxonomy"
+ },
+ {
+  "id": "NCBITaxon:703",
+  "display_name": "Plesiomonas shigelloides",
+  "synonyms": [],
+  "source": "NCBI Taxonomy"
+ },
+ {
+  "id": "NCBITaxon:42068",
+  "display_name": "Pneumocystis jirovecii",
+  "synonyms": [
+   "Pneumocystis carinii",
+   "PJP agent",
+   "PCP agent"
+  ],
+  "source": "NCBI Taxonomy"
+ },
+ {
+  "id": "NCBITaxon:837",
+  "display_name": "Porphyromonas gingivalis",
+  "synonyms": [
+   "Bacteroides gingivalis"
+  ],
+  "source": "NCBI Taxonomy"
+ },
+ {
+  "id": "NCBITaxon:11083",
+  "display_name": "Powassan virus",
+  "synonyms": [
+   "POWV",
+   "deer tick virus"
+  ],
+  "source": "NCBI Taxonomy"
+ },
+ {
+  "id": "NCBITaxon:43767",
+  "display_name": "Prescottella equi",
+  "synonyms": [
+   "Rhodococcus equi",
+   "Corynebacterium equi"
+  ],
+  "source": "NCBI Taxonomy"
+ },
+ {
+  "id": "NCBITaxon:28132",
+  "display_name": "Prevotella melaninogenica",
+  "synonyms": [
+   "Bacteroides melaninogenicus"
+  ],
+  "source": "NCBI Taxonomy"
+ },
+ {
+  "id": "NCBITaxon:584",
+  "display_name": "Proteus mirabilis",
+  "synonyms": [],
+  "source": "NCBI Taxonomy"
+ },
+ {
+  "id": "NCBITaxon:287",
+  "display_name": "Pseudomonas aeruginosa",
+  "synonyms": [
+   "Bacillus pyocyaneus"
+  ],
+  "source": "NCBI Taxonomy"
+ },
+ {
+  "id": "NCBITaxon:121228",
+  "display_name": "Pthirus pubis",
+  "synonyms": [
+   "crab louse",
+   "pubic louse",
+   "Phthirus pubis"
+  ],
+  "source": "NCBI Taxonomy"
+ },
+ {
+  "id": "NCBITaxon:114742",
+  "display_name": "Pythium insidiosum",
+  "synonyms": [
+   "pythiosis agent"
+  ],
+  "source": "NCBI Taxonomy"
+ },
+ {
+  "id": "NCBITaxon:12814",
+  "display_name": "Respiratory syncytial virus",
+  "synonyms": [
+   "RSV",
+   "human orthopneumovirus"
+  ],
+  "source": "NCBI Taxonomy"
+ },
+ {
+  "id": "NCBITaxon:90339",
+  "display_name": "Rhinosporidium seeberi",
+  "synonyms": [
+   "rhinosporidiosis agent"
+  ],
+  "source": "NCBI Taxonomy"
+ },
+ {
+  "id": "NCBITaxon:34632",
+  "display_name": "Rhipicephalus sanguineus",
+  "synonyms": [
+   "brown dog tick"
+  ],
+  "source": "NCBI Taxonomy"
+ },
+ {
+  "id": "NCBITaxon:4840",
+  "display_name": "Rhizomucor pusillus",
+  "synonyms": [],
+  "source": "NCBI Taxonomy"
+ },
+ {
+  "id": "NCBITaxon:64495",
+  "display_name": "Rhizopus arrhizus",
+  "synonyms": [
+   "Rhizopus oryzae",
+   "black bread mold"
+  ],
+  "source": "NCBI Taxonomy"
+ },
+ {
+  "id": "NCBITaxon:5537",
+  "display_name": "Rhodotorula mucilaginosa",
+  "synonyms": [
+   "Rhodotorula rubra"
+  ],
+  "source": "NCBI Taxonomy"
+ },
+ {
+  "id": "NCBITaxon:35788",
+  "display_name": "Rickettsia africae",
+  "synonyms": [
+   "African tick bite fever agent"
+  ],
+  "source": "NCBI Taxonomy"
+ },
+ {
+  "id": "NCBITaxon:786",
+  "display_name": "Rickettsia akari",
+  "synonyms": [
+   "rickettsialpox agent"
+  ],
+  "source": "NCBI Taxonomy"
+ },
+ {
+  "id": "NCBITaxon:781",
+  "display_name": "Rickettsia conorii",
+  "synonyms": [
+   "Mediterranean spotted fever agent",
+   "boutonneuse fever agent"
+  ],
+  "source": "NCBI Taxonomy"
+ },
+ {
+  "id": "NCBITaxon:782",
+  "display_name": "Rickettsia prowazekii",
+  "synonyms": [
+   "epidemic typhus agent"
+  ],
+  "source": "NCBI Taxonomy"
+ },
+ {
+  "id": "NCBITaxon:783",
+  "display_name": "Rickettsia rickettsii",
+  "synonyms": [
+   "Rocky Mountain spotted fever agent"
+  ],
+  "source": "NCBI Taxonomy"
+ },
+ {
+  "id": "NCBITaxon:785",
+  "display_name": "Rickettsia typhi",
+  "synonyms": [
+   "murine typhus agent",
+   "Rickettsia mooseri"
+  ],
+  "source": "NCBI Taxonomy"
+ },
+ {
+  "id": "NCBITaxon:11588",
+  "display_name": "Rift Valley fever virus",
+  "synonyms": [
+   "RVFV"
+  ],
+  "source": "NCBI Taxonomy"
+ },
+ {
+  "id": "NCBITaxon:102285",
+  "display_name": "Rodentolepis nana",
+  "synonyms": [
+   "Hymenolepis nana",
+   "dwarf tapeworm"
+  ],
+  "source": "NCBI Taxonomy"
+ },
+ {
+  "id": "NCBITaxon:11029",
+  "display_name": "Ross River virus",
+  "synonyms": [
+   "epidemic polyarthritis virus"
+  ],
+  "source": "NCBI Taxonomy"
+ },
+ {
+  "id": "NCBITaxon:28875",
+  "display_name": "Rotavirus A",
+  "synonyms": [
+   "rotavirus"
+  ],
+  "source": "NCBI Taxonomy"
+ },
+ {
+  "id": "NCBITaxon:11041",
+  "display_name": "Rubella virus",
+  "synonyms": [
+   "German measles virus"
+  ],
+  "source": "NCBI Taxonomy"
+ },
+ {
+  "id": "NCBITaxon:149539",
+  "display_name": "Salmonella enterica subsp. enterica serovar Enteritidis",
+  "synonyms": [
+   "Salmonella enterica serovar Enteritidis",
+   "Salmonella Enteritidis"
+  ],
+  "source": "NCBI Taxonomy"
+ },
+ {
+  "id": "NCBITaxon:54388",
+  "display_name": "Salmonella enterica subsp. enterica serovar Paratyphi A",
+  "synonyms": [
+   "Salmonella enterica serovar Paratyphi A",
+   "Salmonella Paratyphi A"
+  ],
+  "source": "NCBI Taxonomy"
+ },
+ {
+  "id": "NCBITaxon:90370",
+  "display_name": "Salmonella enterica subsp. enterica serovar Typhi",
+  "synonyms": [
+   "Salmonella enterica serovar Typhi",
+   "Salmonella Typhi",
+   "typhoid bacillus"
+  ],
+  "source": "NCBI Taxonomy"
+ },
+ {
+  "id": "NCBITaxon:90371",
+  "display_name": "Salmonella enterica subsp. enterica serovar Typhimurium",
+  "synonyms": [
+   "Salmonella enterica serovar Typhimurium",
+   "Salmonella Typhimurium",
+   "nontyphoidal Salmonella"
+  ],
+  "source": "NCBI Taxonomy"
+ },
+ {
+  "id": "NCBITaxon:95341",
+  "display_name": "Sapovirus",
+  "synonyms": [
+   "Sapporo virus"
+  ],
+  "source": "NCBI Taxonomy"
+ },
+ {
+  "id": "NCBITaxon:52283",
+  "display_name": "Sarcoptes scabiei",
+  "synonyms": [
+   "itch mite",
+   "scabies mite"
+  ],
+  "source": "NCBI Taxonomy"
+ },
+ {
+  "id": "NCBITaxon:563466",
+  "display_name": "Scedosporium apiospermum",
+  "synonyms": [
+   "Pseudallescheria boydii"
+  ],
+  "source": "NCBI Taxonomy"
+ },
+ {
+  "id": "NCBITaxon:6185",
+  "display_name": "Schistosoma haematobium",
+  "synonyms": [
+   "urinary blood fluke"
+  ],
+  "source": "NCBI Taxonomy"
+ },
+ {
+  "id": "NCBITaxon:6182",
+  "display_name": "Schistosoma japonicum",
+  "synonyms": [],
+  "source": "NCBI Taxonomy"
+ },
+ {
+  "id": "NCBITaxon:6183",
+  "display_name": "Schistosoma mansoni",
+  "synonyms": [
+   "blood fluke",
+   "bilharzia parasite"
+  ],
+  "source": "NCBI Taxonomy"
+ },
+ {
+  "id": "NCBITaxon:38744",
+  "display_name": "Schistosoma mekongi",
+  "synonyms": [],
+  "source": "NCBI Taxonomy"
+ },
+ {
+  "id": "NCBITaxon:615",
+  "display_name": "Serratia marcescens",
+  "synonyms": [],
+  "source": "NCBI Taxonomy"
+ },
+ {
+  "id": "NCBITaxon:2901879",
+  "display_name": "Severe acute respiratory syndrome coronavirus",
+  "synonyms": [
+   "SARS-CoV",
+   "SARS coronavirus",
+   "severe acute respiratory syndrome coronavirus"
+  ],
+  "source": "NCBI Taxonomy"
+ },
+ {
+  "id": "NCBITaxon:2697049",
+  "display_name": "Severe acute respiratory syndrome coronavirus 2",
+  "synonyms": [
+   "SARS-CoV-2",
+   "COVID-19 virus",
+   "severe acute respiratory syndrome coronavirus 2"
+  ],
+  "source": "NCBI Taxonomy"
+ },
+ {
+  "id": "NCBITaxon:1003835",
+  "display_name": "Severe fever with thrombocytopenia syndrome virus",
+  "synonyms": [
+   "SFTSV",
+   "Dabie bandavirus"
+  ],
+  "source": "NCBI Taxonomy"
+ },
+ {
+  "id": "NCBITaxon:622",
+  "display_name": "Shigella dysenteriae",
+  "synonyms": [
+   "Shiga bacillus"
+  ],
+  "source": "NCBI Taxonomy"
+ },
+ {
+  "id": "NCBITaxon:623",
+  "display_name": "Shigella flexneri",
+  "synonyms": [],
+  "source": "NCBI Taxonomy"
+ },
+ {
+  "id": "NCBITaxon:624",
+  "display_name": "Shigella sonnei",
+  "synonyms": [],
+  "source": "NCBI Taxonomy"
+ },
+ {
+  "id": "NCBITaxon:11034",
+  "display_name": "Sindbis virus",
+  "synonyms": [
+   "Ockelbo disease virus",
+   "Pogosta disease virus"
+  ],
+  "source": "NCBI Taxonomy"
+ },
+ {
+  "id": "NCBITaxon:967",
+  "display_name": "Spirillum minus",
+  "synonyms": [
+   "sodoku agent",
+   "rat-bite fever spirillum",
+   "Spirillum"
+  ],
+  "source": "NCBI Taxonomy"
+ },
+ {
+  "id": "NCBITaxon:46899",
+  "display_name": "Spirometra mansonoides",
+  "synonyms": [
+   "sparganosis agent"
+  ],
+  "source": "NCBI Taxonomy"
+ },
+ {
+  "id": "NCBITaxon:545650",
+  "display_name": "Sporothrix brasiliensis",
+  "synonyms": [],
+  "source": "NCBI Taxonomy"
+ },
+ {
+  "id": "NCBITaxon:29908",
+  "display_name": "Sporothrix schenckii",
+  "synonyms": [
+   "rose gardener disease fungus"
+  ],
+  "source": "NCBI Taxonomy"
+ },
+ {
+  "id": "NCBITaxon:11080",
+  "display_name": "St. Louis encephalitis virus",
+  "synonyms": [
+   "SLEV"
+  ],
+  "source": "NCBI Taxonomy"
+ },
+ {
+  "id": "NCBITaxon:1280",
+  "display_name": "Staphylococcus aureus",
+  "synonyms": [
+   "MRSA",
+   "MSSA",
+   "staph aureus"
+  ],
+  "source": "NCBI Taxonomy"
+ },
+ {
+  "id": "NCBITaxon:1282",
+  "display_name": "Staphylococcus epidermidis",
+  "synonyms": [
+   "coagulase-negative staphylococcus"
+  ],
+  "source": "NCBI Taxonomy"
+ },
+ {
+  "id": "NCBITaxon:28035",
+  "display_name": "Staphylococcus lugdunensis",
+  "synonyms": [],
+  "source": "NCBI Taxonomy"
+ },
+ {
+  "id": "NCBITaxon:29385",
+  "display_name": "Staphylococcus saprophyticus",
+  "synonyms": [],
+  "source": "NCBI Taxonomy"
+ },
+ {
+  "id": "NCBITaxon:40324",
+  "display_name": "Stenotrophomonas maltophilia",
+  "synonyms": [
+   "Xanthomonas maltophilia",
+   "Pseudomonas maltophilia"
+  ],
+  "source": "NCBI Taxonomy"
+ },
+ {
+  "id": "NCBITaxon:34105",
+  "display_name": "Streptobacillus moniliformis",
+  "synonyms": [
+   "Haverhill fever agent",
+   "rat-bite fever bacillus"
+  ],
+  "source": "NCBI Taxonomy"
+ },
+ {
+  "id": "NCBITaxon:1311",
+  "display_name": "Streptococcus agalactiae",
+  "synonyms": [
+   "group B Streptococcus",
+   "GBS",
+   "group B strep"
+  ],
+  "source": "NCBI Taxonomy"
+ },
+ {
+  "id": "NCBITaxon:1328",
+  "display_name": "Streptococcus anginosus",
+  "synonyms": [
+   "Streptococcus milleri group"
+  ],
+  "source": "NCBI Taxonomy"
+ },
+ {
+  "id": "NCBITaxon:1334",
+  "display_name": "Streptococcus dysgalactiae",
+  "synonyms": [
+   "group C streptococcus",
+   "group G streptococcus"
+  ],
+  "source": "NCBI Taxonomy"
+ },
+ {
+  "id": "NCBITaxon:315405",
+  "display_name": "Streptococcus gallolyticus",
+  "synonyms": [
+   "Streptococcus bovis",
+   "group D streptococcus"
+  ],
+  "source": "NCBI Taxonomy"
+ },
+ {
+  "id": "NCBITaxon:1309",
+  "display_name": "Streptococcus mutans",
+  "synonyms": [
+   "viridans streptococcus"
+  ],
+  "source": "NCBI Taxonomy"
+ },
+ {
+  "id": "NCBITaxon:1313",
+  "display_name": "Streptococcus pneumoniae",
+  "synonyms": [
+   "pneumococcus",
+   "Diplococcus pneumoniae"
+  ],
+  "source": "NCBI Taxonomy"
+ },
+ {
+  "id": "NCBITaxon:1314",
+  "display_name": "Streptococcus pyogenes",
+  "synonyms": [
+   "group A Streptococcus",
+   "GAS",
+   "group A strep"
+  ],
+  "source": "NCBI Taxonomy"
+ },
+ {
+  "id": "NCBITaxon:1307",
+  "display_name": "Streptococcus suis",
+  "synonyms": [],
+  "source": "NCBI Taxonomy"
+ },
+ {
+  "id": "NCBITaxon:6248",
+  "display_name": "Strongyloides stercoralis",
+  "synonyms": [
+   "threadworm"
+  ],
+  "source": "NCBI Taxonomy"
+ },
+ {
+  "id": "NCBITaxon:6206",
+  "display_name": "Taenia saginata",
+  "synonyms": [
+   "beef tapeworm"
+  ],
+  "source": "NCBI Taxonomy"
+ },
+ {
+  "id": "NCBITaxon:6204",
+  "display_name": "Taenia solium",
+  "synonyms": [
+   "pork tapeworm",
+   "cysticercosis agent"
+  ],
+  "source": "NCBI Taxonomy"
+ },
+ {
+  "id": "NCBITaxon:37727",
+  "display_name": "Talaromyces marneffei",
+  "synonyms": [
+   "Penicillium marneffei"
+  ],
+  "source": "NCBI Taxonomy"
+ },
+ {
+  "id": "NCBITaxon:11084",
+  "display_name": "Tick-borne encephalitis virus",
+  "synonyms": [
+   "TBEV"
+  ],
+  "source": "NCBI Taxonomy"
+ },
+ {
+  "id": "NCBITaxon:11590",
+  "display_name": "Toscana virus",
+  "synonyms": [
+   "TOSV",
+   "sandfly fever Naples virus"
+  ],
+  "source": "NCBI Taxonomy"
+ },
+ {
+  "id": "NCBITaxon:6265",
+  "display_name": "Toxocara canis",
+  "synonyms": [
+   "dog roundworm",
+   "visceral larva migrans agent"
+  ],
+  "source": "NCBI Taxonomy"
+ },
+ {
+  "id": "NCBITaxon:6266",
+  "display_name": "Toxocara cati",
+  "synonyms": [
+   "cat roundworm"
+  ],
+  "source": "NCBI Taxonomy"
+ },
+ {
+  "id": "NCBITaxon:5811",
+  "display_name": "Toxoplasma gondii",
+  "synonyms": [],
+  "source": "NCBI Taxonomy"
+ },
+ {
+  "id": "NCBITaxon:3712027",
+  "display_name": "Treponema carateum",
+  "synonyms": [
+   "pinta agent"
+  ],
+  "source": "NCBI Taxonomy"
+ },
+ {
+  "id": "NCBITaxon:160",
+  "display_name": "Treponema pallidum",
+  "synonyms": [
+   "syphilis spirochete",
+   "Spirochaeta pallida"
+  ],
+  "source": "NCBI Taxonomy"
+ },
+ {
+  "id": "NCBITaxon:53436",
+  "display_name": "Treponema pallidum subsp. endemicum",
+  "synonyms": [
+   "Treponema pallidum subspecies endemicum",
+   "bejel agent",
+   "endemic syphilis agent"
+  ],
+  "source": "NCBI Taxonomy"
+ },
+ {
+  "id": "NCBITaxon:168",
+  "display_name": "Treponema pallidum subsp. pertenue",
+  "synonyms": [
+   "Treponema pallidum subspecies pertenue",
+   "yaws spirochete"
+  ],
+  "source": "NCBI Taxonomy"
+ },
+ {
+  "id": "NCBITaxon:30076",
+  "display_name": "Triatoma infestans",
+  "synonyms": [
+   "kissing bug",
+   "assassin bug",
+   "vinchuca"
+  ],
+  "source": "NCBI Taxonomy"
+ },
+ {
+  "id": "NCBITaxon:6334",
+  "display_name": "Trichinella spiralis",
+  "synonyms": [
+   "trichina worm"
+  ],
+  "source": "NCBI Taxonomy"
+ },
+ {
+  "id": "NCBITaxon:5722",
+  "display_name": "Trichomonas vaginalis",
+  "synonyms": [
+   "trich"
+  ],
+  "source": "NCBI Taxonomy"
+ },
+ {
+  "id": "NCBITaxon:523103",
+  "display_name": "Trichophyton mentagrophytes",
+  "synonyms": [
+   "Trichophyton interdigitale"
+  ],
+  "source": "NCBI Taxonomy"
+ },
+ {
+  "id": "NCBITaxon:5551",
+  "display_name": "Trichophyton rubrum",
+  "synonyms": [
+   "athlete's foot fungus"
+  ],
+  "source": "NCBI Taxonomy"
+ },
+ {
+  "id": "NCBITaxon:34386",
+  "display_name": "Trichophyton schoenleinii",
+  "synonyms": [
+   "favus fungus"
+  ],
+  "source": "NCBI Taxonomy"
+ },
+ {
+  "id": "NCBITaxon:34387",
+  "display_name": "Trichophyton tonsurans",
+  "synonyms": [],
+  "source": "NCBI Taxonomy"
+ },
+ {
+  "id": "NCBITaxon:63417",
+  "display_name": "Trichophyton verrucosum",
+  "synonyms": [],
+  "source": "NCBI Taxonomy"
+ },
+ {
+  "id": "NCBITaxon:82508",
+  "display_name": "Trichosporon asahii",
+  "synonyms": [
+   "Trichosporon beigelii"
+  ],
+  "source": "NCBI Taxonomy"
+ },
+ {
+  "id": "NCBITaxon:36087",
+  "display_name": "Trichuris trichiura",
+  "synonyms": [
+   "whipworm"
+  ],
+  "source": "NCBI Taxonomy"
+ },
+ {
+  "id": "NCBITaxon:2039",
+  "display_name": "Tropheryma whipplei",
+  "synonyms": [
+   "Whipple disease bacillus",
+   "Tropheryma whippelii"
+  ],
+  "source": "NCBI Taxonomy"
+ },
+ {
+  "id": "NCBITaxon:31285",
+  "display_name": "Trypanosoma brucei gambiense",
+  "synonyms": [
+   "West African sleeping sickness parasite"
+  ],
+  "source": "NCBI Taxonomy"
+ },
+ {
+  "id": "NCBITaxon:31286",
+  "display_name": "Trypanosoma brucei rhodesiense",
+  "synonyms": [
+   "East African sleeping sickness parasite"
+  ],
+  "source": "NCBI Taxonomy"
+ },
+ {
+  "id": "NCBITaxon:5693",
+  "display_name": "Trypanosoma cruzi",
+  "synonyms": [
+   "Chagas disease parasite"
+  ],
+  "source": "NCBI Taxonomy"
+ },
+ {
+  "id": "NCBITaxon:214035",
+  "display_name": "Tunga penetrans",
+  "synonyms": [
+   "chigoe flea",
+   "jigger",
+   "sand flea"
+  ],
+  "source": "NCBI Taxonomy"
+ },
+ {
+  "id": "NCBITaxon:2130",
+  "display_name": "Ureaplasma urealyticum",
+  "synonyms": [],
+  "source": "NCBI Taxonomy"
+ },
+ {
+  "id": "NCBITaxon:10255",
+  "display_name": "Variola virus",
+  "synonyms": [
+   "smallpox virus"
+  ],
+  "source": "NCBI Taxonomy"
+ },
+ {
+  "id": "NCBITaxon:11036",
+  "display_name": "Venezuelan equine encephalitis virus",
+  "synonyms": [
+   "VEEV"
+  ],
+  "source": "NCBI Taxonomy"
+ },
+ {
+  "id": "NCBITaxon:666",
+  "display_name": "Vibrio cholerae",
+  "synonyms": [
+   "cholera vibrio",
+   "O1 El Tor",
+   "O139"
+  ],
+  "source": "NCBI Taxonomy"
+ },
+ {
+  "id": "NCBITaxon:670",
+  "display_name": "Vibrio parahaemolyticus",
+  "synonyms": [],
+  "source": "NCBI Taxonomy"
+ },
+ {
+  "id": "NCBITaxon:672",
+  "display_name": "Vibrio vulnificus",
+  "synonyms": [],
+  "source": "NCBI Taxonomy"
+ },
+ {
+  "id": "NCBITaxon:11082",
+  "display_name": "West Nile virus",
+  "synonyms": [
+   "WNV"
+  ],
+  "source": "NCBI Taxonomy"
+ },
+ {
+  "id": "NCBITaxon:11039",
+  "display_name": "Western equine encephalitis virus",
+  "synonyms": [
+   "WEEV"
+  ],
+  "source": "NCBI Taxonomy"
+ },
+ {
+  "id": "NCBITaxon:6293",
+  "display_name": "Wuchereria bancrofti",
+  "synonyms": [
+   "Bancroftian filariasis worm"
+  ],
+  "source": "NCBI Taxonomy"
+ },
+ {
+  "id": "NCBITaxon:163159",
+  "display_name": "Xenopsylla cheopis",
+  "synonyms": [
+   "oriental rat flea"
+  ],
+  "source": "NCBI Taxonomy"
+ },
+ {
+  "id": "NCBITaxon:11089",
+  "display_name": "Yellow fever virus",
+  "synonyms": [
+   "YFV"
+  ],
+  "source": "NCBI Taxonomy"
+ },
+ {
+  "id": "NCBITaxon:630",
+  "display_name": "Yersinia enterocolitica",
+  "synonyms": [],
+  "source": "NCBI Taxonomy"
+ },
+ {
+  "id": "NCBITaxon:632",
+  "display_name": "Yersinia pestis",
+  "synonyms": [
+   "plague bacillus",
+   "Pasteurella pestis"
+  ],
+  "source": "NCBI Taxonomy"
+ },
+ {
+  "id": "NCBITaxon:633",
+  "display_name": "Yersinia pseudotuberculosis",
+  "synonyms": [],
+  "source": "NCBI Taxonomy"
+ },
+ {
+  "id": "NCBITaxon:64320",
+  "display_name": "Zika virus",
+  "synonyms": [
+   "ZIKV"
+  ],
+  "source": "NCBI Taxonomy"
+ }
+]

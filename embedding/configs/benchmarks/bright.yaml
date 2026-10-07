@@ -1,0 +1,82 @@
+name: BRIGHT
+source: 'BRIGHT (Su et al. 2024), `documents` config, gold_ids; excluded_ids removed at scoring. Instructions: FlagEmbedding evaluation/bright/prompts.py BrightShortInstructions, as used by ReasonEmbed''s
+  published 38.1 (scripts/ours/eval_reason_embed_qwen3_8b.sh: 8192/8192)'
+data: data/bright/{task}
+dtype: float16
+max_length: 8192
+model_overrides:
+  Qwen3-Embedding-8B:
+    query_template: 'Instruct: {instruction}
+
+      Query: {text}'
+    instruction_set: default
+  ClinicTron-Qwen:
+    query_template: 'Instruct: {instruction}
+
+      Query: {text}'
+    instruction_set: default
+  NV-Embed-v2:
+    instruction_set: default
+  ClinicTron-NV:
+    instruction_set: default
+tasks:
+  bright_biology:
+    dir: biology
+    instruction: Given a Biology post, retrieve relevant passages that help answer the post.
+    instructions:
+      bright_official: Given a biology post, retrieve relevant passages that help answer the post
+  bright_earth_science:
+    dir: earth_science
+    instruction: Given an Earth Science post, retrieve relevant passages that help answer the post.
+    instructions:
+      bright_official: Given a earth_science post, retrieve relevant passages that help answer the post
+  bright_economics:
+    dir: economics
+    instruction: Given an Economics post, retrieve relevant passages that help answer the post.
+    instructions:
+      bright_official: Given a economics post, retrieve relevant passages that help answer the post
+  bright_psychology:
+    dir: psychology
+    instruction: Given a Psychology post, retrieve relevant passages that help answer the post.
+    instructions:
+      bright_official: Given a psychology post, retrieve relevant passages that help answer the post
+  bright_robotics:
+    dir: robotics
+    instruction: Given a Robotics post, retrieve relevant passages that help answer the post.
+    instructions:
+      bright_official: Given a robotics post, retrieve relevant passages that help answer the post
+  bright_stackoverflow:
+    dir: stackoverflow
+    instruction: Given a Stack Overflow post, retrieve relevant passages that help answer the post.
+    instructions:
+      bright_official: Given a stackoverflow post, retrieve relevant passages that help answer the post
+  bright_sustainable_living:
+    dir: sustainable_living
+    instruction: Given a Sustainable Living post, retrieve relevant passages that help answer the post.
+    instructions:
+      bright_official: Given a sustainable_living post, retrieve relevant passages that help answer the post
+  bright_leetcode:
+    dir: leetcode
+    instruction: Given a Coding problem, retrieve relevant examples that help answer the problem.
+    instructions:
+      bright_official: Given a coding problem, retrieve relevant examples that help answer the problem
+  bright_pony:
+    dir: pony
+    instruction: Given a Pony question, retrieve relevant passages that help answer the question.
+    instructions:
+      bright_official: Given a pony question, retrieve relevant passages that help answer the question
+  bright_aops:
+    dir: aops
+    instruction: Given a Math problem, retrieve relevant examples that help answer the problem.
+    instructions:
+      bright_official: Given a Math problem, retrieve relevant examples that help answer the problem
+  bright_theoremqa_questions:
+    dir: theoremqa_questions
+    instruction: Given a Math problem, retrieve relevant examples that help answer the problem.
+    instructions:
+      bright_official: Given a Math problem, retrieve relevant examples that help answer the problem
+  bright_theoremqa_theorems:
+    dir: theoremqa_theorems
+    instruction: Given a Math problem, retrieve relevant theorems that help answer the problem.
+    instructions:
+      bright_official: Given a Math problem, retrieve relevant theorems that help answer the problem

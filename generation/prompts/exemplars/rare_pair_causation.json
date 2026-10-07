@@ -1,0 +1,27 @@
+[
+  {
+    "query_id": "NQ000620",
+    "text": "Is it okay to give antibiotics with Phentermine?",
+    "census_category": "rare_pair_causation"
+  },
+  {
+    "query_id": "NQ002403",
+    "text": "Can oral iron cause a false positive Hemoccult (guaiac) test?",
+    "census_category": "rare_pair_causation"
+  },
+  {
+    "query_id": "NQ001880",
+    "text": "Are either Entamoeba hartmanni or Blastocystis hominis pathogenic in a patient with diarrhea?",
+    "census_category": "rare_pair_causation"
+  },
+  {
+    "query_id": "NQ002538",
+    "text": "Can acute infection (cellulitis, pneumonia) cause anemia the same way that chronic infection can?",
+    "census_category": "rare_pair_causation"
+  },
+  {
+    "query_id": "NQ001198",
+    "text": "Can adults get bacterial laryngotracheitis?",
+    "census_category": "rare_pair_causation"
+  }
+]

@@ -1,0 +1,28 @@
+name: Biomedical BEIR (NFCorpus, SciFact, TREC-COVID)
+source: BEIR test splits; these are MTEB tasks, so MTEB's protocol applies. instruction = Qwen3-Embedding evaluation/task_prompts.json (sha256 c9493103...); nv = NV-Embed-v2 Table 13 (exact-name match under
+  mteb 1.18)
+data: data/beir_bio/{task}
+dtype: float16
+max_length: 8192
+model_overrides:
+  DIVER-4B-1020:
+    query_template: 'Instruct: {instruction}
+
+      Query:{text}'
+    instruction_suffix: ''
+tasks:
+  beir_NFCorpus:
+    dir: NFCorpus
+    instruction: Given a question, retrieve relevant documents that best answer the question
+    instructions:
+      nv: Given a question, retrieve relevant documents that answer the question
+  beir_SciFact:
+    dir: SciFact
+    instruction: Given a scientific claim, retrieve documents that support or refute the claim
+    instructions:
+      nv: Given a scientific claim, retrieve documents that support or refute the claim
+  beir_TRECCOVID:
+    dir: TREC-COVID
+    instruction: Given a query on COVID-19, retrieve documents that answer the query
+    instructions:
+      nv: Given a query on COVID-19, retrieve documents that answer the query

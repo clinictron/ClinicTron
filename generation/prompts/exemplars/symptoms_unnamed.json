@@ -1,0 +1,27 @@
+[
+  {
+    "query_id": "NQ003462",
+    "text": "The study physician wrote this:  \"8-year-old male.  How do you get a hemotympanum without trauma?  Do you treat it?  How do you treat it?  Prognosis?",
+    "census_category": "sign_to_differential"
+  },
+  {
+    "query_id": "NQ002734",
+    "text": "What would cause a low serum iron and iron saturation with normal total iron binding capacity (TIBC) and normal ferritin and normal complete blood count (CBC)?",
+    "census_category": "sign_to_differential"
+  },
+  {
+    "query_id": "NQ002150",
+    "text": "What would cause a low diffusing capacity in a 38-year-old woman with dyspnea on exertion?",
+    "census_category": "sign_to_differential"
+  },
+  {
+    "query_id": "NQ001343",
+    "text": "What is the differential diagnosis of night sweats and hyperhidrosis (excessive sweating) and how do you treat it?",
+    "census_category": "sign_to_differential"
+  },
+  {
+    "query_id": "NQ001517",
+    "text": "What would cause unexpected urobilinogen on a urinalysis?",
+    "census_category": "sign_to_differential"
+  }
+]

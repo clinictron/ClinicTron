@@ -1,0 +1,1360 @@
+[
+ {
+  "id": "CVX:143",
+  "display_name": "Adenovirus types 4 and 7",
+  "synonyms": [
+   "Adenovirus, type 4 and type 7, live, oral"
+  ],
+  "source": "CDC CVX"
+ },
+ {
+  "id": "CVX:54",
+  "display_name": "adenovirus, type 4",
+  "synonyms": [
+   "adenovirus vaccine, type 4, live, oral"
+  ],
+  "source": "CDC CVX"
+ },
+ {
+  "id": "CVX:55",
+  "display_name": "adenovirus, type 7",
+  "synonyms": [
+   "adenovirus vaccine, type 7, live, oral"
+  ],
+  "source": "CDC CVX"
+ },
+ {
+  "id": "CVX:318",
+  "display_name": "Anthrax, post-exposure prophylaxis",
+  "synonyms": [
+   "Anthrax vaccine, adsorbed, adjuvanted, post-exposure prophylaxis"
+  ],
+  "source": "CDC CVX"
+ },
+ {
+  "id": "CVX:24",
+  "display_name": "Anthrax, pre-exposure prophylaxis and post-exposure prophylaxis vaccine",
+  "synonyms": [
+   "Anthrax vaccine, adsorbed, pre-exposure and post-exposure prophylaxis"
+  ],
+  "source": "CDC CVX"
+ },
+ {
+  "id": "CVX:19",
+  "display_name": "BCG",
+  "synonyms": [
+   "Bacillus Calmette-Guerin vaccine"
+  ],
+  "source": "CDC CVX"
+ },
+ {
+  "id": "CVX:173",
+  "display_name": "cholera, BivWC",
+  "synonyms": [],
+  "source": "CDC CVX"
+ },
+ {
+  "id": "CVX:174",
+  "display_name": "cholera, live attenuated",
+  "synonyms": [],
+  "source": "CDC CVX"
+ },
+ {
+  "id": "CVX:172",
+  "display_name": "cholera, WC-rBS",
+  "synonyms": [],
+  "source": "CDC CVX"
+ },
+ {
+  "id": "CVX:510",
+  "display_name": "COVID-19 IV Non-US Vaccine (BIBP, Sinopharm)",
+  "synonyms": [
+   "SARS-COV-2 COVID-19 Inactivated Virus Non-US Vaccine Product (BIBP, Sinopharm)"
+  ],
+  "source": "CDC CVX"
+ },
+ {
+  "id": "CVX:511",
+  "display_name": "COVID-19 IV Non-US Vaccine (CoronaVac, Sinovac)",
+  "synonyms": [
+   "SARS-COV-2 COVID-19 Inactivated Virus Non-US Vaccine Product (CoronaVac, Sinovac)"
+  ],
+  "source": "CDC CVX"
+ },
+ {
+  "id": "CVX:502",
+  "display_name": "COVID-19 IV Non-US Vaccine (COVAXIN)",
+  "synonyms": [
+   "SARS-COV-2 COVID-19 Inactivated Virus Non-US Vaccine Product (COVAXIN)"
+  ],
+  "source": "CDC CVX"
+ },
+ {
+  "id": "CVX:501",
+  "display_name": "COVID-19 IV Non-US Vaccine (QAZCOVID-IN)",
+  "synonyms": [
+   "SARS-COV-2 COVID-19 Inactivated Virus Non-US Vaccine Product (QAZCOVID-IN)"
+  ],
+  "source": "CDC CVX"
+ },
+ {
+  "id": "CVX:503",
+  "display_name": "COVID-19 LAV Non-US Vaccine (COVIVAC)",
+  "synonyms": [
+   "SARS-COV-2 COVID-19 Live Attenuated Virus Non-US Vaccine Product (COVIVAC)"
+  ],
+  "source": "CDC CVX"
+ },
+ {
+  "id": "CVX:519",
+  "display_name": "COVID-19 mRNA, bivalent, original/Omicron BA.1, Non-US Vaccine (Spikevax Bivalent), Moderna",
+  "synonyms": [
+   "SARS-COV-2 COVID-19 mRNA, bivalent, original/Omicron BA.1, Non-US Vaccine (Spikevax Bivalent), Moderna"
+  ],
+  "source": "CDC CVX"
+ },
+ {
+  "id": "CVX:520",
+  "display_name": "COVID-19 mRNA, bivalent, original/Omicron BA.1, Pfizer-BioNTech vaccine",
+  "synonyms": [
+   "SARS-COV-2 COVID-19 mRNA, bivalent, original/Omicron BA.1, Non-US Vaccine Product (Comirnaty Bivalent), Pfizer-BioNTech"
+  ],
+  "source": "CDC CVX"
+ },
+ {
+  "id": "CVX:507",
+  "display_name": "COVID-19 PS Non-US Vaccine (Anhui Zhifei Longcom Biopharm + Inst of Micro, Chinese Acad of Sciences)",
+  "synonyms": [
+   "SARS-COV-2 COVID-19 Protein Subunit Non-US Vaccine Product (Anhui Zhifei Longcom Biopharmaceutical + Institute of Microbiology, Chinese Academy of Sciences)"
+  ],
+  "source": "CDC CVX"
+ },
+ {
+  "id": "CVX:509",
+  "display_name": "COVID-19 PS Non-US Vaccine (EpiVacCorona)",
+  "synonyms": [
+   "SARS-COV-2 COVID-19 Protein Subunit Non-US Vaccine Product (EpiVacCorona)"
+  ],
+  "source": "CDC CVX"
+ },
+ {
+  "id": "CVX:508",
+  "display_name": "COVID-19 PS Non-US Vaccine (Jiangsu Province Centers for Disease Control and Prevention)",
+  "synonyms": [
+   "SARS-COV-2 COVID-19 Protein Subunit Non-US Vaccine Product (Jiangsu Province Centers for Disease Control and Prevention)"
+  ],
+  "source": "CDC CVX"
+ },
+ {
+  "id": "CVX:521",
+  "display_name": "COVID-19 SP, protein-based, adjuvanted (VidPrevtyn Beta), Sanofi-GSK",
+  "synonyms": [
+   "SARS-COV-2 (COVID-19) vaccine SP, protein-based, adjuvanted, B.1.351 strain (VidPrevtyn Beta), Sanofi-GSK"
+  ],
+  "source": "CDC CVX"
+ },
+ {
+  "id": "CVX:506",
+  "display_name": "COVID-19 VVnr Non-US Vaccine (CanSino Biological Inc./Beijing Institute of Biotechnology",
+  "synonyms": [
+   "SARS-COV-2 COVID-19 Viral Vector Non-replicating Non-US Vaccine Product (CONVIDECIA), CanSino Biological Inc./Beijing Institute of Biotechnology"
+  ],
+  "source": "CDC CVX"
+ },
+ {
+  "id": "CVX:504",
+  "display_name": "COVID-19 VVnr Non-US Vaccine (Sputnik Light)",
+  "synonyms": [
+   "SARS-COV-2 COVID-19 Viral Vector Non-replicating Non-US Vaccine Product (Sputnik Light)"
+  ],
+  "source": "CDC CVX"
+ },
+ {
+  "id": "CVX:505",
+  "display_name": "COVID-19 VVnr Non-US Vaccine (Sputnik V)",
+  "synonyms": [
+   "SARS-COV-2 COVID-19 Viral Vector Non-replicating Non-US Vaccine Product (Sputnik V)"
+  ],
+  "source": "CDC CVX"
+ },
+ {
+  "id": "CVX:229",
+  "display_name": "COVID-19, mRNA, bivalent vaccine",
+  "synonyms": [
+   "SARS-COV-2 (COVID-19) vaccine, mRNA, spike protein, LNP, bivalent, preservative free, 50 mcg/0.5 mL or 25 mcg/0.25 mL dose"
+  ],
+  "source": "CDC CVX"
+ },
+ {
+  "id": "CVX:227",
+  "display_name": "COVID-19, mRNA, pediatric vaccine",
+  "synonyms": [
+   "SARS-COV-2 (COVID-19) vaccine, mRNA, spike protein, LNP, preservative free, pediatric 50 mcg/0.5 mL dose"
+  ],
+  "source": "CDC CVX"
+ },
+ {
+  "id": "CVX:56",
+  "display_name": "dengue fever tetravalent",
+  "synonyms": [
+   "dengue fever vaccine, tetravalent"
+  ],
+  "source": "CDC CVX"
+ },
+ {
+  "id": "CVX:28",
+  "display_name": "DT (pediatric)",
+  "synonyms": [
+   "diphtheria and tetanus toxoids, adsorbed for pediatric use"
+  ],
+  "source": "CDC CVX"
+ },
+ {
+  "id": "CVX:195",
+  "display_name": "DT, IPV adsorbed",
+  "synonyms": [
+   "Diphtheria, Tetanus, Poliomyelitis adsorbed"
+  ],
+  "source": "CDC CVX"
+ },
+ {
+  "id": "CVX:20",
+  "display_name": "DTaP",
+  "synonyms": [
+   "diphtheria, tetanus toxoids and acellular pertussis vaccine"
+  ],
+  "source": "CDC CVX"
+ },
+ {
+  "id": "CVX:106",
+  "display_name": "DTaP, 5 pertussis antigens",
+  "synonyms": [
+   "diphtheria, tetanus toxoids and acellular pertussis vaccine, 5 pertussis antigens"
+  ],
+  "source": "CDC CVX"
+ },
+ {
+  "id": "CVX:146",
+  "display_name": "DTaP, IPV, Hib, HepB vaccine",
+  "synonyms": [
+   "Diphtheria and Tetanus Toxoids and Acellular Pertussis Adsorbed, Inactivated Poliovirus, Haemophilus b Conjugate (Meningococcal Protein Conjugate), and Hepatitis B (Recombinant) Vaccine."
+  ],
+  "source": "CDC CVX"
+ },
+ {
+  "id": "CVX:110",
+  "display_name": "DTaP-Hep B-IPV",
+  "synonyms": [
+   "DTaP-hepatitis B and poliovirus vaccine"
+  ],
+  "source": "CDC CVX"
+ },
+ {
+  "id": "CVX:50",
+  "display_name": "DTaP-Hib",
+  "synonyms": [
+   "DTaP-Haemophilus influenzae type b conjugate vaccine"
+  ],
+  "source": "CDC CVX"
+ },
+ {
+  "id": "CVX:120",
+  "display_name": "DTaP-Hib-IPV",
+  "synonyms": [
+   "diphtheria, tetanus toxoids and acellular pertussis vaccine, Haemophilus influenzae type b conjugate, and poliovirus vaccine, inactivated (DTaP-Hib-IPV)"
+  ],
+  "source": "CDC CVX"
+ },
+ {
+  "id": "CVX:130",
+  "display_name": "DTaP-IPV",
+  "synonyms": [
+   "Diphtheria, tetanus toxoids and acellular pertussis vaccine, and poliovirus vaccine, inactivated"
+  ],
+  "source": "CDC CVX"
+ },
+ {
+  "id": "CVX:132",
+  "display_name": "DTaP-IPV-HIB-HEP B, historical",
+  "synonyms": [
+   "Historical diphtheria and tetanus toxoids and acellular pertussis, poliovirus, Haemophilus b conjugate and hepatitis B (recombinant) vaccine."
+  ],
+  "source": "CDC CVX"
+ },
+ {
+  "id": "CVX:170",
+  "display_name": "DTAP/IPV/HIB - non-US",
+  "synonyms": [
+   "non-US diphtheria, tetanus toxoids and acellular pertussis vaccine, Haemophilus influenzae type b conjugate, and poliovirus vaccine, inactivated (DTaP-Hib-IPV)"
+  ],
+  "source": "CDC CVX"
+ },
+ {
+  "id": "CVX:01",
+  "display_name": "DTP",
+  "synonyms": [
+   "diphtheria, tetanus toxoids and pertussis vaccine"
+  ],
+  "source": "CDC CVX"
+ },
+ {
+  "id": "CVX:198",
+  "display_name": "DTP-hepB-Hib Pentavalent Non-US",
+  "synonyms": [
+   "Diphtheria, pertussis, tetanus, hepatitis B, Haemophilus Influenza Type b, (Pentavalent)"
+  ],
+  "source": "CDC CVX"
+ },
+ {
+  "id": "CVX:22",
+  "display_name": "DTP-Hib",
+  "synonyms": [
+   "DTP-Haemophilus influenzae type b conjugate vaccine"
+  ],
+  "source": "CDC CVX"
+ },
+ {
+  "id": "CVX:102",
+  "display_name": "DTP-Hib-Hep B",
+  "synonyms": [
+   "DTP- Haemophilus influenzae type b conjugate and hepatitis b vaccine"
+  ],
+  "source": "CDC CVX"
+ },
+ {
+  "id": "CVX:52",
+  "display_name": "Hep A, adult",
+  "synonyms": [
+   "hepatitis A vaccine, adult dosage"
+  ],
+  "source": "CDC CVX"
+ },
+ {
+  "id": "CVX:169",
+  "display_name": "Hep A, live attenuated",
+  "synonyms": [
+   "Hep A, live attenuated-IM"
+  ],
+  "source": "CDC CVX"
+ },
+ {
+  "id": "CVX:104",
+  "display_name": "Hep A-Hep B",
+  "synonyms": [
+   "hepatitis A and hepatitis B vaccine"
+  ],
+  "source": "CDC CVX"
+ },
+ {
+  "id": "CVX:193",
+  "display_name": "Hep A-Hep B, pediatric/adolescent",
+  "synonyms": [
+   "hepatitis A and hepatitis B vaccine, pediatric/adolescent (non-US)"
+  ],
+  "source": "CDC CVX"
+ },
+ {
+  "id": "CVX:08",
+  "display_name": "Hep B, adolescent or pediatric",
+  "synonyms": [
+   "hepatitis B vaccine, pediatric or pediatric/adolescent dosage"
+  ],
+  "source": "CDC CVX"
+ },
+ {
+  "id": "CVX:42",
+  "display_name": "Hep B, adolescent/high risk infant",
+  "synonyms": [
+   "hepatitis B vaccine, adolescent/high risk infant dosage"
+  ],
+  "source": "CDC CVX"
+ },
+ {
+  "id": "CVX:43",
+  "display_name": "Hep B, adult",
+  "synonyms": [
+   "hepatitis B vaccine, adult dosage"
+  ],
+  "source": "CDC CVX"
+ },
+ {
+  "id": "CVX:44",
+  "display_name": "Hep B, high-dosage, dialysis or IC",
+  "synonyms": [
+   "Hepatitis B vaccine (Hep B), high-dosage, dialysis or immunocompromised patient"
+  ],
+  "source": "CDC CVX"
+ },
+ {
+  "id": "CVX:220",
+  "display_name": "HepB recombinant, 3-antigen, Al(OH)3",
+  "synonyms": [
+   "Hepatitis B vaccine (recombinant), 3-antigen, Al(OH)3 adjuvanted"
+  ],
+  "source": "CDC CVX"
+ },
+ {
+  "id": "CVX:189",
+  "display_name": "HepB-CpG",
+  "synonyms": [
+   "Hepatitis B vaccine (recombinant), CpG adjuvanted"
+  ],
+  "source": "CDC CVX"
+ },
+ {
+  "id": "CVX:47",
+  "display_name": "Hib (HbOC)",
+  "synonyms": [
+   "Haemophilus influenzae type b vaccine, HbOC conjugate"
+  ],
+  "source": "CDC CVX"
+ },
+ {
+  "id": "CVX:46",
+  "display_name": "Hib (PRP-D)",
+  "synonyms": [
+   "Haemophilus influenzae type b vaccine, PRP-D conjugate"
+  ],
+  "source": "CDC CVX"
+ },
+ {
+  "id": "CVX:49",
+  "display_name": "Hib (PRP-OMP)",
+  "synonyms": [
+   "Haemophilus influenzae type b vaccine, PRP-OMP conjugate"
+  ],
+  "source": "CDC CVX"
+ },
+ {
+  "id": "CVX:48",
+  "display_name": "Hib (PRP-T)",
+  "synonyms": [
+   "Haemophilus influenzae type b vaccine, PRP-T conjugate"
+  ],
+  "source": "CDC CVX"
+ },
+ {
+  "id": "CVX:51",
+  "display_name": "Hib-Hep B",
+  "synonyms": [
+   "Haemophilus influenzae type b conjugate and Hepatitis B vaccine"
+  ],
+  "source": "CDC CVX"
+ },
+ {
+  "id": "CVX:118",
+  "display_name": "HPV, bivalent",
+  "synonyms": [
+   "human papilloma virus vaccine, bivalent"
+  ],
+  "source": "CDC CVX"
+ },
+ {
+  "id": "CVX:62",
+  "display_name": "HPV, quadrivalent",
+  "synonyms": [
+   "human papilloma virus vaccine, quadrivalent"
+  ],
+  "source": "CDC CVX"
+ },
+ {
+  "id": "CVX:165",
+  "display_name": "HPV9",
+  "synonyms": [
+   "Human Papillomavirus 9-valent vaccine"
+  ],
+  "source": "CDC CVX"
+ },
+ {
+  "id": "CVX:160",
+  "display_name": "Influenza A monovalent (H5N1), ADJUVANTED-2013",
+  "synonyms": [
+   "Influenza A monovalent (H5N1), adjuvanted, National stockpile 2013"
+  ],
+  "source": "CDC CVX"
+ },
+ {
+  "id": "CVX:205",
+  "display_name": "Influenza, adjuvanted, quadrivalent, PF",
+  "synonyms": [
+   "Influenza, adjuvanted, inactivated, quadrivalent, injectable, preservative free"
+  ],
+  "source": "CDC CVX"
+ },
+ {
+  "id": "CVX:168",
+  "display_name": "Influenza, adjuvanted, trivalent, PF",
+  "synonyms": [
+   "Influenza, adjuvanted, inactivated, trivalent, injectable, preservative free"
+  ],
+  "source": "CDC CVX"
+ },
+ {
+  "id": "CVX:123",
+  "display_name": "influenza, H5N1-1203",
+  "synonyms": [
+   "influenza virus vaccine, H5N1, A/Vietnam/1203/2004 (national stockpile)"
+  ],
+  "source": "CDC CVX"
+ },
+ {
+  "id": "CVX:197",
+  "display_name": "Influenza, high-dose, quadrivalent, PF",
+  "synonyms": [
+   "Influenza, high-dose, split virus, quadrivalent, injectable, preservative free"
+  ],
+  "source": "CDC CVX"
+ },
+ {
+  "id": "CVX:135",
+  "display_name": "Influenza, high-dose, trivalent, PF",
+  "synonyms": [
+   "Influenza, high-dose, split virus, trivalent, injectable, preservative free"
+  ],
+  "source": "CDC CVX"
+ },
+ {
+  "id": "CVX:161",
+  "display_name": "Influenza, injectable, quadrivalent, pediatric vaccine",
+  "synonyms": [
+   "Influenza, injectable,quadrivalent, preservative free, pediatric"
+  ],
+  "source": "CDC CVX"
+ },
+ {
+  "id": "CVX:166",
+  "display_name": "influenza, intradermal, quadrivalent, preservative free",
+  "synonyms": [
+   "influenza, intradermal, quadrivalent, preservative free, injectable"
+  ],
+  "source": "CDC CVX"
+ },
+ {
+  "id": "CVX:149",
+  "display_name": "Influenza, live, quadrivalent, intranasal",
+  "synonyms": [],
+  "source": "CDC CVX"
+ },
+ {
+  "id": "CVX:111",
+  "display_name": "Influenza, live, trivalent, intranasal, PF",
+  "synonyms": [
+   "Influenza, live, trivalent, intranasal, preservative free"
+  ],
+  "source": "CDC CVX"
+ },
+ {
+  "id": "CVX:333",
+  "display_name": "Influenza, live, trivalent, intranasal, self/caregiver administered vaccine",
+  "synonyms": [
+   "Influenza, live, trivalent, intranasal, self or caregiver administered, preservative free"
+  ],
+  "source": "CDC CVX"
+ },
+ {
+  "id": "CVX:171",
+  "display_name": "Influenza, MDCK, quadrivalent, PF",
+  "synonyms": [
+   "Influenza, Madin Darby Canine Kidney, subunit, quadrivalent, injectable, preservative free"
+  ],
+  "source": "CDC CVX"
+ },
+ {
+  "id": "CVX:186",
+  "display_name": "Influenza, MDCK, quadrivalent, with preservative vaccine",
+  "synonyms": [
+   "Influenza, Madin Darby Canine Kidney, subunit, quadrivalent, injectable, contains preservative"
+  ],
+  "source": "CDC CVX"
+ },
+ {
+  "id": "CVX:153",
+  "display_name": "Influenza, MDCK, trivalent, PF",
+  "synonyms": [
+   "Influenza, Madin Darby Canine Kidney, subunit, trivalent, injectable, preservative free"
+  ],
+  "source": "CDC CVX"
+ },
+ {
+  "id": "CVX:320",
+  "display_name": "Influenza, MDCK, trivalent, with preservative vaccine",
+  "synonyms": [
+   "Influenza, Madin Darby Canine Kidney, subunit, trivalent, injectable, contains preservative"
+  ],
+  "source": "CDC CVX"
+ },
+ {
+  "id": "CVX:185",
+  "display_name": "Influenza, recombinant, quadrivalent, PF",
+  "synonyms": [
+   "Influenza, recombinant, quadrivalent, injectable, preservative free"
+  ],
+  "source": "CDC CVX"
+ },
+ {
+  "id": "CVX:155",
+  "display_name": "Influenza, recombinant, trivalent, PF",
+  "synonyms": [
+   "Influenza, recombinant, trivalent, injectable, preservative free"
+  ],
+  "source": "CDC CVX"
+ },
+ {
+  "id": "CVX:144",
+  "display_name": "influenza, seasonal, intradermal, preservative free",
+  "synonyms": [
+   "seasonal influenza, intradermal, preservative free"
+  ],
+  "source": "CDC CVX"
+ },
+ {
+  "id": "CVX:194",
+  "display_name": "Influenza, Southern Hemisphere",
+  "synonyms": [
+   "influenza, Southern Hemisphere, unspecified formulation"
+  ],
+  "source": "CDC CVX"
+ },
+ {
+  "id": "CVX:231",
+  "display_name": "Influenza, Southern Hemisphere, high-dose, quadrivalent vaccine",
+  "synonyms": [
+   "influenza, seasonal, Southern Hemisphere, high-dose, quadrivalent, 0.7mL dose, preservative free"
+  ],
+  "source": "CDC CVX"
+ },
+ {
+  "id": "CVX:337",
+  "display_name": "Influenza, Southern Hemisphere, high-dose, trivalent vaccine",
+  "synonyms": [
+   "Influenza, Southern Hemisphere, high-dose, split virus, trivalent, 0.5 mL, injectable, preservative free"
+  ],
+  "source": "CDC CVX"
+ },
+ {
+  "id": "CVX:200",
+  "display_name": "influenza, Southern Hemisphere, pediatric, preservative free",
+  "synonyms": [
+   "influenza, seasonal, Southern Hemisphere, quadrivalent, pediatric 0.25mL dose, preservative free"
+  ],
+  "source": "CDC CVX"
+ },
+ {
+  "id": "CVX:201",
+  "display_name": "Influenza, Southern Hemisphere, quadrivalent vaccine",
+  "synonyms": [
+   "Influenza, seasonal, Southern Hemisphere, quadrivalent, 0.5 mL dose, preservative free"
+  ],
+  "source": "CDC CVX"
+ },
+ {
+  "id": "CVX:202",
+  "display_name": "Influenza, Southern Hemisphere, quadrivalent, with preservative vaccine",
+  "synonyms": [
+   "influenza, seasonal, Southern Hemisphere, quadrivalent, 0.5mL dose, with preservative"
+  ],
+  "source": "CDC CVX"
+ },
+ {
+  "id": "CVX:331",
+  "display_name": "Influenza, Southern Hemisphere, trivalent, PF",
+  "synonyms": [
+   "Influenza, seasonal, Southern Hemisphere, trivalent, 0.5 mL dose, preservative free"
+  ],
+  "source": "CDC CVX"
+ },
+ {
+  "id": "CVX:15",
+  "display_name": "influenza, split (incl. purified surface antigen)",
+  "synonyms": [
+   "influenza virus vaccine, split virus (incl. purified surface antigen)-retired CODE"
+  ],
+  "source": "CDC CVX"
+ },
+ {
+  "id": "CVX:150",
+  "display_name": "Influenza, split virus, quadrivalent, PF",
+  "synonyms": [
+   "Influenza, split virus, quadrivalent, injectable, preservative free"
+  ],
+  "source": "CDC CVX"
+ },
+ {
+  "id": "CVX:158",
+  "display_name": "Influenza, split virus, quadrivalent, with preservative vaccine",
+  "synonyms": [
+   "Influenza, split virus, quadrivalent, injectable, contains preservative"
+  ],
+  "source": "CDC CVX"
+ },
+ {
+  "id": "CVX:140",
+  "display_name": "Influenza, split virus, trivalent, PF",
+  "synonyms": [
+   "Influenza, split virus, trivalent, injectable, preservative free"
+  ],
+  "source": "CDC CVX"
+ },
+ {
+  "id": "CVX:141",
+  "display_name": "Influenza, split virus, trivalent, with preservative vaccine",
+  "synonyms": [
+   "Influenza, split virus, trivalent, injectable, contains preservative"
+  ],
+  "source": "CDC CVX"
+ },
+ {
+  "id": "CVX:16",
+  "display_name": "influenza, whole",
+  "synonyms": [
+   "influenza virus vaccine, whole virus"
+  ],
+  "source": "CDC CVX"
+ },
+ {
+  "id": "CVX:321",
+  "display_name": "Influenza-avian, H5N8, monovalent, PF",
+  "synonyms": [
+   "Influenza-avian, H5N8, viral-vector, monovalent, injectable, preservative free"
+  ],
+  "source": "CDC CVX"
+ },
+ {
+  "id": "CVX:322",
+  "display_name": "Influenza-avian, H5N8, monovalent, with preservative vaccine",
+  "synonyms": [
+   "Influenza-avian, H5N8, viral-vector, monovalent, injectable, contains preservative"
+  ],
+  "source": "CDC CVX"
+ },
+ {
+  "id": "CVX:10",
+  "display_name": "IPV",
+  "synonyms": [
+   "poliovirus vaccine, inactivated"
+  ],
+  "source": "CDC CVX"
+ },
+ {
+  "id": "CVX:134",
+  "display_name": "Japanese Encephalitis IM",
+  "synonyms": [
+   "Japanese Encephalitis vaccine for intramuscular administration"
+  ],
+  "source": "CDC CVX"
+ },
+ {
+  "id": "CVX:39",
+  "display_name": "Japanese encephalitis SC",
+  "synonyms": [
+   "Japanese Encephalitis Vaccine SC"
+  ],
+  "source": "CDC CVX"
+ },
+ {
+  "id": "CVX:66",
+  "display_name": "Lyme disease",
+  "synonyms": [
+   "Lyme disease vaccine"
+  ],
+  "source": "CDC CVX"
+ },
+ {
+  "id": "CVX:04",
+  "display_name": "M/R",
+  "synonyms": [
+   "measles and rubella virus vaccine"
+  ],
+  "source": "CDC CVX"
+ },
+ {
+  "id": "CVX:05",
+  "display_name": "measles",
+  "synonyms": [
+   "measles virus vaccine"
+  ],
+  "source": "CDC CVX"
+ },
+ {
+  "id": "CVX:191",
+  "display_name": "meningococcal A polysaccharide (non-US)",
+  "synonyms": [
+   "meningococcal A polysaccharide vaccine (non-US)"
+  ],
+  "source": "CDC CVX"
+ },
+ {
+  "id": "CVX:192",
+  "display_name": "meningococcal AC polysaccharide (non-US)",
+  "synonyms": [
+   "meningococcal AC polysaccharide vaccine (non-US)"
+  ],
+  "source": "CDC CVX"
+ },
+ {
+  "id": "CVX:163",
+  "display_name": "meningococcal B, OMV",
+  "synonyms": [
+   "meningococcal B vaccine, recombinant, OMV, adjuvanted"
+  ],
+  "source": "CDC CVX"
+ },
+ {
+  "id": "CVX:162",
+  "display_name": "meningococcal B, recombinant",
+  "synonyms": [
+   "meningococcal B vaccine, fully recombinant"
+  ],
+  "source": "CDC CVX"
+ },
+ {
+  "id": "CVX:103",
+  "display_name": "meningococcal C conjugate",
+  "synonyms": [
+   "meningococcal C conjugate vaccine"
+  ],
+  "source": "CDC CVX"
+ },
+ {
+  "id": "CVX:148",
+  "display_name": "Meningococcal C/Y-HIB PRP",
+  "synonyms": [
+   "Meningococcal Groups C and Y and Haemophilus b Tetanus Toxoid Conjugate Vaccine"
+  ],
+  "source": "CDC CVX"
+ },
+ {
+  "id": "CVX:203",
+  "display_name": "Meningococcal conjugate quadrivalent, MenACWY-TT vaccine",
+  "synonyms": [
+   "meningococcal polysaccharide (groups A, C, Y, W-135) tetanus toxoid conjugate vaccine 0.5mL dose, preservative free"
+  ],
+  "source": "CDC CVX"
+ },
+ {
+  "id": "CVX:136",
+  "display_name": "Meningococcal MCV4O",
+  "synonyms": [
+   "meningococcal oligosaccharide (groups A, C, Y and W-135) diphtheria toxoid conjugate vaccine (MCV4O)"
+  ],
+  "source": "CDC CVX"
+ },
+ {
+  "id": "CVX:114",
+  "display_name": "meningococcal MCV4P",
+  "synonyms": [
+   "meningococcal polysaccharide (groups A, C, Y and W-135) diphtheria toxoid conjugate vaccine (MCV4P)"
+  ],
+  "source": "CDC CVX"
+ },
+ {
+  "id": "CVX:32",
+  "display_name": "meningococcal MPSV4",
+  "synonyms": [
+   "meningococcal polysaccharide vaccine (MPSV4)"
+  ],
+  "source": "CDC CVX"
+ },
+ {
+  "id": "CVX:328",
+  "display_name": "Meningococcal oligosaccharide (MenACWY), (MenB), PF",
+  "synonyms": [
+   "Meningococcal oligosaccharide conjugated (groups A, C, W, Y) and group B, 0.5 mL, preservative free"
+  ],
+  "source": "CDC CVX"
+ },
+ {
+  "id": "CVX:316",
+  "display_name": "Meningococcal polysaccharide (MenACWY-TT conjugate), (MenB), PF",
+  "synonyms": [
+   "Meningococcal polysaccharide (groups A, C, Y, W) tetanus toxoid conjugate, meningococcal B recombinant vaccine, 0.5mL, preservative free"
+  ],
+  "source": "CDC CVX"
+ },
+ {
+  "id": "CVX:167",
+  "display_name": "meningococcal, unknown serogroups",
+  "synonyms": [
+   "meningococcal vaccine of unknown formulation and unknown serogroups"
+  ],
+  "source": "CDC CVX"
+ },
+ {
+  "id": "CVX:03",
+  "display_name": "MMR",
+  "synonyms": [
+   "measles, mumps and rubella virus vaccine"
+  ],
+  "source": "CDC CVX"
+ },
+ {
+  "id": "CVX:94",
+  "display_name": "MMRV",
+  "synonyms": [
+   "measles, mumps, rubella, and varicella virus vaccine"
+  ],
+  "source": "CDC CVX"
+ },
+ {
+  "id": "CVX:07",
+  "display_name": "mumps",
+  "synonyms": [
+   "mumps virus vaccine"
+  ],
+  "source": "CDC CVX"
+ },
+ {
+  "id": "CVX:127",
+  "display_name": "Novel influenza-H1N1-09",
+  "synonyms": [
+   "Novel influenza-H1N1-09, injectable"
+  ],
+  "source": "CDC CVX"
+ },
+ {
+  "id": "CVX:128",
+  "display_name": "Novel Influenza-H1N1-09, all formulations",
+  "synonyms": [
+   "Novel influenza-H1N1-09, all formulations"
+  ],
+  "source": "CDC CVX"
+ },
+ {
+  "id": "CVX:125",
+  "display_name": "Novel Influenza-H1N1-09, nasal",
+  "synonyms": [
+   "Novel Influenza-H1N1-09, live virus for nasal administration"
+  ],
+  "source": "CDC CVX"
+ },
+ {
+  "id": "CVX:126",
+  "display_name": "Novel influenza-H1N1-09, preservative-free",
+  "synonyms": [
+   "Novel influenza-H1N1-09, preservative-free, injectable"
+  ],
+  "source": "CDC CVX"
+ },
+ {
+  "id": "CVX:178",
+  "display_name": "OPV bivalent",
+  "synonyms": [
+   "Non-US bivalent oral polio vaccine (types 1 and 3)"
+  ],
+  "source": "CDC CVX"
+ },
+ {
+  "id": "CVX:179",
+  "display_name": "OPV, monovalent vaccine",
+  "synonyms": [
+   "Non-US monovalent oral polio vaccine, unspecified formulation"
+  ],
+  "source": "CDC CVX"
+ },
+ {
+  "id": "CVX:02",
+  "display_name": "OPV, trivalent",
+  "synonyms": [
+   "trivalent poliovirus vaccine, live, oral"
+  ],
+  "source": "CDC CVX"
+ },
+ {
+  "id": "CVX:69",
+  "display_name": "parainfluenza-3",
+  "synonyms": [
+   "parainfluenza-3 virus vaccine"
+  ],
+  "source": "CDC CVX"
+ },
+ {
+  "id": "CVX:177",
+  "display_name": "PCV10",
+  "synonyms": [
+   "pneumococcal conjugate vaccine, 10 valent"
+  ],
+  "source": "CDC CVX"
+ },
+ {
+  "id": "CVX:11",
+  "display_name": "pertussis",
+  "synonyms": [
+   "pertussis vaccine"
+  ],
+  "source": "CDC CVX"
+ },
+ {
+  "id": "CVX:23",
+  "display_name": "plague",
+  "synonyms": [
+   "plague vaccine"
+  ],
+  "source": "CDC CVX"
+ },
+ {
+  "id": "CVX:133",
+  "display_name": "Pneumococcal conjugate PCV 13",
+  "synonyms": [
+   "pneumococcal conjugate vaccine, 13 valent"
+  ],
+  "source": "CDC CVX"
+ },
+ {
+  "id": "CVX:100",
+  "display_name": "pneumococcal conjugate PCV 7",
+  "synonyms": [
+   "pneumococcal conjugate vaccine, 7 valent"
+  ],
+  "source": "CDC CVX"
+ },
+ {
+  "id": "CVX:215",
+  "display_name": "Pneumococcal conjugate PCV15, polysaccharide CRM197 conjugate, adjuvant, PF",
+  "synonyms": [
+   "Pneumococcal conjugate vaccine 15-valent (PCV15), polysaccharide CRM197 conjugate, adjuvant, preservative free"
+  ],
+  "source": "CDC CVX"
+ },
+ {
+  "id": "CVX:216",
+  "display_name": "Pneumococcal conjugate PCV20, polysaccharide CRM197 conjugate, adjuvant, PF",
+  "synonyms": [
+   "Pneumococcal conjugate vaccine 20-valent (PCV20), polysaccharide CRM197 conjugate, adjuvant, preservative free"
+  ],
+  "source": "CDC CVX"
+ },
+ {
+  "id": "CVX:327",
+  "display_name": "Pneumococcal conjugate PCV21 vaccine",
+  "synonyms": [
+   "Pneumococcal conjugate vaccine, 21 valent (PCV21), polysaccharide CRM197 conjugate, preservative free"
+  ],
+  "source": "CDC CVX"
+ },
+ {
+  "id": "CVX:33",
+  "display_name": "pneumococcal polysaccharide PPV23",
+  "synonyms": [
+   "pneumococcal polysaccharide vaccine, 23 valent"
+  ],
+  "source": "CDC CVX"
+ },
+ {
+  "id": "CVX:324",
+  "display_name": "Poliovirus, inactivated, fractional-dose (fIPV)",
+  "synonyms": [],
+  "source": "CDC CVX"
+ },
+ {
+  "id": "CVX:175",
+  "display_name": "Rabies - IM Diploid cell culture",
+  "synonyms": [
+   "Human Rabies vaccine from human diploid cell culture"
+  ],
+  "source": "CDC CVX"
+ },
+ {
+  "id": "CVX:176",
+  "display_name": "Rabies - IM fibroblast culture",
+  "synonyms": [
+   "Human rabies vaccine from Chicken fibroblast culture"
+  ],
+  "source": "CDC CVX"
+ },
+ {
+  "id": "CVX:40",
+  "display_name": "rabies, intradermal injection",
+  "synonyms": [
+   "rabies vaccine, for intradermal injection"
+  ],
+  "source": "CDC CVX"
+ },
+ {
+  "id": "CVX:18",
+  "display_name": "rabies, intramuscular injection",
+  "synonyms": [
+   "rabies vaccine, for intramuscular injection RETIRED CODE"
+  ],
+  "source": "CDC CVX"
+ },
+ {
+  "id": "CVX:119",
+  "display_name": "rotavirus, monovalent",
+  "synonyms": [
+   "rotavirus, live, monovalent vaccine"
+  ],
+  "source": "CDC CVX"
+ },
+ {
+  "id": "CVX:116",
+  "display_name": "rotavirus, pentavalent",
+  "synonyms": [
+   "rotavirus, live, pentavalent vaccine"
+  ],
+  "source": "CDC CVX"
+ },
+ {
+  "id": "CVX:74",
+  "display_name": "rotavirus, tetravalent",
+  "synonyms": [
+   "rotavirus, live, tetravalent vaccine"
+  ],
+  "source": "CDC CVX"
+ },
+ {
+  "id": "CVX:326",
+  "display_name": "RSV, mRNA, injectable, PF",
+  "synonyms": [
+   "Respiratory syncytial virus (RSV), mRNA, injectable, preservative free"
+  ],
+  "source": "CDC CVX"
+ },
+ {
+  "id": "CVX:06",
+  "display_name": "rubella",
+  "synonyms": [
+   "rubella virus vaccine"
+  ],
+  "source": "CDC CVX"
+ },
+ {
+  "id": "CVX:38",
+  "display_name": "rubella/mumps",
+  "synonyms": [
+   "rubella and mumps virus vaccine"
+  ],
+  "source": "CDC CVX"
+ },
+ {
+  "id": "CVX:514",
+  "display_name": "SARS-COV-2 COVID-19 DNA Non-US Vaccine (Zydus Cadila, ZyCoV-D)",
+  "synonyms": [
+   "SARS-COV-2 COVID-19 DNA Non-US Vaccine Product (Zydus Cadila, ZyCoV-D)"
+  ],
+  "source": "CDC CVX"
+ },
+ {
+  "id": "CVX:513",
+  "display_name": "SARS-COV-2 COVID-19 PS Non-US Vaccine (Anhui Zhifei Longcom, Zifivax)",
+  "synonyms": [
+   "SARS-COV-2 COVID-19 Protein Subunit Non-US Vaccine Product (Anhui Zhifei Longcom, Zifivax)"
+  ],
+  "source": "CDC CVX"
+ },
+ {
+  "id": "CVX:517",
+  "display_name": "SARS-COV-2 COVID-19 PS Non-US Vaccine (Biological E Limited, Corbevax)",
+  "synonyms": [
+   "SARS-COV-2 COVID-19 Protein Subunit Non-US Vaccine Product (Biological E Limited, Corbevax)"
+  ],
+  "source": "CDC CVX"
+ },
+ {
+  "id": "CVX:515",
+  "display_name": "SARS-COV-2 COVID-19 PS Non-US Vaccine (Medigen, MVC-COV1901)",
+  "synonyms": [
+   "SARS-COV-2 COVID-19 Protein Subunit Non-US Vaccine Product (Medigen, MVC-COV1901)"
+  ],
+  "source": "CDC CVX"
+ },
+ {
+  "id": "CVX:512",
+  "display_name": "SARS-COV-2 COVID-19 VLP Non-US Vaccine (Medicago, Covifenz)",
+  "synonyms": [
+   "SARS-COV-2 COVID-19 Virus Like Particle (VLP) Non-US Vaccine Product (Medicago, Covifenz)"
+  ],
+  "source": "CDC CVX"
+ },
+ {
+  "id": "CVX:138",
+  "display_name": "Td (adult)",
+  "synonyms": [
+   "tetanus and diphtheria toxoids, not adsorbed, for adult use"
+  ],
+  "source": "CDC CVX"
+ },
+ {
+  "id": "CVX:09",
+  "display_name": "Td, 2 Lf tetanus toxoid, adsorbed",
+  "synonyms": [
+   "tetanus and diphtheria toxoids, adsorbed, preservative free, for adult use (2 Lf of tetanus toxoid and 2 Lf of diphtheria toxoid)"
+  ],
+  "source": "CDC CVX"
+ },
+ {
+  "id": "CVX:113",
+  "display_name": "Td, 5 Lf tetanus toxoid, adsorbed",
+  "synonyms": [
+   "tetanus and diphtheria toxoids, adsorbed, preservative free, for adult use (5 Lf of tetanus toxoid and 2 Lf of diphtheria toxoid)"
+  ],
+  "source": "CDC CVX"
+ },
+ {
+  "id": "CVX:196",
+  "display_name": "Td, adsorbed, adult use, Lf vaccine",
+  "synonyms": [
+   "tetanus and diphtheria toxoids, adsorbed, preservative free, for adult use, Lf unspecified"
+  ],
+  "source": "CDC CVX"
+ },
+ {
+  "id": "CVX:115",
+  "display_name": "Tdap",
+  "synonyms": [
+   "tetanus toxoid, reduced diphtheria toxoid, and acellular pertussis vaccine, adsorbed"
+  ],
+  "source": "CDC CVX"
+ },
+ {
+  "id": "CVX:35",
+  "display_name": "tetanus toxoid, adsorbed",
+  "synonyms": [],
+  "source": "CDC CVX"
+ },
+ {
+  "id": "CVX:142",
+  "display_name": "tetanus toxoid, not adsorbed",
+  "synonyms": [],
+  "source": "CDC CVX"
+ },
+ {
+  "id": "CVX:77",
+  "display_name": "Tick-borne encephalitis vaccine (non-US)",
+  "synonyms": [],
+  "source": "CDC CVX"
+ },
+ {
+  "id": "CVX:78",
+  "display_name": "tularemia vaccine",
+  "synonyms": [],
+  "source": "CDC CVX"
+ },
+ {
+  "id": "CVX:190",
+  "display_name": "Typhoid conjugate vaccine (TCV)",
+  "synonyms": [
+   "Typhoid conjugate vaccine (non-US)"
+  ],
+  "source": "CDC CVX"
+ },
+ {
+  "id": "CVX:25",
+  "display_name": "typhoid, oral",
+  "synonyms": [
+   "typhoid vaccine, live, oral"
+  ],
+  "source": "CDC CVX"
+ },
+ {
+  "id": "CVX:41",
+  "display_name": "typhoid, parenteral",
+  "synonyms": [
+   "typhoid vaccine, parenteral, other than acetone-killed, dried"
+  ],
+  "source": "CDC CVX"
+ },
+ {
+  "id": "CVX:53",
+  "display_name": "typhoid, parenteral, AKD (U.S. military)",
+  "synonyms": [
+   "typhoid vaccine, parenteral, acetone-killed, dried (U.S. military)"
+  ],
+  "source": "CDC CVX"
+ },
+ {
+  "id": "CVX:101",
+  "display_name": "typhoid, ViCPs",
+  "synonyms": [
+   "typhoid Vi capsular polysaccharide vaccine"
+  ],
+  "source": "CDC CVX"
+ },
+ {
+  "id": "CVX:131",
+  "display_name": "typhus, historical",
+  "synonyms": [
+   "Historical record of a typhus vaccination"
+  ],
+  "source": "CDC CVX"
+ },
+ {
+  "id": "CVX:105",
+  "display_name": "vaccinia (smallpox) diluted",
+  "synonyms": [
+   "vaccinia (smallpox) vaccine, diluted"
+  ],
+  "source": "CDC CVX"
+ },
+ {
+  "id": "CVX:75",
+  "display_name": "Vaccinia (smallpox, monkeypox), live",
+  "synonyms": [
+   "Vaccinia (smallpox, monkeypox) vaccine, live"
+  ],
+  "source": "CDC CVX"
+ },
+ {
+  "id": "CVX:206",
+  "display_name": "Vaccinia, smallpox monkeypox vaccine, live, SQ or ID injection",
+  "synonyms": [
+   "Vaccinia, smallpox monkeypox vaccine, live attenuated, preservative free, subcutaneous or intradermal injection"
+  ],
+  "source": "CDC CVX"
+ },
+ {
+  "id": "CVX:21",
+  "display_name": "varicella",
+  "synonyms": [
+   "varicella virus vaccine"
+  ],
+  "source": "CDC CVX"
+ },
+ {
+  "id": "CVX:81",
+  "display_name": "VEE, inactivated",
+  "synonyms": [
+   "Venezuelan equine encephalitis, inactivated"
+  ],
+  "source": "CDC CVX"
+ },
+ {
+  "id": "CVX:80",
+  "display_name": "VEE, live",
+  "synonyms": [
+   "Venezuelan equine encephalitis, live, attenuated"
+  ],
+  "source": "CDC CVX"
+ },
+ {
+  "id": "CVX:37",
+  "display_name": "yellow fever live",
+  "synonyms": [
+   "yellow fever vaccine live"
+  ],
+  "source": "CDC CVX"
+ },
+ {
+  "id": "CVX:183",
+  "display_name": "Yellow fever vaccine live - alt",
+  "synonyms": [
+   "Yellow fever vaccine live - alternative formulation for vaccine shortage"
+  ],
+  "source": "CDC CVX"
+ },
+ {
+  "id": "CVX:121",
+  "display_name": "zoster live",
+  "synonyms": [
+   "zoster vaccine, live"
+  ],
+  "source": "CDC CVX"
+ },
+ {
+  "id": "CVX:187",
+  "display_name": "zoster recombinant",
+  "synonyms": [
+   "zoster vaccine recombinant"
+  ],
+  "source": "CDC CVX"
+ }
+]

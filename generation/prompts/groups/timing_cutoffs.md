@@ -1,0 +1,1 @@
+Ask a question about {seed_entity} whose answer is a specific operational number a clinician needs: how long, how often, above what value, after how many failures. The number must be one the research literature actually studies — not a drug-label fact.

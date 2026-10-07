@@ -1,0 +1,20 @@
+**Clinical Query:** {{ query }}
+
+{% if papers %}
+## Research Papers (peer-reviewed articles, systematic reviews, and other materials)
+{% for p in papers %}
+[P{{ loop.index }}] [{{ p.doc_type or 'article' }}] {{ p.title }} | {{ p.journal_name or 'N/A' }} {{ p.publication_year or 'N/A' }} | cites:{{ p.cited_by_count }} | Abstract: {{ p.abstract or 'No abstract' }}
+{% endfor %}
+{% endif %}
+{% if guidelines %}
+## Clinical Guidelines
+{% for g in guidelines %}
+[G{{ loop.index }}] {{ g.name }} | Abstract: {{ g.abstract or 'N/A' }}
+{% endfor %}
+{% endif %}
+{% if fda_labels %}
+## FDA Drug Labels
+{% for f in fda_labels %}
+[F{{ loop.index }}] {{ f.brand_names[0] if f.brand_names else 'N/A' }} ({{ f.generic_names[0] if f.generic_names else 'N/A' }}) | Indications: {{ f.body[:500] }}
+{% endfor %}
+{% endif %}

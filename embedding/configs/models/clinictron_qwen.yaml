@@ -1,0 +1,10 @@
+name: ClinicTron-Qwen
+kind: decoder
+path: Qwen/Qwen3-Embedding-8B@4e423935c619ae4df87b646a3ce949610c66241c
+adapter: clinictronanon/ClinicTron-Qwen
+pooling: last
+eos: none
+query_template: 'Instruct: {instruction}
+
+  Query:{text}'
+instruction_set: qwen

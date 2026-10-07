@@ -1,0 +1,1 @@
+A diagnostic verifier answered: "{answer}". Does this answer identify, name, or unambiguously imply "{entity}" as the underlying clinical entity (synonyms and abbreviations count)? Output strict JSON: {"same": true|false}

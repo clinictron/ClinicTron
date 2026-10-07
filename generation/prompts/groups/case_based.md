@@ -1,0 +1,1 @@
+Describe one patient's concrete findings and course that IMPLY a diagnosis involving {seed_entity} — never name it, its synonyms, or any eponym, gene, sign, score, or test name that uniquely encodes it. Describe what the clinician sees, not the label. Then ask whether similar cases have been reported and how they were managed. The answer must live in case reports or case series.

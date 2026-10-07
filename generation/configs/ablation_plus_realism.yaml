@@ -1,0 +1,270 @@
+# Ablation stage config (plus realism): adds the question class or subclass with its ask, the named concept with synonyms, the one-answer rule, and the drawn register and length; no masking rule.
+# Identical to generation.yaml except: run_id, no failure-axis rows (sources.failure_groups 0),
+# gates off (cells are written unmasked, so leak check, blind verifier and revisions never apply),
+# and the grounded writer prompt below. Cells and grounding papers are the shared ablation cells
+# (stage 02 --cells ... --grounding-cache ...), not a fresh stage 01 plan.
+
+run:
+  # run_id seeds the plan: every cell draws from sha1(run_id|cell_id).
+  run_id: ablation_plus_realism
+
+paths:
+  resources:    "${GEN_RESOURCES:-resources}"
+  run_root:     "${GEN_RUN_ROOT:-../data/generation_runs}"
+  prompts_dir:  "${GEN_PROMPTS:-prompts}"
+  secrets:      "${GEN_SECRETS:-}"
+  entities_dir: "${GEN_RESOURCES:-resources}/data/pipeline_4/entities"
+
+sources:
+  ely_types: 1
+  subclasses: 1
+  failure_groups: 0
+volume:
+  total_rows: 5760
+
+ely_types: [diagnosis, diagnostic_criteria, test_selection, test_interpretation,
+            treatment, dosing, adverse_safety, management, epidemiology_prognosis,
+            etiology_risk, screening_prevention]
+
+failure_group_weights:
+  stacked_constraints: 35
+  case_based: 35
+  escalation: 35
+  rare_pair_causation: 21
+  symptoms_unnamed: 14
+  timing_cutoffs: 14
+  contradictory_tests: 9
+  comparative_superlative: 8
+
+subclasses:
+  taxonomy: "${GEN_RESOURCES:-resources}/data/pipeline_4/taxonomy/runs/full4538_v3/taxonomy_raw.json"
+  exclude_types: [ethics_practice, information_sources, counseling, research_methods,
+                  drug_product, anatomy_terms, calculation, normal_values]
+  exclude_subtypes: [disease_identity.name_recall_from_description]
+
+anchor_to_track:
+  disease: diseases
+  drug: drugs
+  procedure: procedures
+  organism: organisms
+  toxin: toxins
+  vaccine: vaccines
+
+entities_filter:
+  vaccines:
+    enabled: true
+    reject_comma: true
+    reject_parenthesis: true
+    reject_substrings: ["Non-US", "unknown", "all formulations", "PF", "U.S. military",
+                        "Southern Hemisphere", "MDCK", "recombinant", "adjuvanted",
+                        "preservative", "pediatric vaccine", "injectable", "intranasal",
+                        "high-dose", "trivalent", "quadrivalent"]
+
+concept_check:
+  enabled: true
+  min_hits: 5
+  top_k: 50
+  max_redraws: 5
+  sources: [failure_groups]
+
+anchors:
+  grouper_screen: true
+  grouper_patterns:
+    - '\bneoplasms?\b'
+    - '\bunspecified\b'
+    - '\b(malignant|benign)\b.*\bsystem\b'
+    - '^(disease|disorder|syndrome|cancer|infection)$'
+    - '\b(diseases?|disorders?) of\b'
+    - '\b(infectious|inflammatory|metabolic|genetic|vascular|autoimmune|neoplastic|accommodation)\b.*\b(disease|disorder)s?\b'
+    - '^(eye|skin|lung|heart|kidney|liver|brain|blood|bone|muscle|nerve|joint|gastrointestinal|pregnancy|acidosis|alkalosis|respiratory|urinary|ocular)\b.*\b(disease|disorder)s?\b'
+    - '\b(disease|disorder) with\b'
+    - '\b(infectious|inflammatory) (disease|disorder)s?$'
+
+anchors_and_masking:
+  diagnosis:               {tracks: [diseases, organisms, toxins], masking: required}
+  diagnostic_criteria:     {tracks: [diseases, organisms], masking: impossible}
+  test_selection:          {tracks: [diseases, organisms], masking: required}
+  test_interpretation:     {tracks: [diseases, drugs], masking: required}
+  treatment:               {tracks: [diseases, organisms, toxins], masking: required}
+  dosing:                  {tracks: [drugs], masking: impossible}
+  adverse_safety:          {tracks: [drugs, toxins, vaccines], masking: required}
+  management:              {tracks: [diseases, procedures], masking: required}
+  epidemiology_prognosis:  {tracks: [diseases], masking: required}
+  etiology_risk:           {tracks: [diseases, drugs, organisms, toxins], masking: optional}
+  screening_prevention:    {tracks: [diseases, vaccines], masking: optional}
+  stacked_constraints:     {tracks: [diseases, drugs, procedures], masking: impossible}
+  rare_pair_causation:     {tracks: [drugs, diseases, toxins, organisms, vaccines], masking: impossible}
+  symptoms_unnamed:        {tracks: [diseases, organisms, toxins], masking: required}
+  timing_cutoffs:          {tracks: [drugs, diseases, procedures], masking: impossible}
+  contradictory_tests:     {tracks: [diseases, drugs], masking: impossible}
+  comparative_superlative: {tracks: [drugs, procedures, vaccines], masking: impossible}
+  case_based:              {tracks: [diseases, organisms, toxins], masking: required}
+  escalation:              {tracks: [diseases, organisms], masking: impossible}
+
+styles:
+  clean: 0.625
+  messy: 0.375
+lengths:
+  weights: {short: 0.30, medium: 0.40, long: 0.30}
+  long_pasted_share: 0.6667
+  document_types:
+    - discharge summary
+    - referral letter
+    - ED triage note
+    - progress/SOAP note
+    - lab report block
+    - radiology report
+
+overgeneration:
+  min_yield: 0.35
+  max_overgen: 3.0
+  min_attempts: 5
+
+grounding:
+  ely_types: true
+  subclasses: true
+  failure_groups: false
+
+grounding_default: "{entity} clinical features presentation review"
+grounding_by_track:
+  drugs: "{entity} clinical pharmacology review"
+  toxins: "{entity} poisoning clinical presentation management"
+  procedures: "{entity} technique indications complications review"
+  vaccines: "{entity} immunization schedule indications review"
+
+import_prior:
+  source_rows: "${GEN_RESOURCES:-resources}/import/rows.jsonl"
+  source_queries: "${GEN_RESOURCES:-resources}/import/queries.jsonl"
+
+# Stage 03: exact cosine scan of the whole corpus with the frozen base encoder.
+# index_dir: the base-encoder corpus index as downloaded from the Hub; model_config: the
+# encoder config in the sibling embedding/ directory. Hold-out ids are dropped from every ranking.
+frozen_scan:
+  depth: 1000
+  instruction: "Given a Clinical Question, retrieve relevant passages that help answer the question"
+  index_dir: "${GEN_BASE_INDEX:-}"
+  model_config: "${GEN_BASE_MODEL_CONFIG:-../embedding/configs/models/reasonembed.yaml}"
+  exclude_ids_files: ["${GEN_HOLDOUT_IDS:-resources/benchmark_holdout_ids.txt}"]
+  device: "${GEN_SCAN_DEVICE:-cpu}"
+
+pool:
+  frozen:
+    question_top_k: 50
+    sketch_top_k: 15
+  retrievers: [bmretriever, openai_vector, bm25]
+  ignored_retrievers: [specter2, medcpt]
+  retriever_aliases: {}
+  per_retriever:
+    question_top_k: 15
+    sketch_top_k: 10
+  fused_depth: 300
+  shortfall_retries: 3
+  shortfall_backoff_s: 3.0
+  synthetic_sketches_as_documents: true
+  grounding_top_k: 25
+  grounding_synonyms_top_k: 0
+  concurrency: 16
+  per_retriever_overrides: {}
+
+sketch_retries: 1
+
+exemplars:
+  min_in_prompt: 3
+  max_in_prompt: 5
+
+models:
+  # concurrency: the values the writer (02) and grader (05) stages ran with; the plan-stage
+  # config file of the run had writer_a 40, writer_ungrounded 24, grader 96 (no effect on output).
+  writer_a: {model: openai/gpt-5.6-terra, temperature: 0.8, max_tokens: 8192,
+             concurrency: 16, reasoning_effort: low}
+  writer_ungrounded: {model: openai/gpt-5.6-luna, temperature: 0.8, max_tokens: 4096,
+                      concurrency: 16, reasoning_effort: high}
+  aux:    {model: openai/gpt-5.6-luna, temperature: 0.2, max_tokens: 4096, concurrency: 64}
+  grader: {model: openai/gpt-5.6-luna, temperature: 0.0, max_tokens: 16384, concurrency: 24}
+  json_retries: 2
+  api_key_env: OPENROUTER_API_KEY
+
+gates:
+  leak_check: false
+  revision_cycles: 0
+  blind_verifier: false
+  blind_verifier_sources: []
+  revision_sources: []
+
+grader:
+  system_prompt: grader.jinja
+  user_prompt: grader_user.jinja
+  model: openai/gpt-5.6-luna
+  temperature: 0.0
+  window: 100
+  score_floor: 1
+  shuffle: seeded
+  abstract_char_cap: 0
+  reask_omitted: true
+
+hardness:
+  top_n: 10
+  answering_threshold: 7
+  bands: {ultra_hard: [0, 0], hard: [1, 3], medium: [4, 6], easy: [7, 999]}
+  survival_for: [failure_groups]
+  min_answering: 1
+  admission_for: [ely_types, subclasses, failure_groups]
+  admission: {min_at_9plus: 1, min_at_8plus: 3}
+
+budget:
+  warn_usd: 250.0
+  abort_usd: 400.0
+  initial_usd: 0.0
+  cost_state_file: cost_state.json
+
+convert:
+  subsample_to_target: true
+  min_pool: 50
+  test_frac: 0.10
+  max_len: 8192
+  instruction: "Given a clinical or biomedical question, retrieve scientific papers that answer it"
+
+# Corpus search behind the grounding search (stage 02) and the pool candidates (stage 04).
+# The run used one fused search over FIVE retrievers: openai_vector, bmretriever, medcpt,
+# specter2 and bm25. Each retriever returned its own ranked list (the three biomedical
+# encoders to depth 300; openai_vector and bm25 to depth 1000), the lists were fused by
+# reciprocal-rank fusion with rrf_k=60 (ties by doc id ascending), and the fused list was
+# capped at 300. Stage 02 takes the first pool.grounding_top_k fused documents; stage 04
+# selects from the fused list by each retriever's own rank (see pool.retrievers).
+# The run searched approximate-nearest-neighbour indexes; this release searches exactly.
+# The run's openai_vector and bm25 lists also appended a small coverage top-up to the
+# depth-1000 list, which is not reproduced here.
+# Every dense retriever is a model config for corpus.encode_queries plus an index directory
+# for corpus.exact_search, built by you over your corpus. bm25 is your own lexical index.
+corpus_search:
+  device: ${GEN_SEARCH_DEVICE:-cpu}
+  depth: 300
+  fused_depth: 300
+  rrf_k: 60
+  retrievers:
+    openai_vector:
+      model_config: ${GEN_OPENAI_EMBED_MODEL_CONFIG:-}
+      index_dir: ${GEN_OPENAI_EMBED_INDEX:-}
+      instruction: ''
+      depth: 1000
+    bmretriever:
+      model_config: ${GEN_BMRETRIEVER_MODEL_CONFIG:-}
+      index_dir: ${GEN_BMRETRIEVER_INDEX:-}
+      instruction: Given a clinical question, retrieve relevant biomedical research passages
+      depth: 300
+    medcpt:
+      model_config: ${GEN_MEDCPT_MODEL_CONFIG:-}
+      index_dir: ${GEN_MEDCPT_INDEX:-}
+      instruction: ''
+      depth: 300
+    specter2:
+      model_config: ${GEN_SPECTER2_MODEL_CONFIG:-}
+      index_dir: ${GEN_SPECTER2_INDEX:-}
+      instruction: ''
+      depth: 300
+    bm25:
+      index_dir: ${GEN_BM25_INDEX:-}
+      depth: 1000
+
+writer_prompts:
+  grounded: ablation/plus_realism.md

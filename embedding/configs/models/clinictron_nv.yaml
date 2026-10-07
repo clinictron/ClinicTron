@@ -1,0 +1,11 @@
+name: ClinicTron-NV
+kind: nvembed
+path: nvidia/NV-Embed-v2@3fa59658547db50a1e8e3346cf057fd0c77ed6ef
+adapter: clinictronanon/ClinicTron-NV
+pooling: mean
+eos: append
+mask_instruction: true
+query_template: 'Instruct: {instruction}
+
+  Query: {text}'
+instruction_set: nv

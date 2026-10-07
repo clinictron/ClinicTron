@@ -1,0 +1,1 @@
+Construct a question where two test results or findings related to {seed_entity} point in OPPOSITE directions, and ask what explains or resolves the discordance. Both results must be individually common.

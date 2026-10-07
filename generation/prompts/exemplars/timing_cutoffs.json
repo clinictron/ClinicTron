@@ -1,0 +1,27 @@
+[
+  {
+    "query_id": "NQ002101",
+    "text": "Who with polymyalgia rheumatica needs a temporal artery biopsy?",
+    "census_category": "operational_parameters"
+  },
+  {
+    "query_id": "NQ000985",
+    "text": "A reference says you should monitor complete blood counts (CBCs) and liver functions when on Klonopin, but how often?",
+    "census_category": "operational_parameters"
+  },
+  {
+    "query_id": "NQ000622",
+    "text": "He has a history of getting hit in the head and neck and getting two \"stingers\" with numbness down his arm.  Now in for a preparticipation physical.  When do you do a neck x-ray?",
+    "census_category": "operational_parameters"
+  },
+  {
+    "query_id": "NQ002121",
+    "text": "What are the weight loss criteria for deciding if someone needs an extensive work up for weight loss?",
+    "census_category": "operational_parameters"
+  },
+  {
+    "query_id": "NQ003280",
+    "text": "\"If their high-density-lipoprotein cholesterol is 70 and the low-density-lipoprotein cholesterol is 160, who wins the battle?\"",
+    "census_category": "operational_parameters"
+  }
+]

@@ -1,0 +1,9 @@
+name: ReasonEmbed
+kind: decoder
+path: hanhainebula/reason-embed-qwen3-8b-0928@07a33998dc3439b7f12eb24ca465fc59c7a2d7d9
+pooling: last
+eos: none
+query_template: 'Instruct: {instruction}
+
+  Query: {text}'
+instruction_suffix: .

@@ -1,0 +1,1 @@
+Build a question around {seed_entity} where the answer must satisfy AT LEAST THREE interacting constraints at once (e.g. drug + comorbidity + allergy/population/timing). Papers matching only one constraint must be wrong answers. The constraints must create genuine clinical tension.

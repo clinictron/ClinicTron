@@ -1,0 +1,2580 @@
+[
+ {
+  "id": "TOX:001",
+  "display_name": "carbon monoxide",
+  "synonyms": [
+   "CO poisoning",
+   "carboxyhemoglobinemia",
+   "furnace exhaust exposure"
+  ],
+  "source": "llm_generated:entity_toxins_v1.md",
+  "category": "gases and inhalants"
+ },
+ {
+  "id": "TOX:002",
+  "display_name": "hydrogen cyanide",
+  "synonyms": [
+   "cyanide gas",
+   "prussic acid",
+   "HCN"
+  ],
+  "source": "llm_generated:entity_toxins_v1.md",
+  "category": "gases and inhalants"
+ },
+ {
+  "id": "TOX:003",
+  "display_name": "hydrogen sulfide",
+  "synonyms": [
+   "sewer gas",
+   "H2S",
+   "manure pit gas"
+  ],
+  "source": "llm_generated:entity_toxins_v1.md",
+  "category": "gases and inhalants"
+ },
+ {
+  "id": "TOX:004",
+  "display_name": "chlorine gas",
+  "synonyms": [
+   "Cl2 exposure",
+   "pool chemical gas",
+   "chlorine inhalation"
+  ],
+  "source": "llm_generated:entity_toxins_v1.md",
+  "category": "gases and inhalants"
+ },
+ {
+  "id": "TOX:005",
+  "display_name": "phosgene",
+  "synonyms": [
+   "carbonyl chloride",
+   "CG war gas"
+  ],
+  "source": "llm_generated:entity_toxins_v1.md",
+  "category": "gases and inhalants"
+ },
+ {
+  "id": "TOX:006",
+  "display_name": "anhydrous ammonia",
+  "synonyms": [
+   "ammonia gas inhalation",
+   "NH3 exposure"
+  ],
+  "source": "llm_generated:entity_toxins_v1.md",
+  "category": "gases and inhalants"
+ },
+ {
+  "id": "TOX:007",
+  "display_name": "nitrogen dioxide",
+  "synonyms": [
+   "silo filler's disease",
+   "NO2 exposure",
+   "oxides of nitrogen"
+  ],
+  "source": "llm_generated:entity_toxins_v1.md",
+  "category": "gases and inhalants"
+ },
+ {
+  "id": "TOX:008",
+  "display_name": "methyl bromide",
+  "synonyms": [
+   "bromomethane",
+   "fumigant gas"
+  ],
+  "source": "llm_generated:entity_toxins_v1.md",
+  "category": "gases and inhalants"
+ },
+ {
+  "id": "TOX:009",
+  "display_name": "phosphine gas",
+  "synonyms": [
+   "hydrogen phosphide",
+   "PH3",
+   "grain fumigant gas"
+  ],
+  "source": "llm_generated:entity_toxins_v1.md",
+  "category": "gases and inhalants"
+ },
+ {
+  "id": "TOX:010",
+  "display_name": "arsine gas",
+  "synonyms": [
+   "arsenic trihydride",
+   "AsH3",
+   "arsine hemolysis"
+  ],
+  "source": "llm_generated:entity_toxins_v1.md",
+  "category": "gases and inhalants"
+ },
+ {
+  "id": "TOX:011",
+  "display_name": "nitrous oxide",
+  "synonyms": [
+   "laughing gas",
+   "whippets",
+   "N2O abuse"
+  ],
+  "source": "llm_generated:entity_toxins_v1.md",
+  "category": "gases and inhalants"
+ },
+ {
+  "id": "TOX:012",
+  "display_name": "sulfur dioxide",
+  "synonyms": [
+   "SO2 exposure",
+   "sulfurous acid fume"
+  ],
+  "source": "llm_generated:entity_toxins_v1.md",
+  "category": "gases and inhalants"
+ },
+ {
+  "id": "TOX:013",
+  "display_name": "methyl isocyanate",
+  "synonyms": [
+   "MIC",
+   "Bhopal gas"
+  ],
+  "source": "llm_generated:entity_toxins_v1.md",
+  "category": "gases and inhalants"
+ },
+ {
+  "id": "TOX:014",
+  "display_name": "sulfur mustard",
+  "synonyms": [
+   "mustard gas",
+   "HD vesicant"
+  ],
+  "source": "llm_generated:entity_toxins_v1.md",
+  "category": "gases and inhalants"
+ },
+ {
+  "id": "TOX:015",
+  "display_name": "lewisite",
+  "synonyms": [
+   "L vesicant",
+   "dichloroarsine vesicant"
+  ],
+  "source": "llm_generated:entity_toxins_v1.md",
+  "category": "gases and inhalants"
+ },
+ {
+  "id": "TOX:016",
+  "display_name": "sarin",
+  "synonyms": [
+   "GB nerve agent",
+   "isopropyl methylphosphonofluoridate"
+  ],
+  "source": "llm_generated:entity_toxins_v1.md",
+  "category": "gases and inhalants"
+ },
+ {
+  "id": "TOX:017",
+  "display_name": "VX nerve agent",
+  "synonyms": [
+   "VX",
+   "persistent V-series nerve agent"
+  ],
+  "source": "llm_generated:entity_toxins_v1.md",
+  "category": "gases and inhalants"
+ },
+ {
+  "id": "TOX:018",
+  "display_name": "novichok agent",
+  "synonyms": [
+   "A-234",
+   "fourth-generation nerve agent"
+  ],
+  "source": "llm_generated:entity_toxins_v1.md",
+  "category": "gases and inhalants"
+ },
+ {
+  "id": "TOX:019",
+  "display_name": "chloramine gas",
+  "synonyms": [
+   "bleach and ammonia mixing",
+   "chloramine vapor exposure"
+  ],
+  "source": "llm_generated:entity_toxins_v1.md",
+  "category": "gases and inhalants"
+ },
+ {
+  "id": "TOX:020",
+  "display_name": "CS tear gas",
+  "synonyms": [
+   "2-chlorobenzalmalononitrile",
+   "riot control agent",
+   "lacrimator"
+  ],
+  "source": "llm_generated:entity_toxins_v1.md",
+  "category": "gases and inhalants"
+ },
+ {
+  "id": "TOX:021",
+  "display_name": "oleoresin capsicum spray",
+  "synonyms": [
+   "pepper spray",
+   "OC spray"
+  ],
+  "source": "llm_generated:entity_toxins_v1.md",
+  "category": "gases and inhalants"
+ },
+ {
+  "id": "TOX:022",
+  "display_name": "smoke inhalation",
+  "synonyms": [
+   "fire smoke inhalation injury",
+   "combustion gas exposure"
+  ],
+  "source": "llm_generated:entity_toxins_v1.md",
+  "category": "gases and inhalants"
+ },
+ {
+  "id": "TOX:023",
+  "display_name": "difluoroethane inhalant abuse",
+  "synonyms": [
+   "canned air huffing",
+   "computer duster abuse",
+   "Freon inhalation"
+  ],
+  "source": "llm_generated:entity_toxins_v1.md",
+  "category": "gases and inhalants"
+ },
+ {
+  "id": "TOX:024",
+  "display_name": "butane inhalant abuse",
+  "synonyms": [
+   "lighter fluid huffing",
+   "LPG inhalation",
+   "sudden sniffing death"
+  ],
+  "source": "llm_generated:entity_toxins_v1.md",
+  "category": "gases and inhalants"
+ },
+ {
+  "id": "TOX:025",
+  "display_name": "helium asphyxiation",
+  "synonyms": [
+   "helium inhalation",
+   "exit bag asphyxia",
+   "simple asphyxiant gas"
+  ],
+  "source": "llm_generated:entity_toxins_v1.md",
+  "category": "gases and inhalants"
+ },
+ {
+  "id": "TOX:026",
+  "display_name": "lead",
+  "synonyms": [
+   "plumbism",
+   "lead poisoning",
+   "Pb toxicity"
+  ],
+  "source": "llm_generated:entity_toxins_v1.md",
+  "category": "heavy metals"
+ },
+ {
+  "id": "TOX:027",
+  "display_name": "inorganic mercury salts",
+  "synonyms": [
+   "mercuric chloride ingestion",
+   "mercury salt poisoning"
+  ],
+  "source": "llm_generated:entity_toxins_v1.md",
+  "category": "heavy metals"
+ },
+ {
+  "id": "TOX:028",
+  "display_name": "elemental mercury vapor",
+  "synonyms": [
+   "metallic mercury inhalation",
+   "quicksilver vapor",
+   "acrodynia"
+  ],
+  "source": "llm_generated:entity_toxins_v1.md",
+  "category": "heavy metals"
+ },
+ {
+  "id": "TOX:029",
+  "display_name": "methylmercury",
+  "synonyms": [
+   "organic mercury",
+   "Minamata disease",
+   "fish methylmercury"
+  ],
+  "source": "llm_generated:entity_toxins_v1.md",
+  "category": "heavy metals"
+ },
+ {
+  "id": "TOX:030",
+  "display_name": "inorganic arsenic",
+  "synonyms": [
+   "arsenic trioxide",
+   "arsenite poisoning",
+   "well water arsenic"
+  ],
+  "source": "llm_generated:entity_toxins_v1.md",
+  "category": "heavy metals"
+ },
+ {
+  "id": "TOX:031",
+  "display_name": "cadmium",
+  "synonyms": [
+   "cadmium fume",
+   "itai-itai disease",
+   "Cd toxicity"
+  ],
+  "source": "llm_generated:entity_toxins_v1.md",
+  "category": "heavy metals"
+ },
+ {
+  "id": "TOX:032",
+  "display_name": "thallium",
+  "synonyms": [
+   "thallium sulfate",
+   "Tl poisoning",
+   "thallotoxicosis"
+  ],
+  "source": "llm_generated:entity_toxins_v1.md",
+  "category": "heavy metals"
+ },
+ {
+  "id": "TOX:033",
+  "display_name": "hexavalent chromium",
+  "synonyms": [
+   "chromium VI",
+   "chromate exposure",
+   "chrome ulcer"
+  ],
+  "source": "llm_generated:entity_toxins_v1.md",
+  "category": "heavy metals"
+ },
+ {
+  "id": "TOX:034",
+  "display_name": "manganese",
+  "synonyms": [
+   "manganism",
+   "welder's parkinsonism"
+  ],
+  "source": "llm_generated:entity_toxins_v1.md",
+  "category": "heavy metals"
+ },
+ {
+  "id": "TOX:035",
+  "display_name": "copper sulfate",
+  "synonyms": [
+   "bluestone",
+   "cupric sulfate ingestion"
+  ],
+  "source": "llm_generated:entity_toxins_v1.md",
+  "category": "heavy metals"
+ },
+ {
+  "id": "TOX:036",
+  "display_name": "zinc",
+  "synonyms": [
+   "zinc oxide excess",
+   "zinc-induced copper deficiency",
+   "denture cream zinc"
+  ],
+  "source": "llm_generated:entity_toxins_v1.md",
+  "category": "heavy metals"
+ },
+ {
+  "id": "TOX:037",
+  "display_name": "nickel carbonyl",
+  "synonyms": [
+   "nickel tetracarbonyl",
+   "Ni(CO)4"
+  ],
+  "source": "llm_generated:entity_toxins_v1.md",
+  "category": "heavy metals"
+ },
+ {
+  "id": "TOX:038",
+  "display_name": "antimony",
+  "synonyms": [
+   "stibine",
+   "antimony potassium tartrate"
+  ],
+  "source": "llm_generated:entity_toxins_v1.md",
+  "category": "heavy metals"
+ },
+ {
+  "id": "TOX:039",
+  "display_name": "bismuth",
+  "synonyms": [
+   "bismuth subsalicylate toxicity",
+   "bismuth encephalopathy"
+  ],
+  "source": "llm_generated:entity_toxins_v1.md",
+  "category": "heavy metals"
+ },
+ {
+  "id": "TOX:040",
+  "display_name": "selenium",
+  "synonyms": [
+   "selenosis",
+   "sodium selenite overdose",
+   "selenious acid"
+  ],
+  "source": "llm_generated:entity_toxins_v1.md",
+  "category": "heavy metals"
+ },
+ {
+  "id": "TOX:041",
+  "display_name": "barium",
+  "synonyms": [
+   "soluble barium salts",
+   "barium carbonate ingestion"
+  ],
+  "source": "llm_generated:entity_toxins_v1.md",
+  "category": "heavy metals"
+ },
+ {
+  "id": "TOX:042",
+  "display_name": "cobalt",
+  "synonyms": [
+   "cobalt arthroprosthetic toxicity",
+   "metal-on-metal hip cobaltism"
+  ],
+  "source": "llm_generated:entity_toxins_v1.md",
+  "category": "heavy metals"
+ },
+ {
+  "id": "TOX:043",
+  "display_name": "aluminum",
+  "synonyms": [
+   "aluminum encephalopathy",
+   "dialysis aluminum toxicity"
+  ],
+  "source": "llm_generated:entity_toxins_v1.md",
+  "category": "heavy metals"
+ },
+ {
+  "id": "TOX:044",
+  "display_name": "beryllium",
+  "synonyms": [
+   "chronic beryllium disease",
+   "berylliosis"
+  ],
+  "source": "llm_generated:entity_toxins_v1.md",
+  "category": "heavy metals"
+ },
+ {
+  "id": "TOX:045",
+  "display_name": "silver",
+  "synonyms": [
+   "argyria",
+   "colloidal silver ingestion"
+  ],
+  "source": "llm_generated:entity_toxins_v1.md",
+  "category": "heavy metals"
+ },
+ {
+  "id": "TOX:046",
+  "display_name": "organotin compounds",
+  "synonyms": [
+   "tributyltin",
+   "trimethyltin"
+  ],
+  "source": "llm_generated:entity_toxins_v1.md",
+  "category": "heavy metals"
+ },
+ {
+  "id": "TOX:047",
+  "display_name": "depleted uranium",
+  "synonyms": [
+   "uranium exposure",
+   "DU fragment retention"
+  ],
+  "source": "llm_generated:entity_toxins_v1.md",
+  "category": "heavy metals"
+ },
+ {
+  "id": "TOX:048",
+  "display_name": "polonium-210",
+  "synonyms": [
+   "Po-210 poisoning",
+   "alpha-emitter poisoning"
+  ],
+  "source": "llm_generated:entity_toxins_v1.md",
+  "category": "heavy metals"
+ },
+ {
+  "id": "TOX:049",
+  "display_name": "gadolinium",
+  "synonyms": [
+   "gadolinium-based contrast agent",
+   "nephrogenic systemic fibrosis"
+  ],
+  "source": "llm_generated:entity_toxins_v1.md",
+  "category": "heavy metals"
+ },
+ {
+  "id": "TOX:050",
+  "display_name": "acetaminophen",
+  "synonyms": [
+   "paracetamol overdose",
+   "APAP overdose",
+   "Tylenol overdose"
+  ],
+  "source": "llm_generated:entity_toxins_v1.md",
+  "category": "drug overdoses"
+ },
+ {
+  "id": "TOX:051",
+  "display_name": "salicylate",
+  "synonyms": [
+   "aspirin overdose",
+   "acetylsalicylic acid toxicity",
+   "salicylism"
+  ],
+  "source": "llm_generated:entity_toxins_v1.md",
+  "category": "drug overdoses"
+ },
+ {
+  "id": "TOX:052",
+  "display_name": "ibuprofen",
+  "synonyms": [
+   "NSAID overdose",
+   "Advil overdose"
+  ],
+  "source": "llm_generated:entity_toxins_v1.md",
+  "category": "drug overdoses"
+ },
+ {
+  "id": "TOX:053",
+  "display_name": "digoxin",
+  "synonyms": [
+   "digitalis toxicity",
+   "digoxin toxicity"
+  ],
+  "source": "llm_generated:entity_toxins_v1.md",
+  "category": "drug overdoses"
+ },
+ {
+  "id": "TOX:054",
+  "display_name": "lithium",
+  "synonyms": [
+   "lithium carbonate toxicity",
+   "lithium overdose"
+  ],
+  "source": "llm_generated:entity_toxins_v1.md",
+  "category": "drug overdoses"
+ },
+ {
+  "id": "TOX:055",
+  "display_name": "theophylline",
+  "synonyms": [
+   "aminophylline toxicity",
+   "methylxanthine overdose"
+  ],
+  "source": "llm_generated:entity_toxins_v1.md",
+  "category": "drug overdoses"
+ },
+ {
+  "id": "TOX:056",
+  "display_name": "warfarin",
+  "synonyms": [
+   "coumadin over-anticoagulation",
+   "warfarin overdose"
+  ],
+  "source": "llm_generated:entity_toxins_v1.md",
+  "category": "drug overdoses"
+ },
+ {
+  "id": "TOX:057",
+  "display_name": "metformin",
+  "synonyms": [
+   "metformin-associated lactic acidosis",
+   "MALA"
+  ],
+  "source": "llm_generated:entity_toxins_v1.md",
+  "category": "drug overdoses"
+ },
+ {
+  "id": "TOX:058",
+  "display_name": "sulfonylurea",
+  "synonyms": [
+   "glipizide overdose",
+   "glyburide hypoglycemia"
+  ],
+  "source": "llm_generated:entity_toxins_v1.md",
+  "category": "drug overdoses"
+ },
+ {
+  "id": "TOX:059",
+  "display_name": "insulin",
+  "synonyms": [
+   "exogenous insulin overdose",
+   "insulin-induced hypoglycemia"
+  ],
+  "source": "llm_generated:entity_toxins_v1.md",
+  "category": "drug overdoses"
+ },
+ {
+  "id": "TOX:060",
+  "display_name": "propranolol",
+  "synonyms": [
+   "beta-blocker overdose",
+   "metoprolol overdose"
+  ],
+  "source": "llm_generated:entity_toxins_v1.md",
+  "category": "drug overdoses"
+ },
+ {
+  "id": "TOX:061",
+  "display_name": "verapamil",
+  "synonyms": [
+   "calcium channel blocker overdose",
+   "diltiazem overdose"
+  ],
+  "source": "llm_generated:entity_toxins_v1.md",
+  "category": "drug overdoses"
+ },
+ {
+  "id": "TOX:062",
+  "display_name": "amitriptyline",
+  "synonyms": [
+   "tricyclic antidepressant overdose",
+   "TCA overdose",
+   "nortriptyline overdose"
+  ],
+  "source": "llm_generated:entity_toxins_v1.md",
+  "category": "drug overdoses"
+ },
+ {
+  "id": "TOX:063",
+  "display_name": "sertraline",
+  "synonyms": [
+   "SSRI overdose",
+   "serotonin syndrome",
+   "fluoxetine overdose"
+  ],
+  "source": "llm_generated:entity_toxins_v1.md",
+  "category": "drug overdoses"
+ },
+ {
+  "id": "TOX:064",
+  "display_name": "venlafaxine",
+  "synonyms": [
+   "SNRI overdose",
+   "duloxetine overdose"
+  ],
+  "source": "llm_generated:entity_toxins_v1.md",
+  "category": "drug overdoses"
+ },
+ {
+  "id": "TOX:065",
+  "display_name": "bupropion",
+  "synonyms": [
+   "Wellbutrin overdose",
+   "bupropion seizures"
+  ],
+  "source": "llm_generated:entity_toxins_v1.md",
+  "category": "drug overdoses"
+ },
+ {
+  "id": "TOX:066",
+  "display_name": "valproic acid",
+  "synonyms": [
+   "valproate toxicity",
+   "valproate hyperammonemia"
+  ],
+  "source": "llm_generated:entity_toxins_v1.md",
+  "category": "drug overdoses"
+ },
+ {
+  "id": "TOX:067",
+  "display_name": "carbamazepine",
+  "synonyms": [
+   "Tegretol overdose",
+   "carbamazepine toxicity"
+  ],
+  "source": "llm_generated:entity_toxins_v1.md",
+  "category": "drug overdoses"
+ },
+ {
+  "id": "TOX:068",
+  "display_name": "phenytoin",
+  "synonyms": [
+   "Dilantin toxicity",
+   "fosphenytoin overdose"
+  ],
+  "source": "llm_generated:entity_toxins_v1.md",
+  "category": "drug overdoses"
+ },
+ {
+  "id": "TOX:069",
+  "display_name": "lamotrigine",
+  "synonyms": [
+   "lamotrigine overdose",
+   "Lamictal overdose"
+  ],
+  "source": "llm_generated:entity_toxins_v1.md",
+  "category": "drug overdoses"
+ },
+ {
+  "id": "TOX:070",
+  "display_name": "clozapine",
+  "synonyms": [
+   "clozapine toxicity",
+   "clozapine agranulocytosis"
+  ],
+  "source": "llm_generated:entity_toxins_v1.md",
+  "category": "drug overdoses"
+ },
+ {
+  "id": "TOX:071",
+  "display_name": "quetiapine",
+  "synonyms": [
+   "Seroquel overdose",
+   "atypical antipsychotic overdose"
+  ],
+  "source": "llm_generated:entity_toxins_v1.md",
+  "category": "drug overdoses"
+ },
+ {
+  "id": "TOX:072",
+  "display_name": "haloperidol",
+  "synonyms": [
+   "neuroleptic malignant syndrome",
+   "butyrophenone toxicity"
+  ],
+  "source": "llm_generated:entity_toxins_v1.md",
+  "category": "drug overdoses"
+ },
+ {
+  "id": "TOX:073",
+  "display_name": "isoniazid",
+  "synonyms": [
+   "INH overdose",
+   "isoniazid-induced seizures"
+  ],
+  "source": "llm_generated:entity_toxins_v1.md",
+  "category": "drug overdoses"
+ },
+ {
+  "id": "TOX:074",
+  "display_name": "ferrous sulfate",
+  "synonyms": [
+   "iron overdose",
+   "pediatric iron ingestion",
+   "elemental iron poisoning"
+  ],
+  "source": "llm_generated:entity_toxins_v1.md",
+  "category": "drug overdoses"
+ },
+ {
+  "id": "TOX:075",
+  "display_name": "colchicine",
+  "synonyms": [
+   "colchicine overdose",
+   "colchicine toxicity"
+  ],
+  "source": "llm_generated:entity_toxins_v1.md",
+  "category": "drug overdoses"
+ },
+ {
+  "id": "TOX:076",
+  "display_name": "methotrexate",
+  "synonyms": [
+   "methotrexate toxicity",
+   "inadvertent daily methotrexate"
+  ],
+  "source": "llm_generated:entity_toxins_v1.md",
+  "category": "drug overdoses"
+ },
+ {
+  "id": "TOX:077",
+  "display_name": "hydroxychloroquine",
+  "synonyms": [
+   "chloroquine overdose",
+   "antimalarial overdose"
+  ],
+  "source": "llm_generated:entity_toxins_v1.md",
+  "category": "drug overdoses"
+ },
+ {
+  "id": "TOX:078",
+  "display_name": "bupivacaine",
+  "synonyms": [
+   "local anesthetic systemic toxicity",
+   "LAST",
+   "lidocaine toxicity"
+  ],
+  "source": "llm_generated:entity_toxins_v1.md",
+  "category": "drug overdoses"
+ },
+ {
+  "id": "TOX:079",
+  "display_name": "baclofen",
+  "synonyms": [
+   "baclofen overdose",
+   "intrathecal baclofen withdrawal"
+  ],
+  "source": "llm_generated:entity_toxins_v1.md",
+  "category": "drug overdoses"
+ },
+ {
+  "id": "TOX:080",
+  "display_name": "alprazolam",
+  "synonyms": [
+   "benzodiazepine overdose",
+   "Xanax overdose",
+   "diazepam overdose"
+  ],
+  "source": "llm_generated:entity_toxins_v1.md",
+  "category": "drug overdoses"
+ },
+ {
+  "id": "TOX:081",
+  "display_name": "diphenhydramine",
+  "synonyms": [
+   "antihistamine overdose",
+   "anticholinergic toxidrome",
+   "Benadryl overdose"
+  ],
+  "source": "llm_generated:entity_toxins_v1.md",
+  "category": "drug overdoses"
+ },
+ {
+  "id": "TOX:082",
+  "display_name": "dapsone",
+  "synonyms": [
+   "dapsone-induced methemoglobinemia",
+   "sulfone toxicity"
+  ],
+  "source": "llm_generated:entity_toxins_v1.md",
+  "category": "drug overdoses"
+ },
+ {
+  "id": "TOX:083",
+  "display_name": "clonidine",
+  "synonyms": [
+   "central alpha-2 agonist overdose",
+   "imidazoline toxicity",
+   "tizanidine overdose"
+  ],
+  "source": "llm_generated:entity_toxins_v1.md",
+  "category": "drug overdoses"
+ },
+ {
+  "id": "TOX:084",
+  "display_name": "caffeine",
+  "synonyms": [
+   "caffeine overdose",
+   "caffeine powder ingestion",
+   "energy drink toxicity"
+  ],
+  "source": "llm_generated:entity_toxins_v1.md",
+  "category": "drug overdoses"
+ },
+ {
+  "id": "TOX:085",
+  "display_name": "ethanol",
+  "synonyms": [
+   "alcohol intoxication",
+   "ethyl alcohol",
+   "acute alcohol poisoning"
+  ],
+  "source": "llm_generated:entity_toxins_v1.md",
+  "category": "alcohols and solvents"
+ },
+ {
+  "id": "TOX:086",
+  "display_name": "methanol",
+  "synonyms": [
+   "wood alcohol",
+   "methyl alcohol",
+   "adulterated liquor methanol"
+  ],
+  "source": "llm_generated:entity_toxins_v1.md",
+  "category": "alcohols and solvents"
+ },
+ {
+  "id": "TOX:087",
+  "display_name": "ethylene glycol",
+  "synonyms": [
+   "antifreeze ingestion",
+   "radiator fluid"
+  ],
+  "source": "llm_generated:entity_toxins_v1.md",
+  "category": "alcohols and solvents"
+ },
+ {
+  "id": "TOX:088",
+  "display_name": "isopropyl alcohol",
+  "synonyms": [
+   "rubbing alcohol",
+   "isopropanol ingestion"
+  ],
+  "source": "llm_generated:entity_toxins_v1.md",
+  "category": "alcohols and solvents"
+ },
+ {
+  "id": "TOX:089",
+  "display_name": "diethylene glycol",
+  "synonyms": [
+   "DEG-contaminated cough syrup",
+   "diethylene glycol poisoning"
+  ],
+  "source": "llm_generated:entity_toxins_v1.md",
+  "category": "alcohols and solvents"
+ },
+ {
+  "id": "TOX:090",
+  "display_name": "propylene glycol",
+  "synonyms": [
+   "propylene glycol infusion toxicity",
+   "lorazepam diluent toxicity"
+  ],
+  "source": "llm_generated:entity_toxins_v1.md",
+  "category": "alcohols and solvents"
+ },
+ {
+  "id": "TOX:091",
+  "display_name": "toluene",
+  "synonyms": [
+   "glue sniffing",
+   "methylbenzene",
+   "toluene abuse"
+  ],
+  "source": "llm_generated:entity_toxins_v1.md",
+  "category": "alcohols and solvents"
+ },
+ {
+  "id": "TOX:092",
+  "display_name": "benzene",
+  "synonyms": [
+   "benzol exposure",
+   "benzene-induced aplastic anemia"
+  ],
+  "source": "llm_generated:entity_toxins_v1.md",
+  "category": "alcohols and solvents"
+ },
+ {
+  "id": "TOX:093",
+  "display_name": "xylene",
+  "synonyms": [
+   "dimethylbenzene",
+   "xylene solvent exposure"
+  ],
+  "source": "llm_generated:entity_toxins_v1.md",
+  "category": "alcohols and solvents"
+ },
+ {
+  "id": "TOX:094",
+  "display_name": "carbon tetrachloride",
+  "synonyms": [
+   "tetrachloromethane",
+   "CCl4 hepatotoxicity"
+  ],
+  "source": "llm_generated:entity_toxins_v1.md",
+  "category": "alcohols and solvents"
+ },
+ {
+  "id": "TOX:095",
+  "display_name": "trichloroethylene",
+  "synonyms": [
+   "TCE",
+   "degreaser exposure",
+   "trichlor"
+  ],
+  "source": "llm_generated:entity_toxins_v1.md",
+  "category": "alcohols and solvents"
+ },
+ {
+  "id": "TOX:096",
+  "display_name": "tetrachloroethylene",
+  "synonyms": [
+   "perchloroethylene",
+   "perc",
+   "dry cleaning solvent"
+  ],
+  "source": "llm_generated:entity_toxins_v1.md",
+  "category": "alcohols and solvents"
+ },
+ {
+  "id": "TOX:097",
+  "display_name": "methylene chloride",
+  "synonyms": [
+   "dichloromethane",
+   "paint stripper vapor"
+  ],
+  "source": "llm_generated:entity_toxins_v1.md",
+  "category": "alcohols and solvents"
+ },
+ {
+  "id": "TOX:098",
+  "display_name": "n-hexane",
+  "synonyms": [
+   "hexane neuropathy",
+   "hexacarbon neuropathy"
+  ],
+  "source": "llm_generated:entity_toxins_v1.md",
+  "category": "alcohols and solvents"
+ },
+ {
+  "id": "TOX:099",
+  "display_name": "acetone",
+  "synonyms": [
+   "nail polish remover ingestion",
+   "propanone"
+  ],
+  "source": "llm_generated:entity_toxins_v1.md",
+  "category": "alcohols and solvents"
+ },
+ {
+  "id": "TOX:100",
+  "display_name": "chloroform",
+  "synonyms": [
+   "trichloromethane"
+  ],
+  "source": "llm_generated:entity_toxins_v1.md",
+  "category": "alcohols and solvents"
+ },
+ {
+  "id": "TOX:101",
+  "display_name": "gasoline",
+  "synonyms": [
+   "petrol ingestion",
+   "hydrocarbon aspiration",
+   "gasoline sniffing"
+  ],
+  "source": "llm_generated:entity_toxins_v1.md",
+  "category": "alcohols and solvents"
+ },
+ {
+  "id": "TOX:102",
+  "display_name": "kerosene",
+  "synonyms": [
+   "lamp oil ingestion",
+   "paraffin oil ingestion"
+  ],
+  "source": "llm_generated:entity_toxins_v1.md",
+  "category": "alcohols and solvents"
+ },
+ {
+  "id": "TOX:103",
+  "display_name": "turpentine",
+  "synonyms": [
+   "turpentine oil ingestion",
+   "gum spirit"
+  ],
+  "source": "llm_generated:entity_toxins_v1.md",
+  "category": "alcohols and solvents"
+ },
+ {
+  "id": "TOX:104",
+  "display_name": "1,4-butanediol",
+  "synonyms": [
+   "BD",
+   "gamma-butyrolactone",
+   "GBL",
+   "GHB precursor"
+  ],
+  "source": "llm_generated:entity_toxins_v1.md",
+  "category": "alcohols and solvents"
+ },
+ {
+  "id": "TOX:105",
+  "display_name": "heroin",
+  "synonyms": [
+   "diacetylmorphine",
+   "diamorphine",
+   "opioid overdose"
+  ],
+  "source": "llm_generated:entity_toxins_v1.md",
+  "category": "drugs of abuse"
+ },
+ {
+  "id": "TOX:106",
+  "display_name": "illicit fentanyl",
+  "synonyms": [
+   "street fentanyl",
+   "fentanyl overdose",
+   "fentanyl-adulterated supply"
+  ],
+  "source": "llm_generated:entity_toxins_v1.md",
+  "category": "drugs of abuse"
+ },
+ {
+  "id": "TOX:107",
+  "display_name": "carfentanil",
+  "synonyms": [
+   "carfentanyl",
+   "ultrapotent fentanyl analog"
+  ],
+  "source": "llm_generated:entity_toxins_v1.md",
+  "category": "drugs of abuse"
+ },
+ {
+  "id": "TOX:108",
+  "display_name": "nitazene",
+  "synonyms": [
+   "isotonitazene",
+   "metonitazene",
+   "benzimidazole opioid"
+  ],
+  "source": "llm_generated:entity_toxins_v1.md",
+  "category": "drugs of abuse"
+ },
+ {
+  "id": "TOX:109",
+  "display_name": "cocaine",
+  "synonyms": [
+   "crack cocaine",
+   "benzoylmethylecgonine",
+   "cocaine intoxication"
+  ],
+  "source": "llm_generated:entity_toxins_v1.md",
+  "category": "drugs of abuse"
+ },
+ {
+  "id": "TOX:110",
+  "display_name": "methamphetamine",
+  "synonyms": [
+   "crystal meth",
+   "ice",
+   "amphetamine intoxication"
+  ],
+  "source": "llm_generated:entity_toxins_v1.md",
+  "category": "drugs of abuse"
+ },
+ {
+  "id": "TOX:111",
+  "display_name": "MDMA",
+  "synonyms": [
+   "ecstasy",
+   "molly",
+   "3,4-methylenedioxymethamphetamine"
+  ],
+  "source": "llm_generated:entity_toxins_v1.md",
+  "category": "drugs of abuse"
+ },
+ {
+  "id": "TOX:112",
+  "display_name": "synthetic cannabinoid",
+  "synonyms": [
+   "K2",
+   "Spice",
+   "AMB-FUBINACA"
+  ],
+  "source": "llm_generated:entity_toxins_v1.md",
+  "category": "drugs of abuse"
+ },
+ {
+  "id": "TOX:113",
+  "display_name": "synthetic cathinone",
+  "synonyms": [
+   "bath salts",
+   "mephedrone",
+   "MDPV"
+  ],
+  "source": "llm_generated:entity_toxins_v1.md",
+  "category": "drugs of abuse"
+ },
+ {
+  "id": "TOX:114",
+  "display_name": "cannabis",
+  "synonyms": [
+   "marijuana intoxication",
+   "THC",
+   "cannabinoid hyperemesis syndrome"
+  ],
+  "source": "llm_generated:entity_toxins_v1.md",
+  "category": "drugs of abuse"
+ },
+ {
+  "id": "TOX:115",
+  "display_name": "LSD",
+  "synonyms": [
+   "lysergic acid diethylamide",
+   "acid"
+  ],
+  "source": "llm_generated:entity_toxins_v1.md",
+  "category": "drugs of abuse"
+ },
+ {
+  "id": "TOX:116",
+  "display_name": "psilocybin mushrooms",
+  "synonyms": [
+   "magic mushrooms",
+   "Psilocybe cubensis",
+   "shrooms"
+  ],
+  "source": "llm_generated:entity_toxins_v1.md",
+  "category": "drugs of abuse"
+ },
+ {
+  "id": "TOX:117",
+  "display_name": "phencyclidine",
+  "synonyms": [
+   "PCP",
+   "angel dust"
+  ],
+  "source": "llm_generated:entity_toxins_v1.md",
+  "category": "drugs of abuse"
+ },
+ {
+  "id": "TOX:118",
+  "display_name": "ketamine",
+  "synonyms": [
+   "special K",
+   "ketamine intoxication",
+   "K-hole"
+  ],
+  "source": "llm_generated:entity_toxins_v1.md",
+  "category": "drugs of abuse"
+ },
+ {
+  "id": "TOX:119",
+  "display_name": "GHB",
+  "synonyms": [
+   "gamma-hydroxybutyrate",
+   "liquid ecstasy",
+   "sodium oxybate abuse"
+  ],
+  "source": "llm_generated:entity_toxins_v1.md",
+  "category": "drugs of abuse"
+ },
+ {
+  "id": "TOX:120",
+  "display_name": "xylazine",
+  "synonyms": [
+   "tranq",
+   "tranq dope",
+   "xylazine-adulterated fentanyl"
+  ],
+  "source": "llm_generated:entity_toxins_v1.md",
+  "category": "drugs of abuse"
+ },
+ {
+  "id": "TOX:121",
+  "display_name": "kratom",
+  "synonyms": [
+   "mitragynine",
+   "Mitragyna speciosa",
+   "7-hydroxymitragynine"
+  ],
+  "source": "llm_generated:entity_toxins_v1.md",
+  "category": "drugs of abuse"
+ },
+ {
+  "id": "TOX:122",
+  "display_name": "DMT",
+  "synonyms": [
+   "dimethyltryptamine",
+   "ayahuasca"
+  ],
+  "source": "llm_generated:entity_toxins_v1.md",
+  "category": "drugs of abuse"
+ },
+ {
+  "id": "TOX:123",
+  "display_name": "mescaline",
+  "synonyms": [
+   "peyote",
+   "Lophophora williamsii"
+  ],
+  "source": "llm_generated:entity_toxins_v1.md",
+  "category": "drugs of abuse"
+ },
+ {
+  "id": "TOX:124",
+  "display_name": "25I-NBOMe",
+  "synonyms": [
+   "N-bomb",
+   "NBOMe series hallucinogen"
+  ],
+  "source": "llm_generated:entity_toxins_v1.md",
+  "category": "drugs of abuse"
+ },
+ {
+  "id": "TOX:125",
+  "display_name": "amyl nitrite",
+  "synonyms": [
+   "poppers",
+   "alkyl nitrite inhalant",
+   "isobutyl nitrite"
+  ],
+  "source": "llm_generated:entity_toxins_v1.md",
+  "category": "drugs of abuse"
+ },
+ {
+  "id": "TOX:126",
+  "display_name": "methadone",
+  "synonyms": [
+   "methadone overdose",
+   "methadone QT prolongation"
+  ],
+  "source": "llm_generated:entity_toxins_v1.md",
+  "category": "drugs of abuse"
+ },
+ {
+  "id": "TOX:127",
+  "display_name": "oxycodone",
+  "synonyms": [
+   "OxyContin overdose",
+   "prescription opioid overdose"
+  ],
+  "source": "llm_generated:entity_toxins_v1.md",
+  "category": "drugs of abuse"
+ },
+ {
+  "id": "TOX:128",
+  "display_name": "tramadol",
+  "synonyms": [
+   "tramadol overdose",
+   "tramadol-induced seizures"
+  ],
+  "source": "llm_generated:entity_toxins_v1.md",
+  "category": "drugs of abuse"
+ },
+ {
+  "id": "TOX:129",
+  "display_name": "nicotine",
+  "synonyms": [
+   "e-liquid ingestion",
+   "e-cigarette nicotine poisoning",
+   "nicotine pouch ingestion"
+  ],
+  "source": "llm_generated:entity_toxins_v1.md",
+  "category": "drugs of abuse"
+ },
+ {
+  "id": "TOX:130",
+  "display_name": "dextromethorphan",
+  "synonyms": [
+   "DXM abuse",
+   "robotripping",
+   "cough syrup abuse"
+  ],
+  "source": "llm_generated:entity_toxins_v1.md",
+  "category": "drugs of abuse"
+ },
+ {
+  "id": "TOX:131",
+  "display_name": "malathion",
+  "synonyms": [
+   "organophosphate insecticide",
+   "OP poisoning"
+  ],
+  "source": "llm_generated:entity_toxins_v1.md",
+  "category": "pesticides and rodenticides"
+ },
+ {
+  "id": "TOX:132",
+  "display_name": "parathion",
+  "synonyms": [
+   "ethyl parathion",
+   "methyl parathion"
+  ],
+  "source": "llm_generated:entity_toxins_v1.md",
+  "category": "pesticides and rodenticides"
+ },
+ {
+  "id": "TOX:133",
+  "display_name": "chlorpyrifos",
+  "synonyms": [
+   "Dursban",
+   "organophosphate insecticide"
+  ],
+  "source": "llm_generated:entity_toxins_v1.md",
+  "category": "pesticides and rodenticides"
+ },
+ {
+  "id": "TOX:134",
+  "display_name": "dichlorvos",
+  "synonyms": [
+   "DDVP",
+   "Vapona",
+   "organophosphate strip"
+  ],
+  "source": "llm_generated:entity_toxins_v1.md",
+  "category": "pesticides and rodenticides"
+ },
+ {
+  "id": "TOX:135",
+  "display_name": "carbaryl",
+  "synonyms": [
+   "Sevin",
+   "carbamate insecticide"
+  ],
+  "source": "llm_generated:entity_toxins_v1.md",
+  "category": "pesticides and rodenticides"
+ },
+ {
+  "id": "TOX:136",
+  "display_name": "aldicarb",
+  "synonyms": [
+   "Temik",
+   "Tres Pasitos",
+   "illicit carbamate rodenticide"
+  ],
+  "source": "llm_generated:entity_toxins_v1.md",
+  "category": "pesticides and rodenticides"
+ },
+ {
+  "id": "TOX:137",
+  "display_name": "methomyl",
+  "synonyms": [
+   "Lannate",
+   "carbamate insecticide"
+  ],
+  "source": "llm_generated:entity_toxins_v1.md",
+  "category": "pesticides and rodenticides"
+ },
+ {
+  "id": "TOX:138",
+  "display_name": "paraquat",
+  "synonyms": [
+   "Gramoxone",
+   "paraquat ingestion",
+   "paraquat lung"
+  ],
+  "source": "llm_generated:entity_toxins_v1.md",
+  "category": "pesticides and rodenticides"
+ },
+ {
+  "id": "TOX:139",
+  "display_name": "diquat",
+  "synonyms": [
+   "Reglone",
+   "bipyridyl herbicide"
+  ],
+  "source": "llm_generated:entity_toxins_v1.md",
+  "category": "pesticides and rodenticides"
+ },
+ {
+  "id": "TOX:140",
+  "display_name": "glyphosate",
+  "synonyms": [
+   "Roundup ingestion",
+   "glyphosate-surfactant herbicide"
+  ],
+  "source": "llm_generated:entity_toxins_v1.md",
+  "category": "pesticides and rodenticides"
+ },
+ {
+  "id": "TOX:141",
+  "display_name": "2,4-D",
+  "synonyms": [
+   "chlorophenoxy herbicide",
+   "2,4-dichlorophenoxyacetic acid"
+  ],
+  "source": "llm_generated:entity_toxins_v1.md",
+  "category": "pesticides and rodenticides"
+ },
+ {
+  "id": "TOX:142",
+  "display_name": "permethrin",
+  "synonyms": [
+   "pyrethroid insecticide",
+   "pyrethrin exposure",
+   "deltamethrin"
+  ],
+  "source": "llm_generated:entity_toxins_v1.md",
+  "category": "pesticides and rodenticides"
+ },
+ {
+  "id": "TOX:143",
+  "display_name": "DDT",
+  "synonyms": [
+   "dichlorodiphenyltrichloroethane",
+   "organochlorine insecticide"
+  ],
+  "source": "llm_generated:entity_toxins_v1.md",
+  "category": "pesticides and rodenticides"
+ },
+ {
+  "id": "TOX:144",
+  "display_name": "lindane",
+  "synonyms": [
+   "gamma-hexachlorocyclohexane",
+   "lindane scabies toxicity"
+  ],
+  "source": "llm_generated:entity_toxins_v1.md",
+  "category": "pesticides and rodenticides"
+ },
+ {
+  "id": "TOX:145",
+  "display_name": "endosulfan",
+  "synonyms": [
+   "Thiodan",
+   "organochlorine insecticide"
+  ],
+  "source": "llm_generated:entity_toxins_v1.md",
+  "category": "pesticides and rodenticides"
+ },
+ {
+  "id": "TOX:146",
+  "display_name": "rotenone",
+  "synonyms": [
+   "derris root",
+   "rotenone insecticide"
+  ],
+  "source": "llm_generated:entity_toxins_v1.md",
+  "category": "pesticides and rodenticides"
+ },
+ {
+  "id": "TOX:147",
+  "display_name": "imidacloprid",
+  "synonyms": [
+   "neonicotinoid insecticide",
+   "acetamiprid"
+  ],
+  "source": "llm_generated:entity_toxins_v1.md",
+  "category": "pesticides and rodenticides"
+ },
+ {
+  "id": "TOX:148",
+  "display_name": "metaldehyde",
+  "synonyms": [
+   "slug bait",
+   "snail pellet ingestion"
+  ],
+  "source": "llm_generated:entity_toxins_v1.md",
+  "category": "pesticides and rodenticides"
+ },
+ {
+  "id": "TOX:149",
+  "display_name": "DEET",
+  "synonyms": [
+   "N,N-diethyl-meta-toluamide",
+   "insect repellent toxicity"
+  ],
+  "source": "llm_generated:entity_toxins_v1.md",
+  "category": "pesticides and rodenticides"
+ },
+ {
+  "id": "TOX:150",
+  "display_name": "brodifacoum",
+  "synonyms": [
+   "superwarfarin",
+   "long-acting anticoagulant rodenticide",
+   "difenacoum"
+  ],
+  "source": "llm_generated:entity_toxins_v1.md",
+  "category": "pesticides and rodenticides"
+ },
+ {
+  "id": "TOX:151",
+  "display_name": "bromethalin",
+  "synonyms": [
+   "bromethalin rodenticide",
+   "uncoupler rodenticide"
+  ],
+  "source": "llm_generated:entity_toxins_v1.md",
+  "category": "pesticides and rodenticides"
+ },
+ {
+  "id": "TOX:152",
+  "display_name": "strychnine",
+  "synonyms": [
+   "strychnine poisoning",
+   "nux vomica"
+  ],
+  "source": "llm_generated:entity_toxins_v1.md",
+  "category": "pesticides and rodenticides"
+ },
+ {
+  "id": "TOX:153",
+  "display_name": "sodium fluoroacetate",
+  "synonyms": [
+   "compound 1080",
+   "fluoroacetate poisoning"
+  ],
+  "source": "llm_generated:entity_toxins_v1.md",
+  "category": "pesticides and rodenticides"
+ },
+ {
+  "id": "TOX:154",
+  "display_name": "zinc phosphide",
+  "synonyms": [
+   "phosphide rodenticide",
+   "rat poison phosphide"
+  ],
+  "source": "llm_generated:entity_toxins_v1.md",
+  "category": "pesticides and rodenticides"
+ },
+ {
+  "id": "TOX:155",
+  "display_name": "aluminum phosphide",
+  "synonyms": [
+   "rice tablet",
+   "Celphos",
+   "fumigant tablet ingestion"
+  ],
+  "source": "llm_generated:entity_toxins_v1.md",
+  "category": "pesticides and rodenticides"
+ },
+ {
+  "id": "TOX:156",
+  "display_name": "Amanita phalloides",
+  "synonyms": [
+   "death cap mushroom",
+   "amatoxin poisoning",
+   "alpha-amanitin"
+  ],
+  "source": "llm_generated:entity_toxins_v1.md",
+  "category": "plant and natural toxins"
+ },
+ {
+  "id": "TOX:157",
+  "display_name": "Gyromitra esculenta",
+  "synonyms": [
+   "false morel",
+   "gyromitrin",
+   "monomethylhydrazine"
+  ],
+  "source": "llm_generated:entity_toxins_v1.md",
+  "category": "plant and natural toxins"
+ },
+ {
+  "id": "TOX:158",
+  "display_name": "Amanita muscaria",
+  "synonyms": [
+   "fly agaric",
+   "ibotenic acid",
+   "muscimol"
+  ],
+  "source": "llm_generated:entity_toxins_v1.md",
+  "category": "plant and natural toxins"
+ },
+ {
+  "id": "TOX:159",
+  "display_name": "Clitocybe dealbata",
+  "synonyms": [
+   "muscarinic mushroom",
+   "Inocybe",
+   "muscarine poisoning"
+  ],
+  "source": "llm_generated:entity_toxins_v1.md",
+  "category": "plant and natural toxins"
+ },
+ {
+  "id": "TOX:160",
+  "display_name": "Coprinopsis atramentaria",
+  "synonyms": [
+   "inky cap mushroom",
+   "coprine",
+   "disulfiram-like mushroom reaction"
+  ],
+  "source": "llm_generated:entity_toxins_v1.md",
+  "category": "plant and natural toxins"
+ },
+ {
+  "id": "TOX:161",
+  "display_name": "Cortinarius orellanus",
+  "synonyms": [
+   "webcap mushroom",
+   "orellanine nephrotoxicity"
+  ],
+  "source": "llm_generated:entity_toxins_v1.md",
+  "category": "plant and natural toxins"
+ },
+ {
+  "id": "TOX:162",
+  "display_name": "oleander",
+  "synonyms": [
+   "Nerium oleander",
+   "yellow oleander",
+   "Thevetia peruviana"
+  ],
+  "source": "llm_generated:entity_toxins_v1.md",
+  "category": "plant and natural toxins"
+ },
+ {
+  "id": "TOX:163",
+  "display_name": "foxglove",
+  "synonyms": [
+   "Digitalis purpurea",
+   "digitalis plant ingestion"
+  ],
+  "source": "llm_generated:entity_toxins_v1.md",
+  "category": "plant and natural toxins"
+ },
+ {
+  "id": "TOX:164",
+  "display_name": "lily of the valley",
+  "synonyms": [
+   "Convallaria majalis",
+   "convallatoxin"
+  ],
+  "source": "llm_generated:entity_toxins_v1.md",
+  "category": "plant and natural toxins"
+ },
+ {
+  "id": "TOX:165",
+  "display_name": "yew",
+  "synonyms": [
+   "Taxus baccata",
+   "taxine alkaloid",
+   "Japanese yew"
+  ],
+  "source": "llm_generated:entity_toxins_v1.md",
+  "category": "plant and natural toxins"
+ },
+ {
+  "id": "TOX:166",
+  "display_name": "water hemlock",
+  "synonyms": [
+   "Cicuta maculata",
+   "cicutoxin"
+  ],
+  "source": "llm_generated:entity_toxins_v1.md",
+  "category": "plant and natural toxins"
+ },
+ {
+  "id": "TOX:167",
+  "display_name": "poison hemlock",
+  "synonyms": [
+   "Conium maculatum",
+   "coniine"
+  ],
+  "source": "llm_generated:entity_toxins_v1.md",
+  "category": "plant and natural toxins"
+ },
+ {
+  "id": "TOX:168",
+  "display_name": "castor bean",
+  "synonyms": [
+   "ricin",
+   "Ricinus communis"
+  ],
+  "source": "llm_generated:entity_toxins_v1.md",
+  "category": "plant and natural toxins"
+ },
+ {
+  "id": "TOX:169",
+  "display_name": "rosary pea",
+  "synonyms": [
+   "abrin",
+   "Abrus precatorius",
+   "jequirity bean"
+  ],
+  "source": "llm_generated:entity_toxins_v1.md",
+  "category": "plant and natural toxins"
+ },
+ {
+  "id": "TOX:170",
+  "display_name": "jimsonweed",
+  "synonyms": [
+   "Datura stramonium",
+   "thorn apple",
+   "anticholinergic plant"
+  ],
+  "source": "llm_generated:entity_toxins_v1.md",
+  "category": "plant and natural toxins"
+ },
+ {
+  "id": "TOX:171",
+  "display_name": "deadly nightshade",
+  "synonyms": [
+   "Atropa belladonna",
+   "belladonna alkaloid"
+  ],
+  "source": "llm_generated:entity_toxins_v1.md",
+  "category": "plant and natural toxins"
+ },
+ {
+  "id": "TOX:172",
+  "display_name": "monkshood",
+  "synonyms": [
+   "Aconitum napellus",
+   "aconitine",
+   "wolfsbane"
+  ],
+  "source": "llm_generated:entity_toxins_v1.md",
+  "category": "plant and natural toxins"
+ },
+ {
+  "id": "TOX:173",
+  "display_name": "autumn crocus",
+  "synonyms": [
+   "Colchicum autumnale",
+   "meadow saffron"
+  ],
+  "source": "llm_generated:entity_toxins_v1.md",
+  "category": "plant and natural toxins"
+ },
+ {
+  "id": "TOX:174",
+  "display_name": "pokeweed",
+  "synonyms": [
+   "Phytolacca americana",
+   "phytolaccatoxin",
+   "pokeberry"
+  ],
+  "source": "llm_generated:entity_toxins_v1.md",
+  "category": "plant and natural toxins"
+ },
+ {
+  "id": "TOX:175",
+  "display_name": "green tobacco sickness",
+  "synonyms": [
+   "nicotine transdermal absorption",
+   "tobacco harvester nicotine toxicity"
+  ],
+  "source": "llm_generated:entity_toxins_v1.md",
+  "category": "plant and natural toxins"
+ },
+ {
+  "id": "TOX:176",
+  "display_name": "ackee fruit",
+  "synonyms": [
+   "hypoglycin A",
+   "Jamaican vomiting sickness"
+  ],
+  "source": "llm_generated:entity_toxins_v1.md",
+  "category": "plant and natural toxins"
+ },
+ {
+  "id": "TOX:177",
+  "display_name": "cassava",
+  "synonyms": [
+   "linamarin",
+   "cyanogenic glycoside",
+   "konzo"
+  ],
+  "source": "llm_generated:entity_toxins_v1.md",
+  "category": "plant and natural toxins"
+ },
+ {
+  "id": "TOX:178",
+  "display_name": "apricot kernel",
+  "synonyms": [
+   "amygdalin",
+   "laetrile",
+   "bitter almond cyanide"
+  ],
+  "source": "llm_generated:entity_toxins_v1.md",
+  "category": "plant and natural toxins"
+ },
+ {
+  "id": "TOX:179",
+  "display_name": "pennyroyal oil",
+  "synonyms": [
+   "pulegone",
+   "Mentha pulegium"
+  ],
+  "source": "llm_generated:entity_toxins_v1.md",
+  "category": "plant and natural toxins"
+ },
+ {
+  "id": "TOX:180",
+  "display_name": "camphor",
+  "synonyms": [
+   "camphorated oil ingestion",
+   "camphor rub ingestion"
+  ],
+  "source": "llm_generated:entity_toxins_v1.md",
+  "category": "plant and natural toxins"
+ },
+ {
+  "id": "TOX:181",
+  "display_name": "oil of wintergreen",
+  "synonyms": [
+   "methyl salicylate",
+   "wintergreen oil ingestion"
+  ],
+  "source": "llm_generated:entity_toxins_v1.md",
+  "category": "plant and natural toxins"
+ },
+ {
+  "id": "TOX:182",
+  "display_name": "grayanotoxin",
+  "synonyms": [
+   "mad honey poisoning",
+   "rhododendron honey",
+   "azalea toxin"
+  ],
+  "source": "llm_generated:entity_toxins_v1.md",
+  "category": "plant and natural toxins"
+ },
+ {
+  "id": "TOX:183",
+  "display_name": "rattlesnake envenomation",
+  "synonyms": [
+   "Crotalus bite",
+   "crotalid envenomation",
+   "pit viper bite"
+  ],
+  "source": "llm_generated:entity_toxins_v1.md",
+  "category": "venoms and bites"
+ },
+ {
+  "id": "TOX:184",
+  "display_name": "copperhead envenomation",
+  "synonyms": [
+   "Agkistrodon contortrix bite"
+  ],
+  "source": "llm_generated:entity_toxins_v1.md",
+  "category": "venoms and bites"
+ },
+ {
+  "id": "TOX:185",
+  "display_name": "cottonmouth envenomation",
+  "synonyms": [
+   "water moccasin bite",
+   "Agkistrodon piscivorus"
+  ],
+  "source": "llm_generated:entity_toxins_v1.md",
+  "category": "venoms and bites"
+ },
+ {
+  "id": "TOX:186",
+  "display_name": "coral snake envenomation",
+  "synonyms": [
+   "Micrurus bite",
+   "elapid coral snake bite"
+  ],
+  "source": "llm_generated:entity_toxins_v1.md",
+  "category": "venoms and bites"
+ },
+ {
+  "id": "TOX:187",
+  "display_name": "Russell's viper envenomation",
+  "synonyms": [
+   "Daboia russelii bite"
+  ],
+  "source": "llm_generated:entity_toxins_v1.md",
+  "category": "venoms and bites"
+ },
+ {
+  "id": "TOX:188",
+  "display_name": "Indian cobra envenomation",
+  "synonyms": [
+   "Naja naja bite",
+   "spectacled cobra bite"
+  ],
+  "source": "llm_generated:entity_toxins_v1.md",
+  "category": "venoms and bites"
+ },
+ {
+  "id": "TOX:189",
+  "display_name": "black mamba envenomation",
+  "synonyms": [
+   "Dendroaspis polylepis bite"
+  ],
+  "source": "llm_generated:entity_toxins_v1.md",
+  "category": "venoms and bites"
+ },
+ {
+  "id": "TOX:190",
+  "display_name": "saw-scaled viper envenomation",
+  "synonyms": [
+   "Echis carinatus bite"
+  ],
+  "source": "llm_generated:entity_toxins_v1.md",
+  "category": "venoms and bites"
+ },
+ {
+  "id": "TOX:191",
+  "display_name": "Australian brown snake envenomation",
+  "synonyms": [
+   "Pseudonaja textilis bite"
+  ],
+  "source": "llm_generated:entity_toxins_v1.md",
+  "category": "venoms and bites"
+ },
+ {
+  "id": "TOX:192",
+  "display_name": "sea snake envenomation",
+  "synonyms": [
+   "Hydrophiinae bite",
+   "sea snake myotoxicity"
+  ],
+  "source": "llm_generated:entity_toxins_v1.md",
+  "category": "venoms and bites"
+ },
+ {
+  "id": "TOX:193",
+  "display_name": "black widow spider bite",
+  "synonyms": [
+   "Latrodectus mactans",
+   "latrodectism",
+   "alpha-latrotoxin"
+  ],
+  "source": "llm_generated:entity_toxins_v1.md",
+  "category": "venoms and bites"
+ },
+ {
+  "id": "TOX:194",
+  "display_name": "brown recluse spider bite",
+  "synonyms": [
+   "Loxosceles reclusa",
+   "loxoscelism"
+  ],
+  "source": "llm_generated:entity_toxins_v1.md",
+  "category": "venoms and bites"
+ },
+ {
+  "id": "TOX:195",
+  "display_name": "funnel-web spider bite",
+  "synonyms": [
+   "Atrax robustus",
+   "Sydney funnel-web envenomation"
+  ],
+  "source": "llm_generated:entity_toxins_v1.md",
+  "category": "venoms and bites"
+ },
+ {
+  "id": "TOX:196",
+  "display_name": "bark scorpion sting",
+  "synonyms": [
+   "Centruroides sculpturatus",
+   "Arizona bark scorpion sting"
+  ],
+  "source": "llm_generated:entity_toxins_v1.md",
+  "category": "venoms and bites"
+ },
+ {
+  "id": "TOX:197",
+  "display_name": "deathstalker scorpion sting",
+  "synonyms": [
+   "Leiurus quinquestriatus",
+   "Androctonus sting"
+  ],
+  "source": "llm_generated:entity_toxins_v1.md",
+  "category": "venoms and bites"
+ },
+ {
+  "id": "TOX:198",
+  "display_name": "honeybee sting anaphylaxis",
+  "synonyms": [
+   "Apis mellifera sting",
+   "hymenoptera envenomation"
+  ],
+  "source": "llm_generated:entity_toxins_v1.md",
+  "category": "venoms and bites"
+ },
+ {
+  "id": "TOX:199",
+  "display_name": "wasp and hornet sting",
+  "synonyms": [
+   "Vespula sting",
+   "yellow jacket sting",
+   "Asian giant hornet sting"
+  ],
+  "source": "llm_generated:entity_toxins_v1.md",
+  "category": "venoms and bites"
+ },
+ {
+  "id": "TOX:200",
+  "display_name": "imported fire ant sting",
+  "synonyms": [
+   "Solenopsis invicta sting"
+  ],
+  "source": "llm_generated:entity_toxins_v1.md",
+  "category": "venoms and bites"
+ },
+ {
+  "id": "TOX:201",
+  "display_name": "box jellyfish envenomation",
+  "synonyms": [
+   "Chironex fleckeri sting",
+   "sea wasp sting"
+  ],
+  "source": "llm_generated:entity_toxins_v1.md",
+  "category": "venoms and bites"
+ },
+ {
+  "id": "TOX:202",
+  "display_name": "Irukandji jellyfish sting",
+  "synonyms": [
+   "Carukia barnesi",
+   "Irukandji syndrome"
+  ],
+  "source": "llm_generated:entity_toxins_v1.md",
+  "category": "venoms and bites"
+ },
+ {
+  "id": "TOX:203",
+  "display_name": "Portuguese man o' war sting",
+  "synonyms": [
+   "Physalia physalis sting",
+   "bluebottle sting"
+  ],
+  "source": "llm_generated:entity_toxins_v1.md",
+  "category": "venoms and bites"
+ },
+ {
+  "id": "TOX:204",
+  "display_name": "stingray envenomation",
+  "synonyms": [
+   "stingray barb injury",
+   "Dasyatis sting"
+  ],
+  "source": "llm_generated:entity_toxins_v1.md",
+  "category": "venoms and bites"
+ },
+ {
+  "id": "TOX:205",
+  "display_name": "stonefish envenomation",
+  "synonyms": [
+   "Synanceia sting",
+   "lionfish sting"
+  ],
+  "source": "llm_generated:entity_toxins_v1.md",
+  "category": "venoms and bites"
+ },
+ {
+  "id": "TOX:206",
+  "display_name": "blue-ringed octopus bite",
+  "synonyms": [
+   "Hapalochlaena bite",
+   "tetrodotoxin envenomation"
+  ],
+  "source": "llm_generated:entity_toxins_v1.md",
+  "category": "venoms and bites"
+ },
+ {
+  "id": "TOX:207",
+  "display_name": "sodium hypochlorite bleach",
+  "synonyms": [
+   "household bleach ingestion",
+   "chlorine bleach exposure"
+  ],
+  "source": "llm_generated:entity_toxins_v1.md",
+  "category": "household and occupational agents"
+ },
+ {
+  "id": "TOX:208",
+  "display_name": "sodium hydroxide drain cleaner",
+  "synonyms": [
+   "lye ingestion",
+   "caustic alkali ingestion"
+  ],
+  "source": "llm_generated:entity_toxins_v1.md",
+  "category": "household and occupational agents"
+ },
+ {
+  "id": "TOX:209",
+  "display_name": "sulfuric acid",
+  "synonyms": [
+   "battery acid",
+   "acid drain opener ingestion"
+  ],
+  "source": "llm_generated:entity_toxins_v1.md",
+  "category": "household and occupational agents"
+ },
+ {
+  "id": "TOX:210",
+  "display_name": "hydrochloric acid",
+  "synonyms": [
+   "muriatic acid",
+   "toilet bowl cleaner ingestion"
+  ],
+  "source": "llm_generated:entity_toxins_v1.md",
+  "category": "household and occupational agents"
+ },
+ {
+  "id": "TOX:211",
+  "display_name": "hydrofluoric acid",
+  "synonyms": [
+   "HF burn",
+   "rust remover exposure",
+   "glass etching acid"
+  ],
+  "source": "llm_generated:entity_toxins_v1.md",
+  "category": "household and occupational agents"
+ },
+ {
+  "id": "TOX:212",
+  "display_name": "naphthalene mothballs",
+  "synonyms": [
+   "naphthalene ingestion",
+   "mothball hemolysis"
+  ],
+  "source": "llm_generated:entity_toxins_v1.md",
+  "category": "household and occupational agents"
+ },
+ {
+  "id": "TOX:213",
+  "display_name": "paradichlorobenzene mothballs",
+  "synonyms": [
+   "1,4-dichlorobenzene",
+   "toilet deodorizer block ingestion"
+  ],
+  "source": "llm_generated:entity_toxins_v1.md",
+  "category": "household and occupational agents"
+ },
+ {
+  "id": "TOX:214",
+  "display_name": "button battery ingestion",
+  "synonyms": [
+   "disc battery ingestion",
+   "coin cell esophageal injury"
+  ],
+  "source": "llm_generated:entity_toxins_v1.md",
+  "category": "household and occupational agents"
+ },
+ {
+  "id": "TOX:215",
+  "display_name": "laundry detergent pod ingestion",
+  "synonyms": [
+   "liquid laundry packet exposure",
+   "detergent pod ingestion"
+  ],
+  "source": "llm_generated:entity_toxins_v1.md",
+  "category": "household and occupational agents"
+ },
+ {
+  "id": "TOX:216",
+  "display_name": "formaldehyde",
+  "synonyms": [
+   "formalin exposure",
+   "methanal"
+  ],
+  "source": "llm_generated:entity_toxins_v1.md",
+  "category": "household and occupational agents"
+ },
+ {
+  "id": "TOX:217",
+  "display_name": "glutaraldehyde",
+  "synonyms": [
+   "Cidex exposure",
+   "high-level disinfectant vapor"
+  ],
+  "source": "llm_generated:entity_toxins_v1.md",
+  "category": "household and occupational agents"
+ },
+ {
+  "id": "TOX:218",
+  "display_name": "toluene diisocyanate",
+  "synonyms": [
+   "isocyanate occupational asthma",
+   "MDI exposure"
+  ],
+  "source": "llm_generated:entity_toxins_v1.md",
+  "category": "household and occupational agents"
+ },
+ {
+  "id": "TOX:219",
+  "display_name": "crystalline silica dust",
+  "synonyms": [
+   "silicosis",
+   "engineered stone silica exposure"
+  ],
+  "source": "llm_generated:entity_toxins_v1.md",
+  "category": "household and occupational agents"
+ },
+ {
+  "id": "TOX:220",
+  "display_name": "asbestos",
+  "synonyms": [
+   "asbestos fiber exposure",
+   "asbestosis"
+  ],
+  "source": "llm_generated:entity_toxins_v1.md",
+  "category": "household and occupational agents"
+ },
+ {
+  "id": "TOX:221",
+  "display_name": "coal mine dust",
+  "synonyms": [
+   "coal workers' pneumoconiosis",
+   "black lung"
+  ],
+  "source": "llm_generated:entity_toxins_v1.md",
+  "category": "household and occupational agents"
+ },
+ {
+  "id": "TOX:222",
+  "display_name": "cotton dust",
+  "synonyms": [
+   "byssinosis",
+   "brown lung"
+  ],
+  "source": "llm_generated:entity_toxins_v1.md",
+  "category": "household and occupational agents"
+ },
+ {
+  "id": "TOX:223",
+  "display_name": "zinc oxide welding fume",
+  "synonyms": [
+   "metal fume fever",
+   "welding fume exposure"
+  ],
+  "source": "llm_generated:entity_toxins_v1.md",
+  "category": "household and occupational agents"
+ },
+ {
+  "id": "TOX:224",
+  "display_name": "polychlorinated biphenyls",
+  "synonyms": [
+   "PCBs",
+   "Yusho oil disease"
+  ],
+  "source": "llm_generated:entity_toxins_v1.md",
+  "category": "household and occupational agents"
+ },
+ {
+  "id": "TOX:225",
+  "display_name": "2,3,7,8-TCDD dioxin",
+  "synonyms": [
+   "dioxin exposure",
+   "Agent Orange contaminant",
+   "chloracne"
+  ],
+  "source": "llm_generated:entity_toxins_v1.md",
+  "category": "household and occupational agents"
+ },
+ {
+  "id": "TOX:226",
+  "display_name": "paraphenylenediamine",
+  "synonyms": [
+   "PPD hair dye poisoning",
+   "black henna reaction"
+  ],
+  "source": "llm_generated:entity_toxins_v1.md",
+  "category": "household and occupational agents"
+ },
+ {
+  "id": "TOX:227",
+  "display_name": "boric acid",
+  "synonyms": [
+   "borate ant bait ingestion",
+   "boric acid powder exposure"
+  ],
+  "source": "llm_generated:entity_toxins_v1.md",
+  "category": "household and occupational agents"
+ },
+ {
+  "id": "TOX:228",
+  "display_name": "radon",
+  "synonyms": [
+   "radon gas exposure",
+   "indoor radon"
+  ],
+  "source": "llm_generated:entity_toxins_v1.md",
+  "category": "household and occupational agents"
+ },
+ {
+  "id": "TOX:229",
+  "display_name": "carbon disulfide",
+  "synonyms": [
+   "viscose rayon solvent exposure",
+   "CS2"
+  ],
+  "source": "llm_generated:entity_toxins_v1.md",
+  "category": "household and occupational agents"
+ },
+ {
+  "id": "TOX:230",
+  "display_name": "ciguatera fish poisoning",
+  "synonyms": [
+   "ciguatoxin",
+   "reef fish poisoning"
+  ],
+  "source": "llm_generated:entity_toxins_v1.md",
+  "category": "food toxins"
+ },
+ {
+  "id": "TOX:231",
+  "display_name": "scombroid poisoning",
+  "synonyms": [
+   "histamine fish poisoning",
+   "scombrotoxin"
+  ],
+  "source": "llm_generated:entity_toxins_v1.md",
+  "category": "food toxins"
+ },
+ {
+  "id": "TOX:232",
+  "display_name": "pufferfish tetrodotoxin poisoning",
+  "synonyms": [
+   "fugu poisoning",
+   "TTX ingestion"
+  ],
+  "source": "llm_generated:entity_toxins_v1.md",
+  "category": "food toxins"
+ },
+ {
+  "id": "TOX:233",
+  "display_name": "paralytic shellfish poisoning",
+  "synonyms": [
+   "saxitoxin",
+   "red tide shellfish poisoning"
+  ],
+  "source": "llm_generated:entity_toxins_v1.md",
+  "category": "food toxins"
+ },
+ {
+  "id": "TOX:234",
+  "display_name": "neurotoxic shellfish poisoning",
+  "synonyms": [
+   "brevetoxin",
+   "Karenia brevis toxin"
+  ],
+  "source": "llm_generated:entity_toxins_v1.md",
+  "category": "food toxins"
+ },
+ {
+  "id": "TOX:235",
+  "display_name": "amnesic shellfish poisoning",
+  "synonyms": [
+   "domoic acid",
+   "ASP"
+  ],
+  "source": "llm_generated:entity_toxins_v1.md",
+  "category": "food toxins"
+ },
+ {
+  "id": "TOX:236",
+  "display_name": "diarrhetic shellfish poisoning",
+  "synonyms": [
+   "okadaic acid",
+   "DSP"
+  ],
+  "source": "llm_generated:entity_toxins_v1.md",
+  "category": "food toxins"
+ },
+ {
+  "id": "TOX:237",
+  "display_name": "foodborne botulism",
+  "synonyms": [
+   "botulinum toxin",
+   "Clostridium botulinum",
+   "home-canned food botulism"
+  ],
+  "source": "llm_generated:entity_toxins_v1.md",
+  "category": "food toxins"
+ },
+ {
+  "id": "TOX:238",
+  "display_name": "infant botulism",
+  "synonyms": [
+   "honey botulism",
+   "floppy baby syndrome"
+  ],
+  "source": "llm_generated:entity_toxins_v1.md",
+  "category": "food toxins"
+ },
+ {
+  "id": "TOX:239",
+  "display_name": "staphylococcal enterotoxin food poisoning",
+  "synonyms": [
+   "Staphylococcus aureus enterotoxin",
+   "preformed staph toxin"
+  ],
+  "source": "llm_generated:entity_toxins_v1.md",
+  "category": "food toxins"
+ },
+ {
+  "id": "TOX:240",
+  "display_name": "Bacillus cereus emetic toxin",
+  "synonyms": [
+   "cereulide",
+   "fried rice syndrome"
+  ],
+  "source": "llm_generated:entity_toxins_v1.md",
+  "category": "food toxins"
+ },
+ {
+  "id": "TOX:241",
+  "display_name": "Clostridium perfringens enterotoxin",
+  "synonyms": [
+   "CPE food poisoning",
+   "perfringens gastroenteritis"
+  ],
+  "source": "llm_generated:entity_toxins_v1.md",
+  "category": "food toxins"
+ },
+ {
+  "id": "TOX:242",
+  "display_name": "Shiga toxin",
+  "synonyms": [
+   "E. coli O157:H7",
+   "STEC",
+   "verotoxin",
+   "hemolytic uremic syndrome"
+  ],
+  "source": "llm_generated:entity_toxins_v1.md",
+  "category": "food toxins"
+ },
+ {
+  "id": "TOX:243",
+  "display_name": "aflatoxin",
+  "synonyms": [
+   "Aspergillus flavus toxin",
+   "aflatoxin B1"
+  ],
+  "source": "llm_generated:entity_toxins_v1.md",
+  "category": "food toxins"
+ },
+ {
+  "id": "TOX:244",
+  "display_name": "ochratoxin A",
+  "synonyms": [
+   "ochratoxin nephropathy",
+   "Balkan endemic nephropathy toxin"
+  ],
+  "source": "llm_generated:entity_toxins_v1.md",
+  "category": "food toxins"
+ },
+ {
+  "id": "TOX:245",
+  "display_name": "ergot alkaloid",
+  "synonyms": [
+   "ergotism",
+   "Claviceps purpurea",
+   "St Anthony's fire"
+  ],
+  "source": "llm_generated:entity_toxins_v1.md",
+  "category": "food toxins"
+ },
+ {
+  "id": "TOX:246",
+  "display_name": "deoxynivalenol",
+  "synonyms": [
+   "vomitoxin",
+   "Fusarium trichothecene"
+  ],
+  "source": "llm_generated:entity_toxins_v1.md",
+  "category": "food toxins"
+ },
+ {
+  "id": "TOX:247",
+  "display_name": "solanine",
+  "synonyms": [
+   "green potato poisoning",
+   "glycoalkaloid poisoning"
+  ],
+  "source": "llm_generated:entity_toxins_v1.md",
+  "category": "food toxins"
+ },
+ {
+  "id": "TOX:248",
+  "display_name": "phytohaemagglutinin",
+  "synonyms": [
+   "raw kidney bean lectin",
+   "red kidney bean poisoning"
+  ],
+  "source": "llm_generated:entity_toxins_v1.md",
+  "category": "food toxins"
+ },
+ {
+  "id": "TOX:249",
+  "display_name": "sodium nitrite ingestion",
+  "synonyms": [
+   "nitrite methemoglobinemia",
+   "cured meat nitrite toxicity"
+  ],
+  "source": "llm_generated:entity_toxins_v1.md",
+  "category": "food toxins"
+ },
+ {
+  "id": "TOX:250",
+  "display_name": "melamine-adulterated milk",
+  "synonyms": [
+   "melamine nephrolithiasis",
+   "melamine infant formula"
+  ],
+  "source": "llm_generated:entity_toxins_v1.md",
+  "category": "food toxins"
+ }
+]

@@ -1,0 +1,16 @@
+# Every other text the driver sends to the agent. Fixed wording; {placeholders} are filled by the driver.
+tool:
+  pubmed: "You are searching PubMed through its keyword search (Best Match ranking). Write plain keywords or PubMed syntax (boolean operators, [tiab], MeSH).\n   Valid: \"teriparatide AND glucocorticoid-induced osteoporosis[tiab] AND (randomized controlled trial[pt] OR meta-analysis[pt])\""
+  bm25: "You are searching 58.5 million biomedical papers by keyword matching on title and abstract (BM25). Write the terms that must appear.\n   Valid: \"teriparatide alendronate glucocorticoid-induced osteoporosis\""
+  dense: "You are searching a dense semantic search engine over 58.5 million biomedical papers. Phrase your query as a natural-language question or description; semantic similarity is used, not keyword matching.\n   Valid: \"randomized trials of teriparatide versus alendronate in glucocorticoid-induced osteoporosis\""
+first_query: "Round 1 of {hops}. Write your first search query."
+next_query: "Round {round} of {hops}. Write another search query to find relevant sources not yet shown."
+not_json: "Your reply was not valid JSON. Reply with JSON only."
+results_header: "SEARCH RESULTS for \"{query}\" ({n_new} new):"
+no_query: "SEARCH RESULTS: no search query was given."
+no_new_papers: "No new sources."
+duplicates: "({n} results were shown in earlier rounds and are not re-shown.)"
+paper: "[{ident}] [{type}] {title} | {journal} {year} | cites:{cited_by} | Abstract: {abstract}"
+fda_label: "FDA LABEL: [{identifier}] {brand_name} ({generic_name}), {manufacturer}, updated {updated} | {section}: {text}"
+fda_not_found: "FDA LABEL: no label found for \"{drug}\"."
+fda_missing_section: "FDA LABEL: [{identifier}] {brand_name} ({generic_name}) has no section \"{section}\". Sections it has: {sections}."

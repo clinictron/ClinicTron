@@ -1,0 +1,15 @@
+# Corpus encodes as published on Hugging Face (documents only; --data-dir points at a folder
+# holding corpus.parquet (_id, title, text) and a queries.parquet, which may hold one dummy row).
+name: corpus_encode
+data: ./corpus/{task}
+dtype: bfloat16
+max_length: 8192
+tasks:
+  corpus: {}
+model_overrides:
+  ClinicTron-BGE: {eos: append}
+  ClinicTron-Qwen: {eos: append}
+  ClinicTron-NV: {pooling: mean_tokennorm}
+  ReasonEmbed: {normalize: false}
+  Qwen3-Embedding-8B: {normalize: false, path: Qwen/Qwen3-Embedding-8B@1d8ad4ca9b3dd8059ad90a75d4983776a23d44af}
+  NV-Embed-v2: {dtype: float16, max_length: 32768}

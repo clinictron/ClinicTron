@@ -1,0 +1,79 @@
+name: MTEB(eng, v2) retrieval
+source: mteb.get_benchmark('MTEB(eng, v2)'), retrieval tasks; data dumped with mteb 2.18.7
+data: data/mteb_v2/{task}
+dtype: float16
+max_length: 8192
+notes: instruction = mteb task prompt (Qwen task_prompts.json); nv = mteb 1.18.0 exact-name lookup of NV-Embed-v2's Table-13 strings, generic prompt otherwise; qwen document prompts on ArguAna and CQADupstack
+model_overrides:
+  DIVER-4B-1020:
+    query_template: 'Instruct: {instruction}
+
+      Query:{text}'
+    instruction_suffix: ''
+tasks:
+  mtebv2_ArguAna:
+    dir: ArguAna
+    instruction: Given a claim, find documents that refute the claim
+    instructions:
+      nv: Given a claim, retrieve documents that support or refute the claim
+    ignore_identical_ids: true
+    doc_instructions:
+      qwen: Given a claim, find documents that refute the claim
+  mtebv2_CQADupstackGamingRetrieval:
+    dir: CQADupstackGamingRetrieval
+    instruction: Given a question, retrieve detailed question descriptions from Stackexchange that are duplicates to the given question
+    instructions:
+      nv: Retrieve text based on user query.
+    ignore_identical_ids: false
+    doc_instructions:
+      qwen: Given a question, retrieve detailed question descriptions from Stackexchange that are duplicates to the given question
+  mtebv2_CQADupstackUnixRetrieval:
+    dir: CQADupstackUnixRetrieval
+    instruction: Given a question, retrieve detailed question descriptions from Stackexchange that are duplicates to the given question
+    instructions:
+      nv: Retrieve text based on user query.
+    ignore_identical_ids: false
+    doc_instructions:
+      qwen: Given a question, retrieve detailed question descriptions from Stackexchange that are duplicates to the given question
+  mtebv2_ClimateFEVERHardNegatives:
+    dir: ClimateFEVERHardNegatives
+    instruction: Given a claim about climate change, retrieve documents that support or refute the claim
+    instructions:
+      nv: Retrieve text based on user query.
+    ignore_identical_ids: false
+  mtebv2_FEVERHardNegatives:
+    dir: FEVERHardNegatives
+    instruction: Given a claim, retrieve documents that support or refute the claim
+    instructions:
+      nv: Retrieve text based on user query.
+    ignore_identical_ids: true
+  mtebv2_FiQA2018:
+    dir: FiQA2018
+    instruction: Given a financial question, retrieve user replies that best answer the question
+    instructions:
+      nv: Given a financial question, retrieve relevant passages that answer the query
+    ignore_identical_ids: true
+  mtebv2_HotpotQAHardNegatives:
+    dir: HotpotQAHardNegatives
+    instruction: Given a multi-hop question, retrieve documents that can help answer the question
+    instructions:
+      nv: Retrieve text based on user query.
+    ignore_identical_ids: false
+  mtebv2_SCIDOCS:
+    dir: SCIDOCS
+    instruction: Given a scientific paper title, retrieve paper abstracts that are cited by the given paper
+    instructions:
+      nv: Given a scientific paper title, retrieve paper abstracts that are cited by the given paper
+    ignore_identical_ids: false
+  mtebv2_TRECCOVID:
+    dir: TRECCOVID
+    instruction: Given a query on COVID-19, retrieve documents that answer the query
+    instructions:
+      nv: Given a query on COVID-19, retrieve documents that answer the query
+    ignore_identical_ids: false
+  mtebv2_Touche2020Retrieval.v3:
+    dir: Touche2020Retrieval.v3
+    instruction: Given a question, retrieve detailed and persuasive arguments that answer the question
+    instructions:
+      nv: Retrieve text based on user query.
+    ignore_identical_ids: false

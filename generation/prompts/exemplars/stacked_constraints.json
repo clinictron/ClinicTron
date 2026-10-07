@@ -1,0 +1,27 @@
+[
+  {
+    "query_id": "NQ001960",
+    "text": "What should you do with ASCUS (atypical squamous cells of undetermined significance) on a Papanicolaou smear during pregnancy?",
+    "census_category": "multi_constraint_vignette"
+  },
+  {
+    "query_id": "NQ000576",
+    "text": "You were going to do a rectal exam because of his high prostate specific antigen but would you do anything at age 78?",
+    "census_category": "multi_constraint_vignette"
+  },
+  {
+    "query_id": "NQ003834",
+    "text": "How do you treat the newborn when the mother is Group B streptococcus positive?",
+    "census_category": "multi_constraint_vignette"
+  },
+  {
+    "query_id": "NQ003074",
+    "text": "What do you do with a 39-year-old woman with dizziness, tingling in her chest and right arm, and shortness of breath?",
+    "census_category": "multi_constraint_vignette"
+  },
+  {
+    "query_id": "NQ001256",
+    "text": "Who with vertigo, no hearing loss and no tinnitus needs workup for acoustic neuroma (for example, magnetic resonance imaging)?  How can you avoid an expensive workup and referral to otolaryngology with a patient with vertigo?",
+    "census_category": "multi_constraint_vignette"
+  }
+]

@@ -1,0 +1,924 @@
+{
+ "asks": [
+  {
+   "type": "dosing",
+   "subtype": "adult_dose",
+   "ask": "what is the usual adult dose?"
+  },
+  {
+   "type": "dosing",
+   "subtype": "pediatric_dose",
+   "ask": "what dose is appropriate for a child, by age or weight?"
+  },
+  {
+   "type": "dosing",
+   "subtype": "maximum_dose",
+   "ask": "what is the maximum safe dose?"
+  },
+  {
+   "type": "dosing",
+   "subtype": "indication_specific_dose",
+   "ask": "what dose do i use for this particular infection or condition?"
+  },
+  {
+   "type": "dosing",
+   "subtype": "titration_and_adjustment",
+   "ask": "how should i adjust the dose from here?"
+  },
+  {
+   "type": "dosing",
+   "subtype": "route_and_administration",
+   "ask": "how should this be given and how often?"
+  },
+  {
+   "type": "dosing",
+   "subtype": "treatment_duration",
+   "ask": "how many days should this course run?"
+  },
+  {
+   "type": "drug_product",
+   "subtype": "forms_and_strengths",
+   "ask": "what strengths and formulations does this come in?"
+  },
+  {
+   "type": "drug_product",
+   "subtype": "identity_and_class",
+   "ask": "what is this product's generic equivalent and drug class?"
+  },
+  {
+   "type": "drug_product",
+   "subtype": "composition_and_ingredients",
+   "ask": "what is in this combination and how much of each?"
+  },
+  {
+   "type": "drug_product",
+   "subtype": "appearance_and_packaging",
+   "ask": "what color, scoring, and package size does this product have?"
+  },
+  {
+   "type": "drug_product",
+   "subtype": "cost_and_coverage",
+   "ask": "what does this cost the patient with or without coverage?"
+  },
+  {
+   "type": "drug_product",
+   "subtype": "market_status_and_storage",
+   "ask": "what is this product's market status and shelf life?"
+  },
+  {
+   "type": "adverse_effects",
+   "subtype": "can_drug_cause_symptom",
+   "ask": "could this drug be behind the symptom i am seeing?"
+  },
+  {
+   "type": "adverse_effects",
+   "subtype": "adverse_effect_profile",
+   "ask": "what side effects should i expect from this drug?"
+  },
+  {
+   "type": "adverse_effects",
+   "subtype": "comparative_tolerability",
+   "ask": "which agent in this class is least likely to cause that effect?"
+  },
+  {
+   "type": "adverse_effects",
+   "subtype": "long_term_harm",
+   "ask": "what happens after years of exposure to this?"
+  },
+  {
+   "type": "adverse_effects",
+   "subtype": "managing_an_adverse_effect",
+   "ask": "how do i control this side effect while keeping the drug?"
+  },
+  {
+   "type": "adverse_effects",
+   "subtype": "drug_induced_lab_abnormality",
+   "ask": "could this drug explain the abnormal test result?"
+  },
+  {
+   "type": "interactions",
+   "subtype": "pairwise_check",
+   "ask": "do these two drugs interact?"
+  },
+  {
+   "type": "interactions",
+   "subtype": "interaction_management",
+   "ask": "how do i give both of these safely when the patient needs each one?"
+  },
+  {
+   "type": "interactions",
+   "subtype": "food_and_supplement_interaction",
+   "ask": "does food, alcohol, or a supplement interfere with this drug?"
+  },
+  {
+   "type": "interactions",
+   "subtype": "contraindication_in_comorbidity",
+   "ask": "does the patient's other condition rule this drug out?"
+  },
+  {
+   "type": "interactions",
+   "subtype": "allergy_cross_reactivity",
+   "ask": "will a patient allergic to one of these react to the other?"
+  },
+  {
+   "type": "interactions",
+   "subtype": "combining_agents",
+   "ask": "can these two similar agents be used together?"
+  },
+  {
+   "type": "special_populations",
+   "subtype": "pregnancy_safety",
+   "ask": "is this acceptable to use in pregnancy?"
+  },
+  {
+   "type": "special_populations",
+   "subtype": "lactation_safety",
+   "ask": "is this acceptable in a nursing mother?"
+  },
+  {
+   "type": "special_populations",
+   "subtype": "organ_impairment_use",
+   "ask": "how do i use this when the kidneys, liver, or gut are not working normally?"
+  },
+  {
+   "type": "special_populations",
+   "subtype": "pediatric_use",
+   "ask": "is this acceptable at this child's age?"
+  },
+  {
+   "type": "special_populations",
+   "subtype": "geriatric_use",
+   "ask": "does the patient's age alone change whether this drug is worth it?"
+  },
+  {
+   "type": "special_populations",
+   "subtype": "perioperative_use",
+   "ask": "should this be held, bridged, or boosted around surgery?"
+  },
+  {
+   "type": "therapy_choice",
+   "subtype": "first_line_agent",
+   "ask": "what is the drug of choice here?"
+  },
+  {
+   "type": "therapy_choice",
+   "subtype": "head_to_head_comparison",
+   "ask": "which of these two agents is better and why?"
+  },
+  {
+   "type": "therapy_choice",
+   "subtype": "alternative_for_allergy_or_intolerance",
+   "ask": "what do i use instead when the usual agent is off the table?"
+  },
+  {
+   "type": "therapy_choice",
+   "subtype": "after_treatment_failure",
+   "ask": "what do i try next after the first agent failed?"
+  },
+  {
+   "type": "therapy_choice",
+   "subtype": "refractory_therapy",
+   "ask": "what is left once everything standard has failed?"
+  },
+  {
+   "type": "therapy_choice",
+   "subtype": "cost_effective_choice",
+   "ask": "what is the cheapest option that still works?"
+  },
+  {
+   "type": "therapy_choice",
+   "subtype": "indications_for_a_specific_drug",
+   "ask": "what is this particular drug good for?"
+  },
+  {
+   "type": "condition_treatment",
+   "subtype": "standard_regimen",
+   "ask": "what is the usual treatment for this?"
+  },
+  {
+   "type": "condition_treatment",
+   "subtype": "options_and_selection",
+   "ask": "what are the accepted options and the basis for choosing one?"
+  },
+  {
+   "type": "condition_treatment",
+   "subtype": "acute_management",
+   "ask": "what do i do right now, in what order?"
+  },
+  {
+   "type": "condition_treatment",
+   "subtype": "symptom_relief",
+   "ask": "how do i relieve the symptom itself?"
+  },
+  {
+   "type": "condition_treatment",
+   "subtype": "nondrug_measures",
+   "ask": "what can be done without medication?"
+  },
+  {
+   "type": "condition_treatment",
+   "subtype": "subgroup_specific",
+   "ask": "how does the treatment change for this particular patient?"
+  },
+  {
+   "type": "treatment_thresholds",
+   "subtype": "when_to_start_treatment",
+   "ask": "at what point does this become worth treating?"
+  },
+  {
+   "type": "treatment_thresholds",
+   "subtype": "when_to_stop_or_withhold",
+   "ask": "when should i stop treating, or not treat at all?"
+  },
+  {
+   "type": "treatment_thresholds",
+   "subtype": "tapering_and_discontinuation",
+   "ask": "how do i get the patient off this safely?"
+  },
+  {
+   "type": "treatment_thresholds",
+   "subtype": "treat_or_observe",
+   "ask": "does this quiet finding need treating or just watching?"
+  },
+  {
+   "type": "treatment_thresholds",
+   "subtype": "treatment_target",
+   "ask": "what number or endpoint am i aiming for?"
+  },
+  {
+   "type": "treatment_thresholds",
+   "subtype": "efficacy_evidence",
+   "ask": "is there real evidence this helps?"
+  },
+  {
+   "type": "differential_dx",
+   "subtype": "causes_of_symptom",
+   "ask": "what causes this symptom?"
+  },
+  {
+   "type": "differential_dx",
+   "subtype": "causes_with_discriminators",
+   "ask": "what are the causes and the findings that separate them?"
+  },
+  {
+   "type": "differential_dx",
+   "subtype": "distinguishing_two_conditions",
+   "ask": "how do i tell these two apart?"
+  },
+  {
+   "type": "differential_dx",
+   "subtype": "differential_for_a_finding",
+   "ask": "what else looks like this lesion?"
+  },
+  {
+   "type": "differential_dx",
+   "subtype": "differential_with_negative_workup",
+   "ask": "what is still on the list now that the expected test came back normal?"
+  },
+  {
+   "type": "differential_dx",
+   "subtype": "could_this_condition_explain_it",
+   "ask": "could this one condition account for the whole picture?"
+  },
+  {
+   "type": "differential_dx",
+   "subtype": "differential_in_specific_population",
+   "ask": "what causes this complaint in a patient of this age?"
+  },
+  {
+   "type": "abnormal_result",
+   "subtype": "causes_of_lab_abnormality",
+   "ask": "what makes this lab value run high or low?"
+  },
+  {
+   "type": "abnormal_result",
+   "subtype": "causes_of_imaging_or_tracing_finding",
+   "ask": "what produces this finding on the film or the tracing?"
+  },
+  {
+   "type": "abnormal_result",
+   "subtype": "discordant_or_borderline_result_meaning",
+   "ask": "what does it mean when the values do not fit together or sit just outside range?"
+  },
+  {
+   "type": "abnormal_result",
+   "subtype": "next_step_after_abnormal_result",
+   "ask": "what do i do about this abnormal result?"
+  },
+  {
+   "type": "abnormal_result",
+   "subtype": "factors_that_alter_a_value",
+   "ask": "could something be falsely shifting this number?"
+  },
+  {
+   "type": "abnormal_result",
+   "subtype": "threshold_for_abnormal",
+   "ask": "at what value does this become abnormal?"
+  },
+  {
+   "type": "workup_strategy",
+   "subtype": "how_to_work_up_a_presentation",
+   "ask": "how should i evaluate this presentation?"
+  },
+  {
+   "type": "workup_strategy",
+   "subtype": "confirm_a_suspected_diagnosis",
+   "ask": "how do i prove the diagnosis i suspect?"
+  },
+  {
+   "type": "workup_strategy",
+   "subtype": "workup_extent_and_aggressiveness",
+   "ask": "how far should i push this evaluation?"
+  },
+  {
+   "type": "workup_strategy",
+   "subtype": "secondary_cause_evaluation",
+   "ask": "what treatable cause should i look for behind this?"
+  },
+  {
+   "type": "workup_strategy",
+   "subtype": "preoperative_evaluation",
+   "ask": "what needs checking before the procedure?"
+  },
+  {
+   "type": "workup_strategy",
+   "subtype": "workup_after_negative_initial_evaluation",
+   "ask": "where do i go when the standard workup found nothing?"
+  },
+  {
+   "type": "test_selection",
+   "subtype": "indications_for_a_test",
+   "ask": "who should get this study, and on what grounds?"
+  },
+  {
+   "type": "test_selection",
+   "subtype": "choosing_between_tests",
+   "ask": "which of these studies should i order?"
+  },
+  {
+   "type": "test_selection",
+   "subtype": "test_to_rule_in_or_out",
+   "ask": "which test settles whether the patient has it?"
+  },
+  {
+   "type": "test_selection",
+   "subtype": "specimen_and_preparation_logistics",
+   "ask": "how should the specimen be collected and the patient prepared?"
+  },
+  {
+   "type": "test_selection",
+   "subtype": "test_timing",
+   "ask": "when should this be drawn or performed?"
+  },
+  {
+   "type": "test_selection",
+   "subtype": "test_value_and_utility",
+   "ask": "would the result change anything?"
+  },
+  {
+   "type": "test_performance",
+   "subtype": "sensitivity_and_specificity",
+   "ask": "how sensitive and specific is this test?"
+  },
+  {
+   "type": "test_performance",
+   "subtype": "result_interpretation",
+   "ask": "what does this result actually mean clinically?"
+  },
+  {
+   "type": "test_performance",
+   "subtype": "factors_affecting_accuracy",
+   "ask": "when does this test become unreliable?"
+  },
+  {
+   "type": "test_performance",
+   "subtype": "exam_maneuver_accuracy",
+   "ask": "how well does this bedside sign pick up the condition?"
+  },
+  {
+   "type": "test_performance",
+   "subtype": "scoring_instruments",
+   "ask": "how do i give and score this instrument?"
+  },
+  {
+   "type": "test_performance",
+   "subtype": "tracing_and_result_normal_variant",
+   "ask": "is this odd-looking result still within normal limits?"
+  },
+  {
+   "type": "normal_values",
+   "subtype": "lab_reference_range",
+   "ask": "what is the normal range for this lab?"
+  },
+  {
+   "type": "normal_values",
+   "subtype": "physiologic_measurement_norm",
+   "ask": "what counts as a normal reading for this bedside measurement?"
+  },
+  {
+   "type": "normal_values",
+   "subtype": "anatomic_dimension_norm",
+   "ask": "how big is this structure normally?"
+  },
+  {
+   "type": "normal_values",
+   "subtype": "developmental_milestone",
+   "ask": "by what age should a child be doing this?"
+  },
+  {
+   "type": "normal_values",
+   "subtype": "timing_and_duration_norm",
+   "ask": "how often or for how long does this normally happen?"
+  },
+  {
+   "type": "normal_values",
+   "subtype": "normal_finding_or_variant",
+   "ask": "is this finding within normal variation?"
+  },
+  {
+   "type": "screening",
+   "subtype": "whether_and_whom_to_screen",
+   "ask": "is screening justified here, and in whom?"
+  },
+  {
+   "type": "screening",
+   "subtype": "age_to_start_or_stop",
+   "ask": "at what age do we start and stop screening?"
+  },
+  {
+   "type": "screening",
+   "subtype": "screening_interval",
+   "ask": "how often should this screening be repeated?"
+  },
+  {
+   "type": "screening",
+   "subtype": "high_risk_group_screening",
+   "ask": "how does screening change for someone at elevated baseline risk?"
+  },
+  {
+   "type": "screening",
+   "subtype": "choice_of_screening_test",
+   "ask": "which screening test should i use?"
+  },
+  {
+   "type": "screening",
+   "subtype": "periodic_exam_content",
+   "ask": "what belongs in this routine visit?"
+  },
+  {
+   "type": "immunization",
+   "subtype": "routine_schedule",
+   "ask": "at what ages and how many doses in the standard series?"
+  },
+  {
+   "type": "immunization",
+   "subtype": "catch_up_and_interrupted_series",
+   "ask": "how do i catch up a series given late or out of order?"
+  },
+  {
+   "type": "immunization",
+   "subtype": "vaccine_indications",
+   "ask": "who should get this vaccine outside the routine series?"
+  },
+  {
+   "type": "immunization",
+   "subtype": "contraindications_and_precautions",
+   "ask": "when should this vaccine be withheld or deferred?"
+  },
+  {
+   "type": "immunization",
+   "subtype": "vaccine_adverse_effects",
+   "ask": "what reactions follow this vaccine?"
+  },
+  {
+   "type": "immunization",
+   "subtype": "travel_and_occupational_vaccines",
+   "ask": "what shots are needed for this destination or job?"
+  },
+  {
+   "type": "immunization",
+   "subtype": "vaccine_product_and_administration",
+   "ask": "which vaccine product, dose, and route should i use?"
+  },
+  {
+   "type": "prophylaxis",
+   "subtype": "antibiotic_prophylaxis_indications",
+   "ask": "does this patient need antibiotics before the procedure?"
+  },
+  {
+   "type": "prophylaxis",
+   "subtype": "post_exposure_prophylaxis",
+   "ask": "what should be given after this contact?"
+  },
+  {
+   "type": "prophylaxis",
+   "subtype": "chemoprophylaxis",
+   "ask": "what medication prevents this disease in someone at risk?"
+  },
+  {
+   "type": "prophylaxis",
+   "subtype": "thromboprophylaxis_and_periprocedural",
+   "ask": "what clot prevention is needed around surgery, immobility, or pregnancy?"
+  },
+  {
+   "type": "prophylaxis",
+   "subtype": "preventing_recurrence",
+   "ask": "how do i keep this from coming back?"
+  },
+  {
+   "type": "prophylaxis",
+   "subtype": "general_preventive_measures",
+   "ask": "what general steps prevent this or stop it spreading?"
+  },
+  {
+   "type": "monitoring",
+   "subtype": "lab_monitoring_interval",
+   "ask": "how often should safety labs be drawn on this drug?"
+  },
+  {
+   "type": "monitoring",
+   "subtype": "follow_up_visit_or_imaging_interval",
+   "ask": "how often should i repeat the study or see the patient back?"
+  },
+  {
+   "type": "monitoring",
+   "subtype": "post_treatment_surveillance",
+   "ask": "what do i follow, and for how long, after treatment?"
+  },
+  {
+   "type": "monitoring",
+   "subtype": "drug_level_use_and_indications",
+   "ask": "when is a serum level worth checking and acting on?"
+  },
+  {
+   "type": "monitoring",
+   "subtype": "what_to_monitor_in_a_condition",
+   "ask": "what should i be tracking in this ongoing illness?"
+  },
+  {
+   "type": "monitoring",
+   "subtype": "home_and_self_monitoring",
+   "ask": "what should the patient measure at home, and how?"
+  },
+  {
+   "type": "disposition",
+   "subtype": "specialist_referral_indications",
+   "ask": "when does this need a specialist?"
+  },
+  {
+   "type": "disposition",
+   "subtype": "hospital_admission_indications",
+   "ask": "does this patient need admission?"
+  },
+  {
+   "type": "disposition",
+   "subtype": "surgery_or_procedure_indications",
+   "ask": "when is an operation warranted rather than more medical treatment?"
+  },
+  {
+   "type": "disposition",
+   "subtype": "urgency_and_triage",
+   "ask": "how soon does this patient need to be seen?"
+  },
+  {
+   "type": "disposition",
+   "subtype": "return_to_activity",
+   "ask": "when can the patient go back to work, school, or sport?"
+  },
+  {
+   "type": "disposition",
+   "subtype": "level_of_care_and_discharge",
+   "ask": "what level of care does this patient need at discharge?"
+  },
+  {
+   "type": "prognosis",
+   "subtype": "expected_course_and_duration",
+   "ask": "how long does this take to run its course?"
+  },
+  {
+   "type": "prognosis",
+   "subtype": "outcome_and_survival",
+   "ask": "what are the odds of a good outcome?"
+  },
+  {
+   "type": "prognosis",
+   "subtype": "complication_and_recurrence_risk",
+   "ask": "how likely is a complication or a recurrence?"
+  },
+  {
+   "type": "prognosis",
+   "subtype": "incidence_and_prevalence",
+   "ask": "how common is this?"
+  },
+  {
+   "type": "prognosis",
+   "subtype": "risk_factors_and_associations",
+   "ask": "does this exposure or condition raise the risk of that one?"
+  },
+  {
+   "type": "prognosis",
+   "subtype": "heritability_and_genetic_risk",
+   "ask": "what is the risk to relatives of someone with this?"
+  },
+  {
+   "type": "disease_identity",
+   "subtype": "what_is_this_condition",
+   "ask": "what exactly is this?"
+  },
+  {
+   "type": "disease_identity",
+   "subtype": "diagnostic_criteria_and_classification",
+   "ask": "what are the formal criteria or stages for this?"
+  },
+  {
+   "type": "disease_identity",
+   "subtype": "clinical_presentation",
+   "ask": "how does this usually show up in a patient?"
+  },
+  {
+   "type": "disease_identity",
+   "subtype": "lesion_appearance",
+   "ask": "what does this lesion look like?"
+  },
+  {
+   "type": "disease_identity",
+   "subtype": "name_recall_from_description",
+   "ask": "what is the name of the entity i can describe but not recall?"
+  },
+  {
+   "type": "disease_identity",
+   "subtype": "causative_agent_and_transmission",
+   "ask": "what is the causative organism and its route of transmission?"
+  },
+  {
+   "type": "mechanism",
+   "subtype": "why_disease_produces_finding",
+   "ask": "why does this disease produce that finding?"
+  },
+  {
+   "type": "mechanism",
+   "subtype": "drug_or_treatment_mechanism",
+   "ask": "how does this treatment work?"
+  },
+  {
+   "type": "mechanism",
+   "subtype": "physiologic_principle",
+   "ask": "what is the physiology behind this?"
+  },
+  {
+   "type": "mechanism",
+   "subtype": "unexpected_clinical_pattern",
+   "ask": "why is this case not behaving the way it should?"
+  },
+  {
+   "type": "mechanism",
+   "subtype": "anatomic_or_biochemical_basis",
+   "ask": "what anatomy or biochemistry explains this clinical fact?"
+  },
+  {
+   "type": "mechanism",
+   "subtype": "etiology_of_a_condition",
+   "ask": "what makes this condition develop in the first place?"
+  },
+  {
+   "type": "anatomy_terms",
+   "subtype": "anatomic_structure",
+   "ask": "what sits there, and what attaches to it?"
+  },
+  {
+   "type": "anatomy_terms",
+   "subtype": "nerve_and_dermatome_map",
+   "ask": "which nerve or root supplies this territory?"
+  },
+  {
+   "type": "anatomy_terms",
+   "subtype": "naming_a_structure_or_finding",
+   "ask": "what is the name of the structure or sign i am describing?"
+  },
+  {
+   "type": "anatomy_terms",
+   "subtype": "medical_term_definition",
+   "ask": "what does this word mean?"
+  },
+  {
+   "type": "anatomy_terms",
+   "subtype": "abbreviation_meaning",
+   "ask": "what do these letters on the chart stand for?"
+  },
+  {
+   "type": "anatomy_terms",
+   "subtype": "eponym_definition",
+   "ask": "what is this named sign, and what does it show?"
+  },
+  {
+   "type": "procedure_technique",
+   "subtype": "how_to_perform",
+   "ask": "how do i actually do this procedure?"
+  },
+  {
+   "type": "procedure_technique",
+   "subtype": "technique_choice_and_tips",
+   "ask": "which technique should i use when this is not going well?"
+  },
+  {
+   "type": "procedure_technique",
+   "subtype": "equipment_and_materials",
+   "ask": "what equipment or materials do i need?"
+  },
+  {
+   "type": "procedure_technique",
+   "subtype": "procedural_anesthesia",
+   "ask": "how do i keep this from hurting?"
+  },
+  {
+   "type": "procedure_technique",
+   "subtype": "aftercare_and_complications",
+   "ask": "what aftercare and complications follow this procedure?"
+  },
+  {
+   "type": "procedure_technique",
+   "subtype": "physical_exam_technique",
+   "ask": "how do i examine for this at the bedside?"
+  },
+  {
+   "type": "counseling",
+   "subtype": "persuading_and_motivating",
+   "ask": "how do i bring a reluctant patient around on this?"
+  },
+  {
+   "type": "counseling",
+   "subtype": "explaining_and_reassuring",
+   "ask": "how do i explain this so the patient understands and stops worrying?"
+  },
+  {
+   "type": "counseling",
+   "subtype": "difficult_encounter_management",
+   "ask": "how do i handle this patient in the room?"
+  },
+  {
+   "type": "counseling",
+   "subtype": "adherence_strategies",
+   "ask": "how do i get the patient to actually take it?"
+  },
+  {
+   "type": "counseling",
+   "subtype": "bad_news_and_end_of_life",
+   "ask": "how do i have the conversation about dying and resuscitation?"
+  },
+  {
+   "type": "counseling",
+   "subtype": "lifestyle_and_health_behavior_counseling",
+   "ask": "what should i advise about eating, activity, and everyday risk?"
+  },
+  {
+   "type": "ethics_practice",
+   "subtype": "reporting_and_confidentiality",
+   "ask": "am i obliged to report this to an authority?"
+  },
+  {
+   "type": "ethics_practice",
+   "subtype": "consent_capacity_and_minors",
+   "ask": "who can authorize this care?"
+  },
+  {
+   "type": "ethics_practice",
+   "subtype": "professional_ethics",
+   "ask": "what is the right thing to do here?"
+  },
+  {
+   "type": "ethics_practice",
+   "subtype": "insurance_and_coverage_rules",
+   "ask": "will the plan pay for this?"
+  },
+  {
+   "type": "ethics_practice",
+   "subtype": "office_operations",
+   "ask": "how should the visit or the schedule be run?"
+  },
+  {
+   "type": "ethics_practice",
+   "subtype": "disability_and_forms",
+   "ask": "how do i document fitness or disability on this form?"
+  },
+  {
+   "type": "information_sources",
+   "subtype": "specific_citation_recall",
+   "ask": "what is the citation for the paper i half remember?"
+  },
+  {
+   "type": "information_sources",
+   "subtype": "literature_availability",
+   "ask": "has anything been published on this?"
+  },
+  {
+   "type": "information_sources",
+   "subtype": "patient_education_materials",
+   "ask": "what handout can i give the patient?"
+  },
+  {
+   "type": "information_sources",
+   "subtype": "support_groups_and_services",
+   "ask": "what group or program can i send the patient to?"
+  },
+  {
+   "type": "information_sources",
+   "subtype": "clinical_reference_source",
+   "ask": "where do i look this up?"
+  },
+  {
+   "type": "information_sources",
+   "subtype": "local_service_contact",
+   "ask": "where locally can i get this?"
+  },
+  {
+   "type": "research_methods",
+   "subtype": "choosing_a_statistical_test",
+   "ask": "which analysis fits data laid out like this?"
+  },
+  {
+   "type": "research_methods",
+   "subtype": "statistical_concept_explained",
+   "ask": "what does this statistical idea mean?"
+  },
+  {
+   "type": "research_methods",
+   "subtype": "computing_or_reporting_a_statistic",
+   "ask": "how is this statistic calculated and reported?"
+  },
+  {
+   "type": "research_methods",
+   "subtype": "study_design_and_sample_size",
+   "ask": "how should this study be designed and sized?"
+  },
+  {
+   "type": "research_methods",
+   "subtype": "evidence_appraisal",
+   "ask": "how good is this evidence?"
+  },
+  {
+   "type": "research_methods",
+   "subtype": "instrument_validity_and_measurement",
+   "ask": "is this measurement tool reliable and valid?"
+  },
+  {
+   "type": "calculation",
+   "subtype": "unit_conversion",
+   "ask": "how do i convert between these units?"
+  },
+  {
+   "type": "calculation",
+   "subtype": "clinical_formula_or_index",
+   "ask": "what is the formula, and how do i work it out?"
+  },
+  {
+   "type": "calculation",
+   "subtype": "dose_equivalence",
+   "ask": "what dose of the other agent comes to the same thing?"
+  },
+  {
+   "type": "calculation",
+   "subtype": "fluid_and_nutrition_calculation",
+   "ask": "how much fluid and how many calories does this patient need?"
+  },
+  {
+   "type": "calculation",
+   "subtype": "correcting_a_value",
+   "ask": "how do i correct this value for the other one?"
+  },
+  {
+   "type": "calculation",
+   "subtype": "marker_to_clinical_estimate",
+   "ask": "what does this marker translate into clinically?"
+  },
+  {
+   "type": "exposure_injury",
+   "subtype": "post_exposure_management",
+   "ask": "what do i do for someone who has been exposed?"
+  },
+  {
+   "type": "exposure_injury",
+   "subtype": "bite_and_sting_management",
+   "ask": "how do i treat this bite or sting?"
+  },
+  {
+   "type": "exposure_injury",
+   "subtype": "overdose_and_poisoning",
+   "ask": "what do i do after this ingestion?"
+  },
+  {
+   "type": "exposure_injury",
+   "subtype": "occupational_and_environmental_hazard",
+   "ask": "is this workplace or household exposure dangerous?"
+  },
+  {
+   "type": "exposure_injury",
+   "subtype": "injury_and_fracture_management",
+   "ask": "how should this fracture or sprain be managed?"
+  },
+  {
+   "type": "exposure_injury",
+   "subtype": "travel_and_environmental_risk",
+   "ask": "what are the hazards of this destination or environment?"
+  }
+ ]
+}

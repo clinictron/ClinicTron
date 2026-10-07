@@ -1,0 +1,27 @@
+[
+  {
+    "query_id": "NQ000417",
+    "text": "Is the faint trace of a vertical line on the rapid streptococcal test really positive?  The manufacturer says yes but I'm not sure.",
+    "census_category": "test_interpretation_edge_case"
+  },
+  {
+    "query_id": "NQ003411",
+    "text": "What is the accuracy of non-finger-stick blood sugar checkers?",
+    "census_category": "test_interpretation_edge_case"
+  },
+  {
+    "query_id": "NQ004012",
+    "text": "My patient was convinced she had hypothyroidism.  Her labs were normal in August and I even checked antithyroid antibodies and they were negative.  She asked another physician to check her thyroid antibodies again and her thyroid peroxidase antibody was two times the upper limit of normal, so I called an endocrinologist and said, \"Now what do I do with this?\"",
+    "census_category": "test_interpretation_edge_case"
+  },
+  {
+    "query_id": "NQ000795",
+    "text": "Had an out-of-town patient with kidney stone and blood in the urine.  Typical drug abuse story.  But microscopic exam showed red blood cells in all stages of crenation, suggesting on going rather than factitious bleed.  True?",
+    "census_category": "test_interpretation_edge_case"
+  },
+  {
+    "query_id": "NQ001797",
+    "text": "What does a high mean platelet volume mean?",
+    "census_category": "test_interpretation_edge_case"
+  }
+]
